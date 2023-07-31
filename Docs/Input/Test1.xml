@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>Uom</Name>
+	<Description>Test Uom</Description>
+	<OutputName>Uom</OutputName>
+	<Entity>Uom</Entity>
+	<MaxWaitTime>300</MaxWaitTime>
+	<Body>
+		{
+		"Entity": "UomMaster",
+		"Action": "Create",
+		"TenantName": "IDP",
+		"Data": {
+		"Code": "LOC",
+		"Name": "LOC",
+		"UomEntry": "2"
+		}
+		}
+	</Body>
+</TestInfo>

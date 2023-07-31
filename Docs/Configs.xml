@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigInfo>
+	<!-- Database name -->
+	<DatabaseName>OMS_MdmSapService_Ben</DatabaseName>
+	<!-- Topic name -->
+	<BusTopicName>emos_dev_ben</BusTopicName>
+	<!-- Listen to this for result -->
+	<BusReceiveFrom>oms_out</BusReceiveFrom>
+	<!-- Send to this -->
+	<BusSendTo>sap_out</BusSendTo>
+	<!-- Consume out message-->
+	<ConsumeOutputMessage>true</ConsumeOutputMessage>
+	<!-- ******************************** -->
+	<!-- ******************************** -->
+	<!-- ******************************** -->
+	<!-- ******************************** -->
+	<!-- DO NOT EDIT IF YOU ARE NOT SURE -->
+	<!-- Bus connection string -->
+	<BusConnectionString>Endpoint=sb://omsdevsb.servicebus.windows.net/;SharedAccessKeyName=dev;SharedAccessKey=TfA8VdFZtmXtigw166O7iJsjixz96pVxg+ASbDYCqKk=</BusConnectionString>
+	<!-- Database server -->
+	<DatabaseServer>109.123.235.194\\SQLEXPRESS,1433</DatabaseServer>
+	<!-- Input message label -->
+	<LabelIn>DMSpro.OMS.MdmSapService.BaseSapEto</LabelIn>
+	<!-- Output message label -->
+	<LabelOut>DMSpro.OMS.MdmSapService.BaseOmsEto</LabelOut>
+	<!-- Input message directory -->
+	<InputDirectory>Docs\Input</InputDirectory>
+	<!-- Output message directory -->
+	<OutputDirectory>Docs\Output</OutputDirectory>
+</ConfigInfo>
