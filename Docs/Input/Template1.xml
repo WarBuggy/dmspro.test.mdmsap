@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<TestTemplateInfo>
-	<Name>Template0</Name>
-	<Description>Test Template</Description>
-	<TestName>
-		<string>Uom</string>
-	</TestName>
-</TestTemplateInfo>

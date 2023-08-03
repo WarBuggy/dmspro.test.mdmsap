@@ -8,7 +8,7 @@
 	<BusReceiveFrom>oms_out</BusReceiveFrom>
 	<!-- Send to this -->
 	<BusSendTo>sap_out</BusSendTo>
-	<!-- Consume out message-->
+	<!-- Consume out message -->
 	<ConsumeOutputMessage>true</ConsumeOutputMessage>
 	<!-- ******************************** -->
 	<!-- ******************************** -->
@@ -27,4 +27,12 @@
 	<InputDirectory>Docs\Input</InputDirectory>
 	<!-- Output message directory -->
 	<OutputDirectory>Docs\Output</OutputDirectory>
+	<!-- Result directory -->
+	<ResultDirectory>Docs\Result</ResultDirectory>
+	<!-- Inbox Subject Filter -->
+	<InboxSubjectFilter>DMSpro.OMS.MdmSapService.BaseOmsEto</InboxSubjectFilter>
+	<!-- Outbox Subject Filter -->
+	<OutboxSubjectFilter>DMSpro.OMS.MdmSapService.BaseSapEto</OutboxSubjectFilter>
+	<!-- Ignore properties when compare record and output message -->
+	<IngoreForRecordAndMessageComparison>concurrencyStamp,isDeleted,deleterId,deletionTime,lastModificationTime,lastModifierId,creationTime,creatorId</IngoreForRecordAndMessageComparison>
 </ConfigInfo>
