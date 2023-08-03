@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TestInfo>
-	<Name>Uom</Name>
-	<Description>Test Uom</Description>
-	<OutputName>Uom</OutputName>
+	<Name>SampleTest</Name>
+	<Description>Sample test using Uom</Description>
+	<OutputName>SampleTestOutput</OutputName>
 	<Entity>Uom</Entity>
 	<MaxWaitTime>10</MaxWaitTime>
-	<MessageIdPrefix>Uom</MessageIdPrefix>
+	<MessageIdPrefix>SampleTest</MessageIdPrefix>
 	<Body>
 		{
 		"Entity": "UomMaster",
