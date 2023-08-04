@@ -10,6 +10,9 @@
 	<BusSendTo>sap_out</BusSendTo>
 	<!-- Consume out message -->
 	<ConsumeOutputMessage>true</ConsumeOutputMessage>
+	<!-- Wait amount of time after receive output message -->
+	<!-- to make sure entities are inserted into database -->
+	<WaitAfterOutputMessage>10</WaitAfterOutputMessage>
 	<!-- ******************************** -->
 	<!-- ******************************** -->
 	<!-- ******************************** -->

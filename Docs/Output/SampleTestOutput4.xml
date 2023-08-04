@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>SampleTestOutput4</Name>
+	<Description>Output for sample test using Uom Group</Description>
+	<Body>
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"tenantName": "IDP",
+		"action": "Create",
+		"entity": "UomGroup",
+		"data": {
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"ugpEntry": 10001,
+		"code": "UOMGR01",
+		"name": "Nhóm đơn vị 1",
+		"baseUomCode": "CHAI",
+		"uomId": "8b5ebb49-50be-bbc2-5872-3a0cad9c8119",
+		"uomGroupDetail": [
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"ugpEntry": 10001,
+		"uomEntry": 1,
+		"altQty": 1,
+		"baseQty": 1,
+		"isActive": "Y",
+		"lineNum": 1,
+		"uomGroupCode": "UOMGR01",
+		"uomCode": "CHAI",
+		"uomId": null,
+		"uomGroupId": "e2813f3e-eb84-d8ab-7143-3a0cad9d69c6",
+		"concurrencyStamp": "599e77d9a36e433baf15c674ce0d71b8",
+		"isDeleted": false,
+		"deleterId": null,
+		"deletionTime": null,
+		"lastModificationTime": null,
+		"lastModifierId": null,
+		"creationTime": "2023-07-28T14:39:53.3475929+07:00",
+		"creatorId": null,
+		"id": "02b0f7c3-95f3-4de0-91f8-23e571c0bd89"
+		},
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"ugpEntry": 10001,
+		"uomEntry": 2,
+		"altQty": 1,
+		"baseQty": 6,
+		"isActive": "Y",
+		"lineNum": 2,
+		"uomGroupCode": "UOMGR01",
+		"uomCode": "LOC",
+		"uomId": null,
+		"uomGroupId": "e2813f3e-eb84-d8ab-7143-3a0cad9d69c6",
+		"concurrencyStamp": "31148009359243dc91bcd950e85a7a8b",
+		"isDeleted": false,
+		"deleterId": null,
+		"deletionTime": null,
+		"lastModificationTime": null,
+		"lastModifierId": null,
+		"creationTime": "2023-07-28T14:39:53.3482313+07:00",
+		"creatorId": null,
+		"id": "4ed64c6d-ecc3-442c-b833-0b197298555a"
+		},
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"ugpEntry": 10001,
+		"uomEntry": 3,
+		"altQty": 1,
+		"baseQty": 24,
+		"isActive": "Y",
+		"lineNum": 3,
+		"uomGroupCode": "UOMGR01",
+		"uomCode": "THUNG",
+		"uomId": null,
+		"uomGroupId": "e2813f3e-eb84-d8ab-7143-3a0cad9d69c6",
+		"concurrencyStamp": "bcda931fe75a4106ab06339ce7ceaffd",
+		"isDeleted": false,
+		"deleterId": null,
+		"deletionTime": null,
+		"lastModificationTime": null,
+		"lastModifierId": null,
+		"creationTime": "2023-07-28T14:39:53.3505863+07:00",
+		"creatorId": null,
+		"id": "6c4f0407-ff1e-4ee5-b60d-600e4ea8f9b6"
+		}
+		],
+		"isDeleted": false,
+		"deleterId": null,
+		"deletionTime": null,
+		"lastModificationTime": null,
+		"lastModifierId": null,
+		"creationTime": "2023-07-28T14:39:53.2905972+07:00",
+		"creatorId": null,
+		"extraProperties": {},
+		"concurrencyStamp": "51a5044f5bdc4c83bfb46ca0b2664f82",
+		"id": "e2813f3e-eb84-d8ab-7143-3a0cad9d69c6"
+		}
+		}
+	</Body>
+</TestOutputInfo>

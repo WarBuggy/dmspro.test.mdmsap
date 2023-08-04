@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>SampleTestOutput3</Name>
+	<Description>Output for sample test using Uom (THUNG)</Description>
+	<Body>
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"tenantName": "IDP",
+		"action": "Create",
+		"entity": "Uom",
+		"entityKeys": null,
+		"data": {
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"code": "THUNG",
+		"name": "THUNG",
+		"uomEntry": 3,
+		"concurrencyStamp": "cf92090c7bab4fcd90de51c5c06dc3fd",
+		"isDeleted": false,
+		"deleterId": null,
+		"deletionTime": null,
+		"lastModificationTime": null,
+		"lastModifierId": null,
+		"creationTime": "2023-07-28T14:39:13.5439223+07:00",
+		"creatorId": null,
+		"id": "35de5725-a90c-3a1c-eac8-3a0cad9ccf04"
+		}
+		}
+	</Body>
+</TestOutputInfo>

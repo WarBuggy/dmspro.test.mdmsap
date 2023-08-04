@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TestInfo>
 	<Name>SampleTest1</Name>
-	<Description>Sample test using Uom</Description>
-	<OutputName>SampleTestOutput</OutputName>
+	<Description>Sample test using Uom (CHAI)</Description>
+	<OutputName>SampleTestOutput1</OutputName>
 	<Entity>Uom</Entity>
 	<MaxWaitTime>10</MaxWaitTime>
 	<MessageIdPrefix>SampleTest1</MessageIdPrefix>
@@ -12,9 +12,9 @@
 		"Action": "Create",
 		"TenantName": "IDP",
 		"Data": {
-		"Code": "LOC",
-		"Name": "LOC",
-		"UomEntry": 1
+		"Code": "CHAI",
+		"Name": "CHAI",
+		"UomEntry": "1"
 		}
 		}
 	</Body>

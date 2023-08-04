@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>SampleTestOutput2</Name>
+	<Description>Output for sample test using Uom (LOC)</Description>
+	<Body>
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"tenantName": "IDP",
+		"action": "Create",
+		"entity": "Uom",
+		"data": {
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"code": "LOC",
+		"name": "LOC",
+		"uomEntry": 2,
+		"concurrencyStamp": "91a50ada98b042c29b19941361c997cb",
+		"isDeleted": false,
+		"deleterId": null,
+		"deletionTime": null,
+		"lastModificationTime": null,
+		"lastModifierId": null,
+		"creationTime": "2023-07-28T14:39:03.160378+07:00",
+		"creatorId": null,
+		"id": "a4e9b476-faeb-aadf-85ea-3a0cad9ca674"
+		}
+		}
+	</Body>
+</TestOutputInfo>

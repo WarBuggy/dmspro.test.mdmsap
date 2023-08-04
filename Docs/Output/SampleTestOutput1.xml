@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>SampleTestOutput1</Name>
+	<Description>Output for sample test using Uom (CHAI)</Description>
+	<Body>
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"tenantName": "IDP",
+		"action": "Create",
+		"entity": "Uom",
+		"data": {
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"code": "CHAI",
+		"name": "CHAI",
+		"uomEntry": 1,
+		"concurrencyStamp": "a1c11f7741b844cf8983dc9232c1b5bc",
+		"isDeleted": false,
+		"deleterId": null,
+		"deletionTime": null,
+		"lastModificationTime": null,
+		"lastModifierId": null,
+		"creationTime": "2023-07-28T14:38:53.6508495+07:00",
+		"creatorId": null,
+		"id": "8b5ebb49-50be-bbc2-5872-3a0cad9c8119"
+		}
+		}
+	</Body>
+</TestOutputInfo>

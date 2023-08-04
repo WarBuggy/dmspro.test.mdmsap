@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TestTemplateInfo>
-	<Name>SampleTestTemplate</Name>
+	<Name>SampleTemplate</Name>
 	<Description>Sample Test Template</Description>
 	<TestNames>
-		<string>SampleTest</string>
 		<string>SampleTest1</string>
+		<string>SampleTest2</string>
+		<string>SampleTest3</string>
 	</TestNames>
 </TestTemplateInfo>
