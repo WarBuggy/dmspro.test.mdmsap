@@ -2,6 +2,10 @@
 <TestOutputInfo>
 	<Name>SampleTestOutput4</Name>
 	<Description>Output for sample test using Uom Group</Description>
+	<IgnoreFields>
+		<string>UomGroup:uomId</string>
+		<string>uomGroupDetail:uomId,uomGroupId,id</string>
+	</IgnoreFields>
 	<Body>
 		{
 		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
