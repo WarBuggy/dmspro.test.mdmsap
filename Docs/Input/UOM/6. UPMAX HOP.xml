@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_UOM_HOP</Name>
+	<Description>Up Maxlength UOM HOP</Description>
+	<OutputName>UPMAX_UOM_HOP</OutputName>
+	<Entity>Uom</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_UOM_HOP</MessageIdPrefix>
+	<Body>
+		
+{
+  "Entity": "UomMaster",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HOP",
+    "Name": "LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12",
+    "UomEntry": "5"
+  }
+}
+	</Body>
+</TestInfo>

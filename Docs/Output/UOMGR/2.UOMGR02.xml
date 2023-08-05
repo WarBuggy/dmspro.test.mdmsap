@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UOMGR02</Name>
+	<Description>UOMGR02</Description>
+  <IgnoreFields>
+		<string>UomGroup:uomId</string>
+		<string>UomGroupDetail:uomId,uomGroupId,id</string>
+	</IgnoreFields>
+	<Body>
+    {
+      "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+      "tenantName": "IDP",
+      "action": "Create",
+      "entity": "UomGroup",
+      "data": {
+        "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+        "ugpEntry": 10002,
+        "code": "UOMGR02",
+        "name": "Nhóm đơn vị 2",
+        "baseUomCode": "LON",
+        "uomId": null,
+        "uomGroupDetail": [
+          {
+            "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+            "ugpEntry": 10002,
+            "uomEntry": 4,
+            "altQty": 1,
+            "baseQty": 1,
+            "isActive": "Y",
+            "lineNum": 1,
+            "uomGroupCode": "UOMGR02",
+            "uomCode": "LON",
+            "uomId": null
+          },
+          {
+            "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+            "ugpEntry": 10002,
+            "uomEntry": 2,
+            "altQty": 1,
+            "baseQty": 6,
+            "isActive": "Y",
+            "lineNum": 2,
+            "uomGroupCode": "UOMGR02",
+            "uomCode": "LOC",
+            "uomId": null
+          }
+        ]
+      }
+    }
+
+	</Body>
+</TestOutputInfo>

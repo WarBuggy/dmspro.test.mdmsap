@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_GEO_PBN</Name>
+	<Description>UPMAX GEO PBN</Description>
+	<OutputName>UPMAX_GEO_PBN</OutputName>
+	<Entity>Ward</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_GEO_PBN</MessageIdPrefix>
+	<Body>
+
+{
+  "Entity": "Ward",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+     "Code": "PBNQ1",
+     "Name": "Phường 3 Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam 1",
+     "DistrictCode": "Q3",
+     "Active": "Y"
+  }
+}
+	</Body>
+</TestInfo>

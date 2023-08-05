@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UOM_LON</Name>
+	<Description>UOM LON</Description>
+	<Body>
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"tenantName": "IDP",
+		"action": "Create",
+		"entity": "Uom",
+		"data": {
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"code": "LON",
+        "name": "LON",
+        "uomEntry": "4"
+		}
+		}
+	</Body>
+</TestOutputInfo>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestInfo>
+  <Name>UOMGR03</Name>
+  <Description>UOMGR03</Description>
+  <OutputName>UOMGR03</OutputName>
+  <Entity>UomGroup</Entity>
+  <MaxWaitTime>10</MaxWaitTime>
+  <MessageIdPrefix>UOMGR03</MessageIdPrefix>
+  <Body>
+
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "UomGroup",
+      "Data": {
+        "UgpEntry": "10003",
+        "Code": "UOMGR03",
+        "Name": "Nhóm đơn vị 3",
+        "BaseUomCode": "LON"
+      }
+    }
+
+  </Body>
+</TestInfo>

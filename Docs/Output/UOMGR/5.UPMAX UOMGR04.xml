@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPMAX_UOMGR04</Name>
+	<Description>Up Maxlength UOMGR04</Description>
+  <IgnoreFields>
+		<string>UomGroup:uomId</string>
+		<string>UomGroupDetail:uomId,uomGroupId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+  "tenantName": "IDP",
+  "action": "Update",
+  "entity": "UomGroup",
+  "data": {
+    "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+    "ugpEntry": 10004,
+    "code": "UOMGR04",
+    "name": "Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị nhóm",
+    "baseUomCode": "CHAI",
+    "uomId": null,
+    "uomGroupDetail": [
+      {
+        "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+        "ugpEntry": 10004,
+        "uomEntry": 1,
+        "altQty": "1111111111111",
+        "baseQty": "1111111111111",
+        "isActive": "Y",
+        "lineNum": 1,
+        "uomGroupCode": "UOMGR04",
+        "uomCode": "CHAI",
+        "uomId": null      
+        }
+      ]
+   }
+  }
+
+	</Body>
+</TestOutputInfo>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>GEO_VN</Name>
+	<Description>GEO VN</Description>
+	<OutputName>GEO_VN</OutputName>
+	<Entity>Country</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>GEO_VN</MessageIdPrefix>
+	<Body>
+
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Country",
+      "Data": {
+        "Code":"VN",
+        "Name": "Việt Nam",
+        "Active": "Y"
+      } 
+    }
+    
+
+	</Body>
+</TestInfo>

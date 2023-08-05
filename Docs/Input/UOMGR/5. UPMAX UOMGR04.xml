@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_UOMGR04</Name>
+	<Description>Up Maxlength UOMGR04</Description>
+	<OutputName>UPMAX_UOMGR04</OutputName>
+	<Entity>UomGroup</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_UOMGR04</MessageIdPrefix>
+	<Body>
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "UomGroup",
+  "Data":{
+     "UgpEntry": "10004",
+     "Code": "UOMGR04",
+     "Name": "Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị nhóm",
+     "BaseUomCode": "CHAI",
+     "UomGroupDetail": [
+       {
+        "UgpEntry": "10004",
+        "UomEntry": "1",
+        "AltQty": "1111111111111",
+        "BaseQty": "1111111111111",
+        "IsActive": "Y",
+        "LineNum": "1",
+        "UomGroupCode": "UOMGR04",
+        "UomCode": "CHAI"
+      }
+     ]
+   }
+  }
+    
+
+	</Body>
+</TestInfo>

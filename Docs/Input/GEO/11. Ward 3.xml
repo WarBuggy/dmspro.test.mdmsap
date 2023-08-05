@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>GEO_P3</Name>
+	<Description>GEO P3</Description>
+	<OutputName>GEO_P3</OutputName>
+	<Entity>Ward</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>GEO_P3</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "Ward",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+         "Code": "P3Q3",
+         "Name": "Phường 3",
+         "DistrictCode": "Q3",
+         "Active": "Y"
+      }
+    }
+
+	</Body>
+</TestInfo>

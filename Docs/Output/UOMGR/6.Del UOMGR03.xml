@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>DEL_UOMGR03</Name>
+	<Description>Del UOMGR03</Description>
+  <IgnoreFields>
+		<string>UomGroup:uomId</string>
+		<string>UomGroupDetail:uomId,uomGroupId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+      "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+      "tenantName": "IDP",
+      "action": "Delete",
+      "entity": "UomGroup",
+      "data": {
+        "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+        "ugpEntry": 10003,
+        "code": "UOMGR03",
+        "name": "Nhóm đơn vị 3",
+        "baseUomCode": "LON",
+        "uomId": null
+          }
+      }
+    
+  
+
+	</Body>
+</TestOutputInfo>

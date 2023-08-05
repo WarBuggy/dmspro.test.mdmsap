@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>GEO_CT</Name>
+	<Description>GEO CT</Description>
+	<OutputName>GEO_CT</OutputName>
+	<Entity>Street</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>GEO_CT</MessageIdPrefix>
+	<Body>
+  
+    {
+      "Entity": "Street",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+         "Code": "CT",
+         "Name": "Cao Thắng",
+         "WardCode": "PBNQ1",
+         "Active": "Y"
+      }
+    }
+
+	</Body>
+</TestInfo>

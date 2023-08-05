@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>GEO_Q3</Name>
+	<Description>GEO Q3</Description>
+	<OutputName>GEO_Q3</OutputName>
+	<Entity>District</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>GEO_Q3</MessageIdPrefix>
+	<Body>
+  
+{
+  "Entity": "District",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "Q3",
+    "Name": "Quận 3",
+    "ProvinceCode": "HN",
+    "Active": "Y"
+  }
+}
+
+	</Body>
+</TestInfo>

@@ -4,7 +4,7 @@
 	<Description>Output for sample test using Uom Group</Description>
 	<IgnoreFields>
 		<string>UomGroup:uomId</string>
-		<string>uomGroupDetail:uomId,uomGroupId,id</string>
+		<string>UomGroupDetail:uomId,uomGroupId,id</string>
 	</IgnoreFields>
 	<Body>
 		{

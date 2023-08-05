@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>GEO_TL</Name>
+	<Description>GEO TL</Description>
+	<OutputName>GEO_TL</OutputName>
+	<Entity>Country</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>GEO_TL</MessageIdPrefix>
+	<Body>
+
+    {
+      "Entity": "Country",
+      "Action": "Create",
+      "TenantName": "IDP",  
+      "Data": {
+        "Code": "TL",
+        "Name": "Thái Lan",
+        "Active": "Y"
+      }
+    }
+    
+
+	</Body>
+</TestInfo>

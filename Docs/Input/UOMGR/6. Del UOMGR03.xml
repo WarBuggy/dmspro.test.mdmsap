@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_UOMGR03</Name>
+	<Description>Del UOMGR03</Description>
+	<OutputName>DEL_UOMGR03</OutputName>
+	<Entity>UomGroup</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>DEL_UOMGR03</MessageIdPrefix>
+	<Body>
+		
+    {
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Entity": "UomGroup",
+      "Data": {
+        "UgpEntry": "10003",
+        "Code": "UOMGR03",
+        "Name": "Nhóm đơn vị 3",
+        "BaseUomCode": "LON"
+      }
+    }
+    
+	</Body>
+</TestInfo>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UOM_THUNG</Name>
+	<Description>UOM THUNG</Description>
+	<OutputName>UOM_THUNG</OutputName>
+	<Entity>Uom</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UOM_THUNG</MessageIdPrefix>
+	<Body>
+		
+{
+  "Entity": "UomMaster",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "THUNG",
+    "Name": "THUNG",
+    "UomEntry": "3"
+  }
+}
+	</Body>
+</TestInfo>

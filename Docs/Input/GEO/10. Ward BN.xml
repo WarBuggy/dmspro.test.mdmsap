@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>GEO_PBN</Name>
+	<Description>GEO PBN</Description>
+	<OutputName>GEO_PBN</OutputName>
+	<Entity>Ward</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>GEO_PBN</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "Ward",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+         "Code": "PBNQ1",
+         "Name": "Phường Bến Nghé",
+         "DistrictCode": "Q3",
+         "Active": "Y"
+      }
+    }
+
+	</Body>
+</TestInfo>

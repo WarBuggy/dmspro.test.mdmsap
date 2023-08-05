@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>GEO_MN</Name>
+	<Description>GEO MN</Description>
+	<Body>
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"tenantName": "IDP",
+		"action": "Create",
+		"entity": "Region",
+		"data": {
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"code": "MN",
+        "name": "Miền Nam",
+        "countryCode": "VN",
+        "active": "Y"
+		}
+	  }
+	</Body>
+</TestOutputInfo>

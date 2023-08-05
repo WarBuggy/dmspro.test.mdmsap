@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_GEO_TL</Name>
+	<Description>UPMAX GEO TL</Description>
+	<OutputName>UPMAX_GEO_TL</OutputName>
+	<Entity>Country</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_GEO_TL</MessageIdPrefix>
+	<Body>
+  
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "Country",
+      "Data": {
+        "Code":"TL",
+        "Name": "Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam 1",
+        "Active": "Y"
+    } 
+    }
+
+	</Body>
+</TestInfo>

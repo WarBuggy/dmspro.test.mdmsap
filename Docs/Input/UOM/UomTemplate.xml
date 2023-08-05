@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>UomTemplate</Name>
+	<Description>Uom Test Template</Description>
+	<TestNames>
+		<string>UOM_CHAI</string>
+		<string>UOM_LOC</string>
+		<string>UOM_THUNG</string>
+		<string>UOM_LON</string>
+		<string>UOM_HOP</string>
+		<string>UPMAX_UOM_HOP</string>
+		<string>DEL_UOM_HOP</string>
+	</TestNames>
+</TestTemplateInfo>

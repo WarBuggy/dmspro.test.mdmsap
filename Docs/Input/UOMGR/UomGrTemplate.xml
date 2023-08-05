@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>UomGrTemplate</Name>
+	<Description>UomGr Test Template</Description>
+	<TestNames>
+		<string>UOMGR01</string>
+		<string>UOMGR02</string>
+		<string>UOMGR03</string>
+		<string>UOMGR04</string>
+		<string>UPMAX_UOMGR04</string>
+		<string>DEL_UOMGR03</string>
+	</TestNames>
+</TestTemplateInfo>

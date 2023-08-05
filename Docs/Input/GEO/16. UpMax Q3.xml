@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_GEO_HN</Name>
+	<Description>UPMAX GEO HN</Description>
+	<OutputName>UPMAX_GEO_HN</OutputName>
+	<Entity>Province</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_GEO_HN</MessageIdPrefix>
+	<Body>
+  
+    {
+      "Entity": "Province",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "HN",
+        "Name": "Hồ Chí Minh Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam 123",
+        "RegionCode": "MT",
+        "Active": "Y"
+      }
+    }
+	</Body>
+</TestInfo>

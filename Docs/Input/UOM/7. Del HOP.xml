@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_UOM_HOP</Name>
+	<Description>Del UOM HOP</Description>
+	<OutputName>DEL_UOM_HOP</OutputName>
+	<Entity>Uom</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>DEL_UOM_HOP</MessageIdPrefix>
+	<Body>
+		
+{
+  "Entity": "UomMaster",
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HOP",
+    "Name": "LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12",
+    "UomEntry": "5"
+  }
+}
+	</Body>
+</TestInfo>

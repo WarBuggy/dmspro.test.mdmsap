@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>GEO_HN</Name>
+	<Description>GEO HN</Description>
+	<OutputName>GEO_HN</OutputName>
+	<Entity>Province</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>GEO_HN</MessageIdPrefix>
+	<Body>
+ 
+    {
+      "Entity": "Province",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "HN",
+        "Name": "Hà Nội",
+        "RegionCode": "MT",
+        "Active": "Y"
+      }
+    }
+    
+
+	</Body>
+</TestInfo>
