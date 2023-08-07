@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>VAT8</Name>
+	<Description>VAT8</Description>
+	<OutputName>VAT8</OutputName>
+	<Entity>VATGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>VAT8</MessageIdPrefix>
+	<Body>
+		
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "VATGroup",
+      "Data": {
+        "Code": "VAT8",
+        "Name": "VAT8",
+        "Rate": "8",
+        "EffectiveDate": "2023-07-01T00:00:00Z"
+      }
+    }
+    
+	</Body>
+</TestInfo>

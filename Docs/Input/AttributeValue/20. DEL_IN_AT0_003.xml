@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_IN_AT0_003</Name>
+	<Description>DEL IN AT0 003</Description>
+	<OutputName>DEL_IN_AT0_003</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>DEL_IN_AT0_003</MessageIdPrefix>
+	<Body>
+    
+    {
+      "Entity": "AttributeValues",
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IN_AT0_003",
+        "Name": "Bia",
+        "Active": "Y",
+        "AttributeNumber": "0",
+        "Type": "IN",
+        "ParentCode": null,
+        "ValueCode": null,
+        "ShortName": null
+      }
+    }    
+    
+	</Body>
+</TestInfo>

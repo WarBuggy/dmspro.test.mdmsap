@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>EMP003_NSM</Name>
+	<Description>EMP003 NSM</Description>
+	<IgnoreFields>
+		<string>Salesman:salemanTypeId</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Salesman",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"slpCode": 3,
+				"name": null,
+				"mobile": null,
+				"fax": null,
+				"email": null,
+				"code": "EMP003",
+				"salesmanType": "NSM"
+			}
+		}
+	</Body>
+</TestOutputInfo>

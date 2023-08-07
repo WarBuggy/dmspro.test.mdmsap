@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>DEL_EMP004_MG</Name>
+	<Description>DEL EMP004 MG</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Delete",
+			"entity": "Employee",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"empID": 4,
+				"lastName": null,
+				"firstName": null,
+				"middleName": "null,
+				"position": 1,
+				"code": "EMP004",
+				"active": "N",
+				"mobile": null
+			}
+		}
+	</Body>
+</TestOutputInfo>

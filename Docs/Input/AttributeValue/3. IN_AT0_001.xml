@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>IN_AT0_001</Name>
+	<Description>IN AT0 001</Description>
+	<OutputName>IN_AT0_001</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>IN_AT0_001</MessageIdPrefix>
+	<Body>
+    
+		{
+      "Entity": "AttributeValues",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IN_AT0_001",
+        "Name": "Sữa",
+        "Active": "Y",
+        "AttributeNumber": "0",
+        "Type": "IN",
+        "ParentCode": null,
+        "ValueCode": "001",
+        "ShortName": "Sữa"  
+      }
+    }      
+    
+	</Body>
+</TestInfo>

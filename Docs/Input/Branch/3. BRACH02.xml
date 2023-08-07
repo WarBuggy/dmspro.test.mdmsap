@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>BRANCH02</Name>
+	<Description>BRANCH02</Description>
+	<OutputName>BRANCH02</OutputName>
+	<Entity>BranchSetup</Entity>
+	<MaxWaitTime>30</MaxWaitTime>
+	<MessageIdPrefix>BRANCH02</MessageIdPrefix>
+	<Body>
+  
+{
+  "Entity": "BranchSetup",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "BRANCH02",
+    "Name": "BRANCH02",
+    "BPLID": null,
+    "CompanyCode": "IDP01",
+    "Email": null,
+    "ERPCode": null,
+    "ForeignName": null,
+    "CountryCode": null,
+    "RegionCode": null,
+    "ProvinceCode": null,
+    "DistrictCode": null,
+    "WardCode": null,
+    "WhsCode1": null,
+    "WhsCode2": null,
+    "WhsCode3": null,
+    "Active": "Y",
+    "ContactPerson": null
+  }
+}
+   
+    
+	</Body>
+</TestInfo>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPFULL_BRANCH02</Name>
+	<Description>UPFULL BRANCH02</Description>
+	<OutputName>UPFULL_BRANCH02</OutputName>
+	<Entity>BranchSetup</Entity>
+	<MaxWaitTime>30</MaxWaitTime>
+	<MessageIdPrefix>UPFULL_BRANCH02</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Entity": "BranchSetup",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "BRANCH02",
+        "Name": "BRANCH02",
+        "BPLID": "2",
+        "CompanyCode": "IDP",
+        "Email": "BRANCH02@gmail.com",
+        "ERPCode": "1234567089",
+        "ForeignName": "BRANCH02",
+        "CountryCode": "VN",
+        "RegionCode": "MN",
+        "ProvinceCode": "HCM",
+        "DistrictCode": "Q1",
+        "WardCode": "PBNQ1",
+        "WhsCode1": null,
+        "WhsCode2": "WHV",
+        "WhsCode3": null,
+        "Active": "N",
+        "ContactPerson": "Le Van C"
+      }
+    }
+   
+    
+	</Body>
+</TestInfo>

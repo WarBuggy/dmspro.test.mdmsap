@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_VAT10</Name>
+	<Description>UPMAX VAT10</Description>
+	<OutputName>UPMAX_VAT10</OutputName>
+	<Entity>VATGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_VAT10</MessageIdPrefix>
+	<Body>
+		
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "VATGroup",
+      "Data": {
+        "Code": "VAT10",
+        "Name": "VAT10VATVAT10VATVAT10VATVAT10VATVAT10VATVAT10VATVA",
+        "Rate": "1000000000000",
+        "EffectiveDate": null
+      }
+    }
+    
+	</Body>
+</TestInfo>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>EMP002_SM</Name>
+	<Description>EMP002 SM</Description>
+	<IgnoreFields>
+		<string>Salesman:salemanTypeId</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Salesman",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"slpCode": 2,
+				"name": "Tran Tu",
+				"mobile": "0900000911",
+				"fax": "22222",
+				"email": "trantu@gmail.com",
+				"code": "EMP002",
+				"salesmanType": "SM"
+			}
+		}
+	</Body>
+</TestOutputInfo>

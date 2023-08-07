@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>EmployeeTemplate</Name>
+	<Description>Employee Test Template</Description>
+	<TestNames>
+		<string>SMT_SM</string>
+		<string>SMT_NSM</string>
+		<string>WP_MG</string>
+		<string>WP_LD</string>
+		<string>EMP001_MG</string>
+		<string>EMP001_SM</string>
+		<string>EMP002_MG</string>
+		<string>EMP002_SM</string>
+		<string>EMP003_LD</string>
+		<string>EMP003_NSM</string>
+		<string>EMP004_MG</string>
+		<string>EMP004_SM</string>
+		<string>UPMAX_EMP001_MG</string>
+		<string>UPOR_EMP001_MG</string>
+		<string>UPRONG_EMP002_MG</string>
+		<string>UPFULL_EMP003_LD</string>
+		<string>UPWP_EMP003_LD</string>
+		<string>UPTYPE_EMP003_NSM</string>
+		<string>DEL_EMP004_MG</string>
+		<string>DEL_EMP004_SM</string>
+	</TestNames>
+</TestTemplateInfo>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>COMPANY2</Name>
+	<Description>COMPANY2</Description>
+	<IgnoreFields>
+		<string>CompanySetup:countryId,regionId,provinceId,districtId,wardId</string>
+	</IgnoreFields>
+	<ForcedNameFields>
+		<string>dbName:DBName</string>
+	</ForcedNameFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Company",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "IDP02",
+			  "name": "IDP02",
+			  "active": "N",
+			  "address": "1234 Cao Thắng",
+			  "countryCode": "VN",
+			  "regionCode": "MN",
+			  "provinceCode": "HCM",
+			  "districtCode": "Q3",
+			  "wardCode": "P3Q3",
+			  "isHeadOffice": "N",
+			  "effectiveDate": null,
+			  "endDate": null,
+			  "dbName": "IDP"
+		  }
+		}
+			
+	</Body>
+</TestOutputInfo>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_GEO_CT</Name>
+	<Description>UPMAX GEO CT</Description>
+	<OutputName>UPMAX_GEO_CT</OutputName>
+	<Entity>Street</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_GEO_CT</MessageIdPrefix>
+	<Body>
+
+    {
+      "Entity": "Street",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+         "Code": "CT",
+         "Name": "Cao Thắng Cao Thắng Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam",
+         "WardCode": "PBNQ1",
+         "Active": "Y"
+      }
+    }
+
+	</Body>
+</TestInfo>

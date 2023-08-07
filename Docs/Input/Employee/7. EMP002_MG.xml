@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>EMP002_MG</Name>
+	<Description>EMP002 MG</Description>
+	<OutputName>EMP002_MG</OutputName>
+	<Entity>Employee</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>EMP002_MG</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Employee",
+      "Data": {
+        "empID": "2",
+        "lastName": "Tran",
+        "firstName": "Tu",
+        "middleName": null,
+        "position": "1",
+        "Code": "EMP002",
+        "Active": "N",
+        "mobile": "0900000911"
+      }
+    }
+    
+	</Body>
+</TestInfo>

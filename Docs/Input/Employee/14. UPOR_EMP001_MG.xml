@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPOR_EMP001_MG</Name>
+	<Description>UPOR EMP001 MG</Description>
+	<OutputName>UPOR_EMP001_MG</OutputName>
+	<Entity>Employee</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPOR_EMP001_MG</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "Employee",
+      "Data": {
+        "empID": "1",
+        "lastName": "Anh",
+        "firstName": "Le",
+        "middleName": "Van",
+        "position": "1",
+        "Code": "EMP001",
+        "Active": "Y",
+        "mobile": "0900000901"
+      }
+    }
+    
+	</Body>
+</TestInfo>

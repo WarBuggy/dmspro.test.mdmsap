@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>COMPANY3</Name>
+	<Description>COMPANY3</Description>
+	<OutputName>COMPANY3</OutputName>
+	<Entity>CompanySetup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>COMPANY3</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "CompanySetup",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IDP03",
+        "Name": "IDP03",
+        "Active": "Y",
+        "Address": null,
+        "CountryCode": null,
+        "RegionCode": null,
+        "ProvinceCode": null,
+        "DistrictCode": null,
+        "WardCode": null,
+        "IsHeadOffice": "N",
+        "EffectiveDate": null,
+        "EndDate": null,
+        "DBName": "IDP"
+      }
+    }
+    
+	</Body>
+</TestInfo>

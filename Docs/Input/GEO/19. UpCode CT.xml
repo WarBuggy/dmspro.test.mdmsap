@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPCODE_GEO_CT</Name>
+	<Description>UPCODE GEO CT</Description>
+	<OutputName>UPCODE_GEO_CT</OutputName>
+	<Entity>Street</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPCODE_GEO_CT</MessageIdPrefix>
+	<Body>
+
+    {
+      "Entity": "Street",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+         "Code": "CT",
+         "Name": "Cao Thắng",
+         "WardCode": "P3Q3",
+         "Active": "Y"
+      }
+    }
+
+	</Body>
+</TestInfo>

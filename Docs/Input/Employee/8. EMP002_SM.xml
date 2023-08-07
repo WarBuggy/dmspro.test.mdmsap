@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>EMP002_SM</Name>
+	<Description>EMP002 SM</Description>
+	<OutputName>EMP002_SM</OutputName>
+	<Entity>Salesman</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>EMP002_SM</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Salesman",
+      "Data": {
+        "SlpCode": "2",
+        "Name": "Tran Tu",
+        "Mobile": "0900000911",
+        "Fax": "22222",
+        "Email": "trantu@gmail.com",
+        "Code": "EMP002",
+        "SalesmanType": "SM"
+      }
+    }
+    
+	</Body>
+</TestInfo>

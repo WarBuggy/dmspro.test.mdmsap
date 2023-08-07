@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>HO</Name>
+	<Description>HO</Description>
+	<OutputName>HO</OutputName>
+	<Entity>CompanySetup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>HO</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "CompanySetup",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IDP",
+        "Name": "IDP",
+        "Active": "Y",
+        "Address": "12 Cao Thắng",
+        "CountryCode": "VN",
+        "RegionCode": "MN",
+        "ProvinceCode": "HCM",
+        "DistrictCode": "Q3",
+        "WardCode": "P3Q3",
+        "IsHeadOffice": "Y",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2033-07-01T00:00:00Z",
+        "DBName": null
+      }
+    }
+    
+	</Body>
+</TestInfo>

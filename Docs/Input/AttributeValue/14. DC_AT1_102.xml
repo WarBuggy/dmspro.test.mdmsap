@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DC_AT1_102</Name>
+	<Description>DC AT1 102</Description>
+	<OutputName>DC_AT1_102</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>DC_AT1_102</MessageIdPrefix>
+	<Body>
+    
+    {
+      "Entity": "AttributeValues",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "DC_AT1_102",
+        "Name": "Khách 5-10 năm",
+        "Active": "Y",
+        "AttributeNumber": "1",
+        "Type": "DC",
+        "ParentCode": null,
+        "ValueCode": "102",
+        "ShortName": "Khách 5-10 năm"  
+      }
+    }
+    
+      
+    
+	</Body>
+</TestInfo>

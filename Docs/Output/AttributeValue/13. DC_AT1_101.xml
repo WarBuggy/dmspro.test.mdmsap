@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>DC_AT1_101</Name>
+	<Description>DC AT1 101</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "AttributeValue",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "DC_AT1_101",
+			  "name": "Khách dưới 5 năm",
+			  "active": "Y",
+			  "attributeNumber": 1,
+			  "type": "DC",
+			  "parentCode": null,
+              "valueCode": "101",
+              "shortName": "Khách dưới 5 năm" 
+      }
+    }
+			
+	</Body>
+</TestOutputInfo>

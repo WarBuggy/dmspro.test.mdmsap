@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DC_AT1_103</Name>
+	<Description>DC AT1 103</Description>
+	<OutputName>DC_AT1_103</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>DC_AT1_103</MessageIdPrefix>
+	<Body>
+    
+    {
+      "Entity": "AttributeValues",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "DC_AT1_103",
+        "Name": "Khách trên 10 năm",
+        "Active": "N",
+        "AttributeNumber": "1",
+        "Type": "DC",
+        "ParentCode": null,
+        "ValueCode": null,
+        "ShortName": null  
+      }
+    }
+    
+    
+    
+    
+	</Body>
+</TestInfo>

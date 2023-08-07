@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>WP_LD</Name>
+	<Description>WP LD</Description>
+	<OutputName>WP_LD</OutputName>
+	<Entity>Position</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>WP_LD</MessageIdPrefix>
+	<Body>
+
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Position",
+      "Data": {
+        "Code": "2",
+        "Name": "Leader",
+        "Description": "Trưởng nhóm"
+      }
+    }
+    
+	</Body>
+</TestInfo>

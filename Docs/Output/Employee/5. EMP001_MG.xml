@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>EMP001_MG</Name>
+	<Description>EMP001 MG</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Employee",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"empID": 1,
+				"lastName": "Anh",
+				"firstName": "Le",
+				"middleName": "Van",
+				"position": 1,
+				"code": "EMP001",
+				"active": "Y",
+				"mobile": "0900000901"
+			}
+		}
+	</Body>
+</TestOutputInfo>

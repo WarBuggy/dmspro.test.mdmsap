@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DC_AT0_003</Name>
+	<Description>DC AT0 003</Description>
+	<OutputName>DC_AT0_003</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>DC_AT0_003</MessageIdPrefix>
+	<Body>
+    
+		{
+      "Entity": "AttributeValues",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "DC_AT0_003",
+        "Name": "Khách vãng lai",
+        "Active": "Y",
+        "AttributeNumber": "0",
+        "Type": "DC",
+        "ParentCode": null,
+        "ValueCode": null,
+        "ShortName": null 
+      }
+    }   
+    
+    
+	</Body>
+</TestInfo>

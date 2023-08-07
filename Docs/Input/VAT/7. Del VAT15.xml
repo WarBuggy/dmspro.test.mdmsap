@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_VAT15</Name>
+	<Description>DEL VAT15</Description>
+	<OutputName>DEL_VAT15</OutputName>
+	<Entity>VATGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>DEL_VAT15</MessageIdPrefix>
+	<Body>
+		
+    {
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Entity": "VATGroup",
+      "Data": {
+        "Code": "VAT15",
+        "Name": null,
+        "Rate": null,
+        "EffectiveDate": null
+      }
+    }
+    
+	</Body>
+</TestInfo>

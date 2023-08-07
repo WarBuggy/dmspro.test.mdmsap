@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>BranchTemplate</Name>
+	<Description>Branch Test Template</Description>
+	<TestNames>
+		<string>BRANCH</string>
+		<string>BRANCH01</string>
+		<string>BRANCH02</string>
+		<string>BRANCH03</string>
+		<string>UPMAX_BRANCH</string>
+		<string>UPOR_BRANCH</string>
+		<string>UPRONG_BRANCH01</string>
+		<string>UPFULL_BRANCH02</string>
+		<string>UPCODE_BRANCH03</string>
+		<string>DEL_BRANCH03</string>
+	</TestNames>
+</TestTemplateInfo>

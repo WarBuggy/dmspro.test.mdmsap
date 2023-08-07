@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPOR_IN0</Name>
+	<Description>UPOR IN0</Description>
+	<OutputName>UPOR_IN0</OutputName>
+	<Entity>AttributeConfig</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPOR_IN0</MessageIdPrefix>
+	<Body>
+		{
+      "Entity": "AttributeConfig",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "2",
+        "Name": "Nhóm sản phẩm",
+        "Active": "Y",
+        "AttributeNumber": "0",
+        "HierarchyLevel": "0",
+        "Type": "IN"
+      }
+    }
+    
+	</Body>
+</TestInfo>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>WHM</Name>
+	<Description>WHM</Description>
+	<ForcedNameFields>
+		<string>companyCode:CompanyCode</string> 
+	</ForcedNameFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Warehouse",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"code": "WHM",
+				"name": "Kho hàng chính",
+				"companyCode": "IDP",
+				"branchCode": "BRANCH",
+				"type": "N",
+				"address": "100",
+				"countryCode": "VN",
+				"regionCode": "MN",
+				"provinceCode": "HCM",
+				"districtCode": "Q3",
+				"wardCode": "P3Q3",
+				"street": "Cống Quỳnh"
+			}
+		}
+
+	</Body>
+</TestOutputInfo>

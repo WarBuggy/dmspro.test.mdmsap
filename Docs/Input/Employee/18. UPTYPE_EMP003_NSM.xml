@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPTYPE_EMP003_NSM</Name>
+	<Description>UPTYPE EMP003 NSM</Description>
+	<OutputName>UPTYPE_EMP003_NSM</OutputName>
+	<Entity>Salesman</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPTYPE_EMP003_NSM</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Salesman",
+      "Data": {
+        "SlpCode": "3",
+        "Name": "Nguyen Tuan",
+        "Mobile": "0909090909",
+        "Fax": null,
+        "Email": null,
+        "Code": "EMP003",
+        "SalesmanType": "SM"
+      }
+    }
+    
+	</Body>
+</TestInfo>

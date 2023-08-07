@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>IN_AT0_003</Name>
+	<Description>IN AT0 003</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "AttributeValue",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "IN_AT0_003",
+			  "name": "Bia",
+			  "active": "Y",
+			  "attributeNumber": 0,
+			  "type": "IN",
+			  "parentCode": null,
+              "valueCode": null,
+              "shortName": null 
+      }
+    }
+			
+	</Body>
+</TestOutputInfo>

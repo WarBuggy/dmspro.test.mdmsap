@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>COMPANY1</Name>
+	<Description>COMPANY1</Description>
+	<OutputName>COMPANY1</OutputName>
+	<Entity>CompanySetup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>COMPANY1</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "CompanySetup",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IDP01",
+        "Name": "IDP01",
+        "Active": "Y",
+        "Address": "123 Nguyễn Huệ",
+        "CountryCode": "VN",
+        "RegionCode": "MN",
+        "ProvinceCode": "HCM",
+        "DistrictCode": "Q1",
+        "WardCode": "PBNQ1",
+        "IsHeadOffice": "N",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2026-07-01T00:00:00Z",
+        "DBName": "IDP"
+      }
+    }
+    
+	</Body>
+</TestInfo>

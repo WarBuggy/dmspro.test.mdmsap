@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPRONG_BRANCH01</Name>
+	<Description>UPRONG BRANCH01</Description>
+	<OutputName>UPRONG_BRANCH01</OutputName>
+	<Entity>BranchSetup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPRONG_BRANCH01</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "BranchSetup",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "BRANCH01",
+        "Name": "BRANCH01",
+        "BPLID": null,
+        "CompanyCode": "IDP",
+        "Email": null,
+        "ERPCode": null,
+        "ForeignName": null,
+        "CountryCode": null,
+        "RegionCode": null,
+        "ProvinceCode": null,
+        "DistrictCode": null,
+        "WardCode": null,
+        "WhsCode1": null,
+        "WhsCode2": null,
+        "WhsCode3": null,
+        "Active": "Y",
+        "ContactPerson": null
+      }
+    } 
+	</Body>
+</TestInfo>

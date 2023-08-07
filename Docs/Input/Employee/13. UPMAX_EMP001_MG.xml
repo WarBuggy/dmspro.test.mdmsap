@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_EMP001_MG</Name>
+	<Description>UPMAX EMP001 MG</Description>
+	<OutputName>UPMAX_EMP001_MG</OutputName>
+	<Entity>Employee</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_EMP001_MG</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "Employee",
+      "Data": {
+        "EmpID": "1",
+        "LastName": "AnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAn",
+        "FirstName": "LeAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnh",
+        "MiddleName": "VanAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAn",
+        "Position": "1",
+        "Code": "EMP001",
+        "Active": "N",
+        "Mobile": "09000009010900000901"
+      }
+    }
+    
+	</Body>
+</TestInfo>

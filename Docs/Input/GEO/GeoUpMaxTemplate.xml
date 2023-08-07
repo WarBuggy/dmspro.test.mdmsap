@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>GeoUpMaxTemplate</Name>
+	<Description>Geo Test Template</Description>
+	<TestNames>
+		<string>UPMAX_GEO_TL</string>
+		<string>UPMAX_GEO_MT</string>
+		<string>UPMAX_GEO_HN</string>
+		<string>UPMAX_GEO_Q3</string>
+		<string>UPMAX_GEO_PBN</string>
+		<string>UPMAX_GEO_CT</string>
+	
+	</TestNames>
+</TestTemplateInfo>

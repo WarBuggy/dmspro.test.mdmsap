@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>DC_AT0_001</Name>
+	<Description>DC AT0 001</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "AttributeValue",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "DC_AT0_001",
+			  "name": "Khách sỉ",
+			  "active": "Y",
+			  "attributeNumber": 0,
+			  "type": "DC",
+			  "parentCode": null,
+              "valueCode": "001",
+              "shortName": "Khách sỉ" 
+      }
+    }
+			
+	</Body>
+</TestOutputInfo>

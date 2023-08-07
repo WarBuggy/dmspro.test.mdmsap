@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>CompanyTemplate</Name>
+	<Description>Company Test Template</Description>
+	<TestNames>
+		<string>HO</string>
+		<string>COMPANY1</string>
+		<string>COMPANY2</string>
+		<string>COMPANY3</string>
+		<string>UPRONG_COMPANY1</string>
+		<string>UPMAX_COMPANY2</string>
+		<string>DEL_COMPANY3</string>
+	</TestNames>
+</TestTemplateInfo>

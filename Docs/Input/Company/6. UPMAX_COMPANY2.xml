@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_COMPANY2</Name>
+	<Description>UPMAX COMPANY2</Description>
+	<OutputName>UPMAX_COMPANY2</OutputName>
+	<Entity>CompanySetup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_COMPANY2</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "CompanySetup",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IDP02",
+        "Name": "IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02",
+        "Active": "Y",
+        "Address": "1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 Cao Thắng1234 1234 Cao 12",
+        "CountryCode": "VN",
+        "RegionCode": "MN",
+        "ProvinceCode": "HCM",
+        "DistrictCode": "Q3",
+        "WardCode": "P3Q3",
+        "IsHeadOffice": "Y",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2026-07-01T00:00:00Z",
+        "DBName": "IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02IDP02"
+      }
+    }
+    
+	</Body>
+</TestInfo>

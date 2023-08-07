@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPFULL_EMP003_LD</Name>
+	<Description>UPFULL EMP003 LD</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "Employee",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"empID": 3,
+				"lastName": "Nguyen",
+				"firstName": "Tuan",
+				"middleName": null,
+				"position": 2,
+				"code": "EMP003",
+				"active": "Y",
+				"mobile": "0909090909"
+			}
+		}
+	</Body>
+</TestOutputInfo>

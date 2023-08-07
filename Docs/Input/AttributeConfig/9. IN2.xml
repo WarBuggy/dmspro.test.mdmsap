@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>IN2</Name>
+	<Description>IN2</Description>
+	<OutputName>IN2</OutputName>
+	<Entity>AttributeConfig</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>IN2</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "AttributeConfig",
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "4",
+        "Name": "Hương vị",
+        "Active": "Y",
+        "AttributeNumber": "2",
+        "HierarchyLevel": null,
+        "Type": "IN"
+      }
+    }  
+    
+	</Body>
+</TestInfo>

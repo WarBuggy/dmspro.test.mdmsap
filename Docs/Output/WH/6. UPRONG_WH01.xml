@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPRONG_WH01</Name>
+	<Description>UPRONG WH01</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "Warehouse",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"code": "WH01",
+				"name": null,
+				"companyCode": "IDP01",
+				"branchCode": null,
+				"type": "N",
+				"address": null,
+				"countryCode": null,
+				"regionCode": null,
+				"provinceCode": null,
+				"districtCode": null,
+				"wardCode": null,
+				"street": null
+			}
+		}
+
+	</Body>
+</TestOutputInfo>

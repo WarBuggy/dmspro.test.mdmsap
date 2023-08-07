@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>IN_AT1_102</Name>
+	<Description>IN AT1 102</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "AttributeValue",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "IN_AT1_102",
+			  "name": "Sữa bổ sung canxi",
+			  "active": "Y",
+			  "attributeNumber": 1,
+			  "type": "IN",
+			  "parentCode": "IN_AT0_001",
+              "valueCode": 102,
+              "shortName": "Sữa bổ sung canxi"
+      }
+    }
+			
+	</Body>
+</TestOutputInfo>

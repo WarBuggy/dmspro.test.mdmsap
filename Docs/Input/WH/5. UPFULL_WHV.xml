@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPFULL_WHV</Name>
+	<Description>UPFULL WHV</Description>
+	<OutputName>UPFULL_WHV</OutputName>
+	<Entity>Warehouse</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPFULL_WHV</MessageIdPrefix>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "Warehouse",
+      "Data": {
+        "Code": "WHV",
+        "Name": "Kho hàng Van",
+        "CompanyCode": "IDP01",
+        "BranchCode": "BRANCH01",
+        "Type": "V",
+        "Address": "345",
+        "CountryCode": "VN",
+        "RegionCode": "MN",
+        "ProvinceCode": "HCM",
+        "DistrictCode": "Q1",
+        "WardCode": "PBNQ1",
+        "Street": "Nguyễn Huệ"
+      }
+    }
+    
+	</Body>
+</TestInfo>

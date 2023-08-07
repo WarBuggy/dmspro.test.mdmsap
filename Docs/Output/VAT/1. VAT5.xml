@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>VAT5</Name>
+	<Description>VAT5</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Vat",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "VAT5",
+			  "name": "VAT5",
+			  "rate": 5.00,
+			  "effectiveDate": "2023-07-01T00:00:00"
+			}
+		  }
+	</Body>
+</TestOutputInfo>

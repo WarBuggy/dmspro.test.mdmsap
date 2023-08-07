@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_EMP004_SM</Name>
+	<Description>DEL EMP004 SM</Description>
+	<OutputName>DEL_EMP004_SM</OutputName>
+	<Entity>Salesman</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>DEL_EMP004_SM</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Entity": "Salesman",
+      "Data": {
+        "SlpCode": "4",
+        "Name": null,
+        "Mobile": null,
+        "Fax": null,
+        "Email": null,
+        "Code": "EMP004",
+        "SalesmanType": "SM"
+      }
+    }
+    
+	</Body>
+</TestInfo>

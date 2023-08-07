@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPRONG_IN_AT1_103</Name>
+	<Description>UPRONG IN AT1 103</Description>
+	<OutputName>UPRONG_IN_AT1_103</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPRONG_IN_AT1_103</MessageIdPrefix>
+	<Body>
+    
+		{
+      "Entity": "AttributeValues",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IN_AT1_103",
+        "Name": "Sữa bổ sung vitamin",
+        "Active": "Y",
+        "AttributeNumber": "1",
+        "Type": "IN",
+        "ParentCode": null,
+        "ValueCode": null,
+        "ShortName": null   
+      }
+    }
+       
+	</Body>
+</TestInfo>

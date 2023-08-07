@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPOR_DC0</Name>
+	<Description>UPOR DC0</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "AttributeConfig",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "0",
+			  "name": "Nhóm khách hàng",
+			  "active": "Y",
+			  "attributeNumber": 0,
+			  "hierarchyLevel": 0,
+			  "type": "DC"
+			}
+		  }
+	</Body>
+</TestOutputInfo>

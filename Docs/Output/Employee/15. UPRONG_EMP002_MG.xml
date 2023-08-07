@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPRONG_EMP002_MG</Name>
+	<Description>UPRONG_EMP002_MG</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Employee",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"empID": 2,
+				"lastName": null,
+				"firstName": null,
+				"middleName": null,
+				"position": 1,
+				"code": "EMP002",
+				"active": "Y",
+				"mobile": null
+			}
+		}
+	</Body>
+</TestOutputInfo>

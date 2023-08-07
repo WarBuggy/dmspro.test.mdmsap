@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPRONG_BRANCH01</Name>
+	<Description>UPRONG BRANCH01</Description>
+	<ForcedNameFields>
+		<string>bplid:BPLID</string> 
+		<string>erpCode:ERPCode</string>
+	</ForcedNameFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "Branch",
+			"entityKeys": null,
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "BRANCH01",
+			  "name": "BRANCH01",
+			  "bplid": null,
+			  "companyCode": "IDP",
+			  "email": null,
+			  "erpCode": null,
+			  "foreignName": null,
+			  "countryCode": null,
+			  "regionCode": null,
+			  "provinceCode": null,
+			  "districtCode": null,
+			  "wardCode": null,
+			  "whsCode1": null,
+			  "whsCode2": null,
+			  "whsCode3": null,
+			  "active": "Y",
+			  "contactPerson": null
+			}
+		  }
+	</Body>
+</TestOutputInfo>

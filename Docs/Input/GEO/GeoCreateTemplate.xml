@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>GeoCreateTemplate</Name>
+	<Description>Geo Test Template</Description>
+	<TestNames>
+		<string>GEO_VN</string>
+		<string>GEO_TL</string>
+		<string>GEO_MB</string>
+		<string>GEO_MN</string>
+		<string>GEO_MT</string>
+		<string>GEO_HCM</string>
+		<string>GEO_HN</string>
+		<string>GEO_Q3</string>
+		<string>GEO_Q1</string>
+		<string>GEO_PBN</string>
+		<string>GEO_P3</string>
+		<string>GEO_CT</string>
+	</TestNames>
+</TestTemplateInfo>

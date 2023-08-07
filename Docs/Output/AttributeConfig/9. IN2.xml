@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>IN2</Name>
+	<Description>IN2</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "AttributeConfig",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "4",
+			  "name": "Hương vị",
+			  "active": "Y",
+			  "attributeNumber": 2,
+			  "hierarchyLevel": null,
+			  "type": "IN"
+			}
+		  }
+	</Body>
+</TestOutputInfo>

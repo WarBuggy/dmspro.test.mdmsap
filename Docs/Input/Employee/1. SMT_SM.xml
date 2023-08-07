@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>SMT_SM</Name>
+	<Description>SMT_SM</Description>
+	<OutputName>SMT_SM</OutputName>
+	<Entity>SalesmanType</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>SMT_SM</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "SalesmanType",
+      "Data": {
+        "Code": "SM",
+        "Name": "Saleman"
+      }
+    }
+    
+	</Body>
+</TestInfo>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPCODE_GEO_PBN</Name>
+	<Description>UPCODE GEO PBN</Description>
+	<Body>
+		{
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"tenantName": "IDP",
+		"action": "Update",
+		"entity": "Ward",
+		"data": {
+		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+		"code": "PBNQ1",
+        "name": "Phường Bến Nghé",
+		"districtCode": "Q1",
+		"active": "Y"
+		}
+	  }
+	</Body>
+</TestOutputInfo>

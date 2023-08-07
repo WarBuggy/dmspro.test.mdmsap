@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>WP_MG</Name>
+	<Description>WP MG</Description>
+	<OutputName>WP_MG</OutputName>
+	<Entity>Position</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>WP_MG</MessageIdPrefix>
+	<Body>
+
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Position",
+      "Data": {
+        "Code": "1",
+        "Name": "Manager",
+        "Description": "Quản lý khu vực"
+      }
+    }
+    
+	</Body>
+</TestInfo>

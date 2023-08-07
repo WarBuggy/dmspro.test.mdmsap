@@ -12,7 +12,7 @@
 		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
 		"code": "Q1",
         "name": "Quận 1",
-        "countryCode": "HCM",
+        "provinceCode": "HCM",
         "active": "Y"
 		}
 	  }

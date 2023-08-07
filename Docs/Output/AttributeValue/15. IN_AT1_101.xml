@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>IN_AT1_101</Name>
+	<Description>IN AT1 101</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "AttributeValue",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "IN_AT1_101",
+			  "name": "Sữa tăng chiều cao",
+			  "active": "Y",
+			  "attributeNumber": 1,
+			  "type": "IN",
+			  "parentCode": "IN_AT0_001",
+              "valueCode": 101,
+              "shortName": "Sữa tăng chiều cao"   
+      }
+    }
+			
+	</Body>
+</TestOutputInfo>

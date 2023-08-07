@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>AttConfigTemplate</Name>
+	<Description>Att Config Test Template</Description>
+	<TestNames>
+		<string>DC0</string>
+		<string>DC1</string>
+		<string>IN0</string>
+		<string>IN1</string>
+		<string>UPMAX_RONG_DC0</string>
+		<string>UPOR_DC0</string>
+		<string>UPMAX_RONG_IN0</string>
+		<string>UPOR_IN0</string>
+		<string>IN2</string>
+		<string>UPFULL_IN1</string>
+	</TestNames>
+</TestTemplateInfo>

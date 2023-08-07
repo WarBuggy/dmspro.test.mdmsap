@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPCODE_GEO_MT</Name>
+	<Description>UPCODE GEO MT</Description>
+	<OutputName>UPCODE_GEO_MT</OutputName>
+	<Entity>Region</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPCODE_GEO_MT</MessageIdPrefix>
+	<Body>
+
+    {
+      "Entity": "Region",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "MT",
+        "Name": "Miền Trung",
+        "CountryCode": "VN",
+        "Active": "Y"
+      }
+    }
+
+	</Body>
+</TestInfo>

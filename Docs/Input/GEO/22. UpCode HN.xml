@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPCODE_GEO_HN</Name>
+	<Description>UPCODE GEO HN</Description>
+	<OutputName>UPCODE_GEO_HN</OutputName>
+	<Entity>Province</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPCODE_GEO_HN</MessageIdPrefix>
+	<Body>
+
+     
+{
+  "Entity": "Province",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HN",
+    "Name": "Hà Nội",
+    "RegionCode": "MB",
+    "Active": "Y"
+  }
+}
+
+	</Body>
+</TestInfo>

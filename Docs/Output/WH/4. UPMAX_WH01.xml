@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPMAX_WH01</Name>
+	<Description>UPMAX WH01</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "Warehouse",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"code": "WH01",
+				"name": "Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng11",
+				"companyCode": "IDP01",
+				"branchCode": "BRANCH01",
+				"type": "N",
+				"address": "Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng11Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng11Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng1",
+				"countryCode": "VN",
+				"regionCode": "MN",
+				"provinceCode": "HCM",
+				"districtCode": "Q3",
+				"wardCode": "P3Q3",
+				"street": "Đồng Khởi Đồng Khởi Đồng Khởi Đồng Khởi Đồng Khởi1"
+			}
+		}
+
+	</Body>
+</TestOutputInfo>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>GeoUpCodeTemplate</Name>
+	<Description>Geo Test Template</Description>
+	<TestNames>
+		<string>UPCODE_GEO_CT</string>
+		<string>UPCODE_GEO_PBN</string>
+		<string>UPCODE_GEO_Q3</string>
+		<string>UPCODE_GEO_HN</string>
+		<string>UPCODE_GEO_MT</string>
+		<string>DEL_GEO_TL</string>
+	</TestNames>
+</TestTemplateInfo>

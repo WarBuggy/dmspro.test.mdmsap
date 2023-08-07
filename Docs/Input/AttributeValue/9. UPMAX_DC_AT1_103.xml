@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_DC_AT1_103</Name>
+	<Description>UPMAX DC AT1 103</Description>
+	<OutputName>UPMAX_DC_AT1_103</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_DC_AT1_103</MessageIdPrefix>
+	<Body>
+    
+    {
+      "Entity": "AttributeValues",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "DC_AT1_103",
+        "Name": "Khách trên 10 nămKhách trên 10 nămKhách trên 10 nămKhách trên 10 nămKhách trên 10 nămKhách trên 10 n",
+        "Active": "Y",
+        "AttributeNumber": "1",
+        "Type": "DC",
+        "ParentCode": null,
+        "ValueCode": "103",
+        "ShortName": "Khách trên 10 nămKhách trên 10 nămKhách trên 10 nămKhách trên 10 nămKhách trên 10 nămKhách trên 10 n"
+      }
+    }
+    
+	</Body>
+</TestInfo>

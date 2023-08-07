@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPMAX_RONG_DC0</Name>
+	<Description>UPMAX RONG DC0</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "AttributeConfig",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "0",
+			  "name": "Nhóm khách hàng0000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+			  "active": "N",
+			  "attributeNumber": 0,
+			  "hierarchyLevel": null,
+			  "type": "DC"
+			}
+		  }
+	</Body>
+</TestOutputInfo>

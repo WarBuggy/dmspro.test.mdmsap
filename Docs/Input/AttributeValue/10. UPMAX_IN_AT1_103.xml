@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_IN_AT1_103</Name>
+	<Description>UPMAX IN AT1 103</Description>
+	<OutputName>UPMAX_IN_AT1_103</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_IN_AT1_103</MessageIdPrefix>
+	<Body>
+    
+		{
+      "Entity": "AttributeValues",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IN_AT1_103",
+        "Name": "Sữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitamin12345",
+        "Active": "Y",
+        "AttributeNumber": "1",
+        "Type": "IN",
+        "ParentCode": null,
+        "ValueCode": "103",
+        "ShortName": "Sữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitamin12345Sữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung vitamin12345 Sữa bổ sung vitaminSữa bổ sung vitaminSữa bổ sung"  
+      }
+    }
+       
+    
+	</Body>
+</TestInfo>

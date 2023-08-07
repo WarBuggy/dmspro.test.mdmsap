@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPMAX_EMP001_MG</Name>
+	<Description>UPMAX EMP001 MG</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "Employee",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"empID": 1,
+				"lastName": "AnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAn",
+				"firstName": "LeAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnh",
+				"middleName": "VanAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAn",
+				"position": "1",
+				"code": "EMP001",
+				"active": "N",
+				"mobile": "09000009010900000901"
+			}
+		}
+	</Body>
+</TestOutputInfo>

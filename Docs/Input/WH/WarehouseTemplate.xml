@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>WarehouseTemplate</Name>
+	<Description>Warehouse Test Template</Description>
+	<TestNames>
+		<string>WHM</string>
+		<string>WH01</string>
+		<string>WHV</string>
+		<string>UPMAX_WH01</string>
+		<string>UPFULL_WHV</string>
+		<string>UPRONG_WH01</string>
+		<string>UPCODE_WH01</string>
+	</TestNames>
+</TestTemplateInfo>

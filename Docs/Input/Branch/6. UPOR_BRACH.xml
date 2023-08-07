@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPOR_BRANCH</Name>
+	<Description>UPOR BRANCH</Description>
+	<OutputName>UPOR_BRANCH</OutputName>
+	<Entity>BranchSetup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPOR_BRANCH</MessageIdPrefix>
+	<Body>
+   
+{
+  "Entity": "BranchSetup",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "BRANCH",
+    "Name": "BRANCH",
+    "BPLID": "0",
+    "CompanyCode": "IDP",
+    "Email": "BRANCH@gmail.com",
+    "ERPCode": "1234567890",
+    "ForeignName": "BRANCH",
+    "CountryCode": "VN",
+    "RegionCode": "MN",
+    "ProvinceCode": "HCM",
+    "DistrictCode": "Q3",
+    "WardCode": "P3Q3",
+    "WhsCode1": "WHM",
+    "WhsCode2": null,
+    "WhsCode3": null,
+    "Active": "Y",
+    "ContactPerson": "Le Van A"
+  }
+}
+    
+	</Body>
+</TestInfo>

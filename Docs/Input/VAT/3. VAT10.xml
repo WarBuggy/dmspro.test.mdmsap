@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>VAT10</Name>
+	<Description>VAT10</Description>
+	<OutputName>VAT10</OutputName>
+	<Entity>VATGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>VAT10</MessageIdPrefix>
+	<Body>
+		
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "VATGroup",
+      "Data": {
+        "Code": "VAT10",
+        "Name": null,
+        "Rate": null,
+        "EffectiveDate": null
+      }
+    }
+    
+	</Body>
+</TestInfo>

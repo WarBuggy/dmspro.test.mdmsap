@@ -12,7 +12,7 @@
 		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
 		"code": "Q3",
         "name": "Quận 3",
-        "countryCode": "HN",
+        "provinceCode": "HN",
         "active": "Y"
 		}
 	  }

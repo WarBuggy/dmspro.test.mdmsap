@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPFULL_EMP003_LD</Name>
+	<Description>UPFULL EMP003 LD</Description>
+	<OutputName>UPFULL_EMP003_LD</OutputName>
+	<Entity>Employee</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPFULL_EMP003_LD</MessageIdPrefix>
+	<Body>
+   
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "Employee",
+      "Data": {
+        "empID": "3",
+        "lastName": "Nguyen",
+        "firstName": "Tuan",
+        "middleName": null,
+        "position": "2",
+        "Code": "EMP003",
+        "Active": "Y",
+        "mobile": "0909090909"
+      }
+    }
+    
+	</Body>
+</TestInfo>

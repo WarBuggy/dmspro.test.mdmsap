@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPCODE_GEO_PBN</Name>
+	<Description>UPCODE GEO PBN</Description>
+	<OutputName>UPCODE_GEO_PBN</OutputName>
+	<Entity>Ward</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPCODE_GEO_PBN</MessageIdPrefix>
+	<Body>
+
+    
+    {
+      "Entity": "Ward",
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "PBNQ1",
+        "Name": "Phường Bến Nghé",
+        "DistrictCode": "Q1",
+        "Active": "Y"
+      }
+    }
+
+	</Body>
+</TestInfo>

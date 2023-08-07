@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>VATTemplate</Name>
+	<Description>VAT Test Template</Description>
+	<TestNames>
+		<string>VAT5</string>
+		<string>VAT8</string>
+		<string>VAT10</string>
+		<string>VAT15</string>
+		<string>UPMAX_VAT10</string>
+		<string>UPRONG_VAT15</string>
+		<string>DEL_VAT15</string>
+	</TestNames>
+</TestTemplateInfo>

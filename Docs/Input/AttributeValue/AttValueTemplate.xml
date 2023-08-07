@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>AttValueTemplate</Name>
+	<Description>Att Value Test Template</Description>
+	<TestNames>
+		<string>DC_AT0_001</string>
+		<string>DC_AT0_002</string>
+		<string>IN_AT0_001</string>
+		<string>IN_AT0_002</string>
+		<string>DC_AT0_003</string>
+		<string>DC_AT1_103</string>
+		<string>IN_AT0_003</string>
+		<string>IN_AT1_103</string>
+		<string>UPMAX_DC_AT1_103</string>
+		<string>UPMAX_IN_AT1_103</string>
+		<string>UPRONG_DC_AT1_103</string>
+		<string>UPRONG_IN_AT1_103</string>
+		<string>DC_AT1_101</string>
+		<string>DC_AT1_102</string>
+		<string>IN_AT1_101</string>
+		<string>IN_AT1_102</string>
+		<string>IN_AT2_201</string>
+		<string>IN_AT2_202</string>
+		<string>DEL_DC_AT0_003</string>
+		<string>DEL_IN_AT0_003</string>
+	</TestNames>
+	</TestTemplateInfo>

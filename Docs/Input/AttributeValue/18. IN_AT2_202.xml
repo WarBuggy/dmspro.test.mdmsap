@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>IN_AT2_202</Name>
+	<Description>IN AT2 202</Description>
+	<OutputName>IN_AT2_202</OutputName>
+	<Entity>AttributeValues</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>IN_AT2_202</MessageIdPrefix>
+	<Body>
+    
+    {
+      "Entity": "AttributeValues",
+      "Action": "Create",
+      "TenantName": "IDP", 
+      "Data": {
+        "Code": "IN_AT2_202",
+        "Name": "Hương Socola",
+        "Active": "Y",
+        "AttributeNumber": "2",
+        "Type": "IN",
+        "ParentCode": null,
+        "ValueCode": "202",
+        "ShortName": "Hương Socola"  
+      }
+    } 
+    
+	</Body>
+</TestInfo>

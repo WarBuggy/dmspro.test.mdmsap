@@ -12,7 +12,7 @@
 		"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
 		"code": "P3Q3",
         "name": "Phường 3",
-        "countryCode": "P3Q3",
+        "districtCode": "Q3",
         "active": "Y"
 		}
 	  }

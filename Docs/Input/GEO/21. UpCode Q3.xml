@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPCODE_GEO_Q3</Name>
+	<Description>UPCODE GEO Q3</Description>
+	<OutputName>UPCODE_GEO_Q3</OutputName>
+	<Entity>District</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPCODE_GEO_Q3</MessageIdPrefix>
+	<Body>
+
+    {
+  "Entity": "District",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "Q3",
+    "Name": "Quận 3",
+    "ProvinceCode": "HCM",
+    "Active": "Y"
+  }
+}
+
+	</Body>
+</TestInfo>

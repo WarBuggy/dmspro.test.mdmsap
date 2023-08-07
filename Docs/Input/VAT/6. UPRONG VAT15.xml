@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPRONG_VAT15</Name>
+	<Description>UPRONG VAT15</Description>
+	<OutputName>UPRONG_VAT15</OutputName>
+	<Entity>VATGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPRONG_VAT15</MessageIdPrefix>
+	<Body>
+		
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "VATGroup",
+      "Data": {
+        "Code": "VAT15",
+        "Name": null,
+        "Rate": null,
+        "EffectiveDate": null
+      }
+    }
+    
+	</Body>
+</TestInfo>

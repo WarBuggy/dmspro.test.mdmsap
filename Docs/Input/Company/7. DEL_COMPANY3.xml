@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_COMPANY3</Name>
+	<Description>DEL_ OMPANY3</Description>
+	<OutputName>DEL_COMPANY3</OutputName>
+	<Entity>CompanySetup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>DEL_COMPANY3</MessageIdPrefix>
+	<Body>
+    {
+      "Entity": "CompanySetup",
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Data": {
+        "Code": "IDP03",
+        "Name": "IDP03",
+        "Active": "Y",
+        "Address": null,
+        "CountryCode": null,
+        "RegionCode": null,
+        "ProvinceCode": null,
+        "DistrictCode": null,
+        "WardCode": null,
+        "IsHeadOffice": "N",
+        "EffectiveDate": null,
+        "EndDate": null,
+        "DBName": "IDP"
+      }
+    }
+    
+	</Body>
+</TestInfo>
