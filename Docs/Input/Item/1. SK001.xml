@@ -61,29 +61,7 @@
     "POSMType": "POSM",
     "IsPOSM": "Y",
     "SalesVatGroupCode": "VAT8",
-    "PurchaseVatGroupCode": "VAT5",
-    "HierarchyCode": "00A1",
-    "ItemType": "I",
-    "SLength": "2",
-    "SLengthUnit": "1",
-    "SHeight": "2",
-    "SHeightUnit": "1",
-    "SWidth": "2",
-    "SWidthUnit": "1",
-    "SVolume": "2",
-    "SVolumeUnit": "1",
-    "SWeight": "2",
-    "SWeightUnit": "1",
-    "BLength": "2",
-    "BLengthUnit": "1",
-    "BHeight": "2",
-    "BHeightUnit": "1",
-    "BWidth": "2",
-    "BWidthUnit": "1",
-    "BVolume": "2",
-    "BVolumeUnit": "1",
-    "BWeight": "2",
-    "BWeightUnit": "3"
+    "PurchaseVatGroupCode": "VAT5"
   }
 }
 	</Body>

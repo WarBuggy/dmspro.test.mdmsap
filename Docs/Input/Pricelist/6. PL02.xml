@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>PL02</Name>
+	<Description>PL02</Description>
+	<OutputName>PL02</OutputName>
+	<Entity>PriceList</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>PL02</MessageIdPrefix>
+	<Body>
+     
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "PriceList",
+  "Data": {
+    "ListNum": "3",
+    "PriceListCode": "PL02",
+    "PriceListName": "Bảng giá 02",
+    "ValidFor": "N",
+    "ValidFrom": null,
+    "ValidTo": null,
+    "BaseListNum": null,
+    "IsGrossPrice": "N",
+    "Factor": null,
+    "BasePriceListCode": null
+  }
+}
+	</Body>
+</TestInfo>

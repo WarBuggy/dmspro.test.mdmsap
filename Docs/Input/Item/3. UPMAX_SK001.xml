@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_SK001</Name>
+	<Description>UPMAX_SK001</Description>
+	<OutputName>UPMAX_SK001</OutputName>
+	<Entity>Item</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_SK001</MessageIdPrefix>
+	<Body>
+      
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "Item",
+  "Data": {
+    "Code": "SK001",
+    "Name": "Sữa Kun nguyên chất1Sữa Kun nguyên chất1Sữa Kun nguyên chất1Sữa Kun nguyên chất1Sữa Kun nguyên chất1",
+    "ForeignName": "Kun MilkSữa Kun nguyên chất1Sữa Kun nguyên chất1Sữa Kun nguyên chất1Sữa Kun nguyên chất1Sữa Kun11111",
+    "IsPurchaseItem": "Y",
+    "IsSellItem": "Y",
+    "IsInventoryItem": "Y",
+    "BuyUnitMeasure": null,
+    "NumInBuy": "10000000",
+    "SalesUnitMeasure": null,
+    "NumInSale": "10000000",
+    "PurchasePackMeasure": null,
+    "PurchasePackQty": "10000000",
+    "SalesPackMeasure": null,
+    "SalesPackQty": "10000000",
+    "ManBatchNum": "Y",
+    "ManSerialNum": "N",
+    "ValidFor": "N",
+    "ValidFrom": null,
+    "ValidTo": null,
+    "FrozenFor": "Y",
+    "FrozenFrom": "2023-08-01T00:00:00Z",
+    "FrozenTo": "2023-12-01T00:00:00Z",
+    "UgpEntry": "10001",
+    "UomGroupCode": "UOMGR01",
+    "PUoMEntry": "0",
+    "PurchaseUomCode": "THUNG",
+    "SUoMEntry": "0",
+    "SalesUomCode": "THUNG",
+    "IUoMEntry": "0",
+    "InventoryUomCode": "THUNG",
+    "PriceUnit": "1",
+    "PriceUomCode": null,
+    "PricingPrc": "0.0",
+    "AttrID0": "IN_AT0_001",
+    "AttrID1": null,
+    "AttrID2": "IN_AT2_201",
+    "AttrID3": null,
+    "AttrID4": null,
+    "AttrID5": null,
+    "AttrID6": null,
+    "AttrID7": null,
+    "AttrID8": null,
+    "AttrID9": null,
+    "SUFactor": "0.0",
+    "SalesType": "Y",
+    "POSMType": "POSM",
+    "IsPOSM": "Y",
+    "SalesVatGroupCode": "VAT8",
+    "PurchaseVatGroupCode": "VAT5"
+    }
+}
+	</Body>
+</TestInfo>

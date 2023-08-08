@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPMAX_PL01</Name>
+	<Description>UPMAX_PL01</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "PriceList",
+			"entityKeys": null,
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "listNum": 2,
+			  "priceListCode": "PL01",
+			  "priceListName": "Bảnggiá011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+			  "validFor": "N",
+			  "validFrom": null,
+			  "validTo": null,
+			  "baseListNum": 1,
+			  "isGrossPrice": "Y",
+			  "factor": 1.2,
+			  "basePriceListCode": "BPL"
+			}
+		  }	
+	</Body>
+</TestOutputInfo>

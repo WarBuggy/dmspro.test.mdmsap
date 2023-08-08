@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_SK005</Name>
+	<Description>DEL_SK005</Description>
+	<OutputName>DEL_SK005</OutputName>
+	<Entity>Item</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>DEL_SK005</MessageIdPrefix>
+	<Body>   
+{
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "Item",
+  "Data": {
+    "Code": "SK005",
+    "Name": "Sữa Kun 005",
+    "ForeignName": null,
+    "IsPurchaseItem": "N",
+    "IsSellItem": "N",
+    "IsInventoryItem": "N",
+    "BuyUnitMeasure": null,
+    "NumInBuy": null,
+    "SalesUnitMeasure": null,
+    "NumInSale": null,
+    "PurchasePackMeasure": null,
+    "PurchasePackQty": null,
+    "SalesPackMeasure": null,
+    "SalesPackQty": null,
+    "ManBatchNum": "Y",
+    "ManSerialNum": "N",
+    "ValidFor": "Y",
+    "ValidFrom": "2023-07-15T00:00:00Z",
+    "ValidTo": "2023-12-15T00:00:00Z",
+    "FrozenFor": "N",
+    "FrozenFrom": null,
+    "FrozenTo": null,
+    "UgpEntry": null,
+    "UomGroupCode": "UOMGR02",
+    "PUoMEntry": null,
+    "PurchaseUomCode": null,
+    "SUoMEntry": null,
+    "SalesUomCode": null,
+    "IUoMEntry": null,
+    "InventoryUomCode": null,
+    "PriceUnit": null,
+    "PricingPrc": null,
+    "AttrID0": "IN_AT0_001",
+    "AttrID1": null,
+    "AttrID2": null,
+    "AttrID3": null,
+    "AttrID4": null,
+    "AttrID5": null,
+    "AttrID6": null,
+    "AttrID7": null,
+    "AttrID8": null,
+    "AttrID9": null,
+    "SUFactor": null,
+    "SalesType": "N",
+    "POSMType": "POSM",
+    "IsPOSM": "N",
+    "SalesVatGroupCode": null,
+    "PurchaseVatGroupCode": null
+  }
+}
+	</Body>
+</TestInfo>

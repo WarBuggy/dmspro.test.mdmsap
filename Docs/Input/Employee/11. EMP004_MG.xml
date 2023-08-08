@@ -7,22 +7,22 @@
 	<MaxWaitTime>5</MaxWaitTime>
 	<MessageIdPrefix>EMP004_MG</MessageIdPrefix>
 	<Body>
-   
-{
-  "Action": "Create",
-  "TenantName": "IDP",
-  "Entity": "Employee",
-  "Data": {
-    "empID": "4",
-    "lastName": null,
-    "firstName": null,
-    "middleName": null,
-    "position": "1",
-    "Code": "EMP004",
-    "Active": "N",
-    "mobile": null
-  }
-}
- 
+
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Employee",
+      "Data": {
+        "empID": "4",
+        "lastName": null,
+        "firstName": null,
+        "middleName": null,
+        "position": "1",
+        "Code": "EMP004",
+        "Active": "N",
+        "mobile": null
+      }
+    }
+    
 	</Body>
 </TestInfo>

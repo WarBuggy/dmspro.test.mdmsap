@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>CG01_ATT</Name>
+	<Description>CG01_ATT</Description>
+	<IgnoreFields>
+		<string>CustomerGroupAttribute:attributeValue0Id,attributeValue1Id,attributeValue2Id,attributeValue3Id,attributeValue4Id,attributeValue5Id,attributeValue6Id,attributeValue7Id,attributeValue8Id,attributeValue9Id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "CustomerGroup",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "KHVIP",
+			  "name": "Khách hàng VIP",
+			  "cusGroupType": "G",
+			  "status": "Y",
+			  "cusType": "C",
+			  "customerGroupList": null,
+			  "customerGroupAttribute": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "NKVIP",
+				  "lineId": 1,
+				  "attValID0": "DC_AT0_001",
+				  "attValID1": "DC_AT1_102",
+				  "attValID2": null,
+				  "attValID3": null,
+				  "attValID4": null,
+				  "attValID5": null,
+				  "attValID6": null,
+				  "attValID7": null,
+				  "attValID8": null,
+				  "attValID9": null
+				},
+				{
+					"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+					"code": "NKVIP",
+					"lineId": 2,
+					"attValID0": "DC_AT0_002",
+					"attValID1": "DC_AT1_103",
+					"attValID2": null,
+					"attValID3": null,
+					"attValID4": null,
+					"attValID5": null,
+					"attValID6": null,
+					"attValID7": null,
+					"attValID8": null,
+					"attValID9": null
+				  }
+			  ]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

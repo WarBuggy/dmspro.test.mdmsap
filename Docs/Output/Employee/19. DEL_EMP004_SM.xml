@@ -1,23 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TestOutputInfo>
-	<Name>DEL_EMP004_MG</Name>
-	<Description>DEL EMP004 MG</Description>
+	<Name>DEL_EMP004_SM</Name>
+	<Description>DEL EMP004 SM</Description>
+	<IgnoreFields>
+		<string>Salesman:salemanTypeId</string>
+	</IgnoreFields>
 	<Body>
 		{
 			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
 			"tenantName": "IDP",
 			"action": "Delete",
-			"entity": "Employee",
+			"entity": "Saleman",
 			"data": {
 				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
-				"empID": 4,
-				"lastName": null,
-				"firstName": null,
-				"middleName": "null,
-				"position": 1,
+				"slpCode": 4,
+				"name": null,
+				"mobile": null,
+				"fax": null,
+				"email": null,
 				"code": "EMP004",
-				"active": "N",
-				"mobile": null
+				"salesmanType": "SM"
 			}
 		}
 	</Body>

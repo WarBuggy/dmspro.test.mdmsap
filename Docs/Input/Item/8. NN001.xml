@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>NN001</Name>
+	<Description>NN001</Description>
+	<OutputName>NN001</OutputName>
+	<Entity>Item</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>NN001</MessageIdPrefix>
+	<Body>
+      
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Item",
+  "Data": {
+    "Code": "NN001",
+    "Name": "Nước ngọt vị nguyên bản",
+    "ForeignName": null,
+    "IsPurchaseItem": "Y",
+    "IsSellItem": "Y",
+    "IsInventoryItem": "Y",
+    "BuyUnitMeasure": "LOC",
+    "NumInBuy": "10",
+    "SalesUnitMeasure": "LOC",
+    "NumInSale": "10",
+    "PurchasePackMeasure": "LOC",
+    "PurchasePackQty": "10",
+    "SalesPackMeasure": "LOC",
+    "SalesPackQty": "10",
+    "ManBatchNum": "Y",
+    "ManSerialNum": "N",
+    "ValidFor": "Y",
+    "ValidFrom": "2023-08-01T00:00:00Z",
+    "ValidTo": "2023-12-01T00:00:00Z",
+    "FrozenFor": "N",
+    "FrozenFrom": null,
+    "FrozenTo": null,
+    "UgpEntry": "10001",
+    "UomGroupCode": "UOMGR01",
+    "PUoMEntry": null,
+    "PurchaseUomCode": null,
+    "SUoMEntry": null,
+    "SalesUomCode": null,
+    "IUoMEntry": null,
+    "InventoryUomCode": null,
+    "PriceUnit": null,
+    "PricingPrc": null,
+    "AttrID0": "IN_AT0_002",
+    "AttrID1": null,
+    "AttrID2": "IN_AT2_201",
+    "AttrID3": null,
+    "AttrID4": null,
+    "AttrID5": null,
+    "AttrID6": null,
+    "AttrID7": null,
+    "AttrID8": null,
+    "AttrID9": null,
+    "SUFactor": null,
+    "SalesType": "N",
+    "POSMType": "POSM",
+    "IsPOSM": "Y",
+    "SalesVatGroupCode": "VAT8",
+    "PurchaseVatGroupCode": "VAT8"
+  }
+}
+	</Body>
+</TestInfo>

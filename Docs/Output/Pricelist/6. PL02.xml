@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>PL02</Name>
+	<Description>PL02</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "PriceList",
+			"entityKeys": null,
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "listNum": 3,
+			  "priceListCode": "PL02",
+			  "priceListName": "Bảng giá 02",
+			  "validFor": "N",
+			  "validFrom": null,
+			  "validTo": null,
+			  "baseListNum": null,
+			  "isGrossPrice": "N",
+			  "factor": null,
+			  "basePriceListCode": null
+			}
+		  }	
+	</Body>
+</TestOutputInfo>

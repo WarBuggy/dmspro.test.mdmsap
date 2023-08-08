@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>CG02_LIST</Name>
+	<Description>CG02_LIST</Description>
+	<OutputName>CG02_LIST</OutputName>
+	<Entity>CustomerGroup</Entity>
+	<MaxWaitTime>30</MaxWaitTime>
+	<MessageIdPrefix>CG02_LIST</MessageIdPrefix>
+	<Body>   
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHTT",
+        "Name": "Khách hàng thân thiết",
+        "CusGroupType": "L",
+        "Status": "Y",
+        "CusType": "C",
+        "CustomerGroupAttribute": null,
+        "CustomerGroupList": [
+          {
+            "Code": "KHTT",
+            "LineId": "1",
+            "ObjectCode": "BHX"
+          }, 
+          {
+            "Code": "KHTT",
+            "LineId": "2",
+            "ObjectCode": "BHX01"
+          }
+        ]   
+      }
+    }
+	</Body>
+</TestInfo>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_PL01</Name>
+	<Description>PL01</Description>
+	<OutputName>PL01</OutputName>
+	<Entity>PriceList</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>PL01</MessageIdPrefix>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "PriceList",
+      "Data": {
+        "ListNum": "2",
+        "PriceListCode": "PL01",
+        "PriceListName": "Bảnggiá011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+        "ValidFor": "N",
+        "ValidFrom": null,
+        "ValidTo": null,
+        "BaseListNum": "1",
+        "IsGrossPrice": "Y",
+        "Factor": "1.2",
+        "BasePriceListCode": "BPL"
+      }
+    }
+	</Body>
+</TestInfo>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPFULL_PL02_ITEM</Name>
+	<Description>UPFULL_PL02_ITEM</Description>
+	<OutputName>UPFULL_PL02_ITEM</OutputName>
+	<Entity>ItemPrices</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPFULL_PL02_ITEM</MessageIdPrefix>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "ItemPrices",
+      "Data": [
+       {
+        "ItemCode": "SK002",
+        "PriceListNum": "3",
+        "UomEntry": "1",
+        "Price": "8000",
+        "PriceListCode": "PL02",
+        "UomCode": "CHAI"
+      }
+     ]
+    }    
+	</Body>
+</TestInfo>

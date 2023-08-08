@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>SK003</Name>
+	<Description>SK003</Description>
+	<OutputName>SK003</OutputName>
+	<Entity>Item</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>SK003</MessageIdPrefix>
+	<Body>
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Item",
+  "Data": {
+    "Code": "SK003",
+    "Name": "Sữa Kun gấp đôi Canxi",
+    "ForeignName": null,
+    "IsPurchaseItem": "Y",
+    "IsSellItem": "Y",
+    "IsInventoryItem": "Y",
+    "BuyUnitMeasure": "THUNG",
+    "NumInBuy": "1",
+    "SalesUnitMeasure": "THUNG",
+    "NumInSale": "1",
+    "PurchasePackMeasure": "THUNG",
+    "PurchasePackQty": "1",
+    "SalesPackMeasure": "THUNG",
+    "SalesPackQty": "1",
+    "ManBatchNum": "Y",
+    "ManSerialNum": "N",
+    "ValidFor": "Y",
+    "ValidFrom": "2023-07-15T00:00:00Z",
+    "ValidTo": "2023-12-15T00:00:00Z",
+    "FrozenFor": "N",
+    "FrozenFrom": null,
+    "FrozenTo": null,
+    "UgpEntry": "10001",
+    "UomGroupCode": "UOMGR01",
+    "PUoMEntry": "0",
+    "PurchaseUomCode": "THUNG",
+    "SUoMEntry": "0",
+    "SalesUomCode": "THUNG",
+    "IUoMEntry": "0",
+    "InventoryUomCode": "THUNG",
+    "PriceUnit": "1",
+    "PriceUomCode": null,
+    "PricingPrc": "0.0",
+    "AttrID0": "IN_AT0_001",
+    "AttrID1": "IN_AT1_102",
+    "AttrID2": "IN_AT2_201",
+    "AttrID3": null,
+    "AttrID4": null,
+    "AttrID5": null,
+    "AttrID6": null,
+    "AttrID7": null,
+    "AttrID8": null,
+    "AttrID9": null,
+    "SUFactor": "0.0",
+    "SalesType": "Y",
+    "POSMType": "POSM",
+    "IsPOSM": "Y",
+    "SalesVatGroupCode": "VAT5",
+    "PurchaseVatGroupCode": "VAT5"
+  }
+}
+	</Body>
+</TestInfo>

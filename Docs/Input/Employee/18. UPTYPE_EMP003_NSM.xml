@@ -9,7 +9,7 @@
 	<Body>
    
     {
-      "Action": "Create",
+      "Action": "Update",
       "TenantName": "IDP",
       "Entity": "Salesman",
       "Data": {

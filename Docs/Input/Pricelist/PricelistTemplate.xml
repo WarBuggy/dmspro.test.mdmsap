@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>PricelistTemplate</Name>
+	<Description>Pricelist Test Template</Description>
+	<TestNames>
+		<string>BPL</string>
+		<string>BPL_ITEM</string>
+		<string>BPL_UOM</string>
+		<string>PL01</string>
+		<string>PL01_ITEM</string>
+		<string>PL02</string>
+		<string>PL02_ITEM</string>
+		<string>UPMAX_PL01</string>
+		<string>UPMAX_PL01_ITEM</string>
+		<string>UPFULL_PL02</string>
+		<string>UPFULL_PL02_ITEM</string>
+		<string>DEL_PL02</string>
+		<string>DEL_PL02_ITEM</string>
+	</TestNames>
+</TestTemplateInfo>

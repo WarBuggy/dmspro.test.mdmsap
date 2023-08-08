@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>BPL_UOM</Name>
+	<Description>BPL_UOM</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "PriceListByUom",
+			"data": [
+			  {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"itemCode": "SK001",
+				"priceListNum": 1,
+				"uomEntry": 1,
+				"price": 7000,
+				"priceListCode": "BPL",
+				"uomCode": "CHAI"
+			  },
+			  {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"itemCode": "SK001",
+				"priceListNum": 1,
+				"uomEntry": 2,
+				"price": 42000,
+				"priceListCode": "BPL",
+				"uomCode": "LOC"
+			  },
+			  {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"itemCode": "SK001",
+				"priceListNum": 1,
+				"uomEntry": 3,
+				"price": 168000,
+				"priceListCode": "BPL",
+				"uomCode": "THUNG"
+			  },
+			  {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"itemCode": "SK002",
+				"priceListNum": 1,
+				"uomEntry": 1,
+				"price": 8000,
+				"priceListCode": "BPL",
+				"uomCode": "CHAI"
+			  },
+			  {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"itemCode": "SK002",
+				"priceListNum": 1,
+				"uomEntry": 2,
+				"price": 48000,
+				"priceListCode": "BPL",
+				"uomCode": "LOC"
+			  },
+			  {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"itemCode": "SK002",
+				"priceListNum": 1,
+				"uomEntry": 3,
+				"price": 192000,
+				"priceListCode": "BPL",
+				"uomCode": "THUNG"
+			  }
+			 ] 
+		    }
+	</Body>
+</TestOutputInfo>

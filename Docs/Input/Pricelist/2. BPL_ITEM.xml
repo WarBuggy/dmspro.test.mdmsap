@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>BPL_ITEM</Name>
+	<Description>BPL_ITEM</Description>
+	<OutputName>BPL_ITEM</OutputName>
+	<Entity>ItemPrices</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>BPL_ITEM</MessageIdPrefix>
+	<Body>
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "ItemPrices",
+  "Data": [
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "7000",
+      "PriceListCode": "BPL",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "42000",
+      "PriceListCode": "BPL",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "168000",
+      "PriceListCode": "BPL",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "8000",
+      "PriceListCode": "BPL",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "48000",
+      "PriceListCode": "BPL",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "192000",
+      "PriceListCode": "BPL",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK003",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "8000",
+      "PriceListCode": "BPL",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK003",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "48000",
+      "PriceListCode": "BPL",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK003",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "192000",
+      "PriceListCode": "BPL",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK004",
+      "PriceListNum": "1",
+      "UomEntry": "4",
+      "Price": "8000",
+      "PriceListCode": "BPL",
+      "UomCode": "LON"
+    },
+    {
+      "ItemCode": "SK004",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "48000",
+      "PriceListCode": "BPL",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "NN001",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "7000",
+      "PriceListCode": "BPL",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "NN001",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "42000",
+      "PriceListCode": "BPL",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "NN001",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "168000",
+      "PriceListCode": "BPL",
+      "UomCode": "THUNG"
+    }
+  ]
+}
+	</Body>
+</TestInfo>

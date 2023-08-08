@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>PL01_ITEM</Name>
+	<Description>PL01_ITEM</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "PriceListByItem",
+			"data": [
+			  {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"itemCode": "SK001",
+				"priceListNum": 2,
+				"uomEntry": 1,
+				"price": 7000,
+				"priceListCode": "BPL",
+				"uomCode": "CHAI"
+			  }
+			 ]
+		    }
+	</Body>
+</TestOutputInfo>

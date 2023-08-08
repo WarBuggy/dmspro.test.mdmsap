@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>PL02_ITEM</Name>
+	<Description>PL02_ITEM</Description>
+	<OutputName>PL02_ITEM</OutputName>
+	<Entity>ItemPrices</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>PL02_ITEM</MessageIdPrefix>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "ItemPrices",
+      "Data":
+        [
+         {
+          "ItemCode": "SK002",
+          "PriceListNum": "3",
+          "UomEntry": "1",
+          "Price": null,
+          "PriceListCode": "PL02",
+          "UomCode": "CHAI"
+        }
+      ]
+    }
+    
+	</Body>
+</TestInfo>

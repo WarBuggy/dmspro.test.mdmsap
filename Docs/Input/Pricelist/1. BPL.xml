@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>BPL</Name>
+	<Description>BPL</Description>
+	<OutputName>BPL</OutputName>
+	<Entity>PriceList</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>BPL</MessageIdPrefix>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "PriceList",
+      "Data": {
+        "ListNum": "1",
+        "PriceListCode": "BPL",
+        "PriceListName": "Bảng giá Base",
+        "ValidFor": "Y",
+        "ValidFrom": "2023-07-15T00:00:00Z",
+        "ValidTo": "2026-07-15T00:00:00Z",
+        "BaseListNum": null,
+        "IsGrossPrice": "N",
+        "Factor": null,
+        "BasePriceListCode": null
+      }
+    }    
+	</Body>
+</TestInfo>

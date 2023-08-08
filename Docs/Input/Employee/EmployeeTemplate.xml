@@ -21,7 +21,7 @@
 		<string>UPFULL_EMP003_LD</string>
 		<string>UPWP_EMP003_LD</string>
 		<string>UPTYPE_EMP003_NSM</string>
-		<string>DEL_EMP004_MG</string>
 		<string>DEL_EMP004_SM</string>
+		<string>DEL_EMP004_MG</string>
 	</TestNames>
 </TestTemplateInfo>

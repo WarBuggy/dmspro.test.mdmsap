@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>ItemTemplate</Name>
+	<Description>Item Test Template</Description>
+	<TestNames>
+		<string>SK001</string>
+		<string>SK002</string>
+		<string>UPMAX_SK001</string>
+		<string>UPOR_SK001</string>
+		<string>UPFULL_SK002</string>
+		<string>SK003</string>
+		<string>SK004</string>
+		<string>NN001</string>
+		<string>SK005</string>
+		<string>DEL_SK005</string>
+	</TestNames>
+</TestTemplateInfo>
