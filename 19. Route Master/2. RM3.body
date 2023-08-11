@@ -3,7 +3,7 @@
   "TenantName": "IDP",
   "Entity": "RouteMaster",
   "Data": {
-    "Code": "RM2",
+    "Code": "RM3",
     "Name": "Khu vực quận 1",
     "Channel": "GT",
     "IsGPSLock": "Y",
@@ -23,7 +23,7 @@
     "IsAllowOfflineMode": "Y",
     "RouteSalemanAssignment": [
       {
-        "Code": "RM2",
+        "Code": "RM3",
         "LineId": "1",
         "SalesmanCode": "EMP003",
         "EffectiveDate": "2023-07-01T00:00:00Z",
@@ -32,7 +32,7 @@
     ],
     "RouteSupervisorAssignment": [
       {
-        "Code": "RM2",
+        "Code": "RM3",
         "LineId": "1",
         "EmployeeCode": "EMP001", 
         "EffectiveDate": "2023-07-01T00:00:00Z",

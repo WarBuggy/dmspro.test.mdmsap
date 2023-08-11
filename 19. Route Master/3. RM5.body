@@ -3,7 +3,7 @@
   "TenantName": "IDP",
   "Entity": "RouteMaster",
   "Data": {
-    "Code": "RM3",
+    "Code": "RM5",
     "Name": null,
     "Channel": null,
     "IsGPSLock": "N",
@@ -23,7 +23,7 @@
     "IsAllowOfflineMode": "N",
     "RouteSalemanAssignment": [
       {
-        "Code": "RM3",
+        "Code": "RM5",
         "LineId": "1",
         "SalesmanCode": null,
         "EffectiveDate": null,
@@ -32,7 +32,7 @@
     ],
     "RouteSupervisorAssignment": [
       {
-        "Code": "RM3",
+        "Code": "RM5",
         "LineId": "1",
         "EmployeeCode": null,
         "EffectiveDate": null,
