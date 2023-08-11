@@ -1,0 +1,35 @@
+{
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "ItemGroup",
+      "Data": {
+        "Code": "IG002",
+        "Name": "Nhóm sản phẩm 2",
+        "ApplyFor": "K",
+        "IsDefaultUom": "N",
+        "DefaultUomBy": "I",
+        "Type": "-1",
+        "SellingCategoryCode": "SC001",
+        "ItemGroupAttribute": null,
+        "ItemGroupList": [
+          {
+            "Code": "IG002",
+            "LineId": "1",
+            "ObjectCode": "SK001",
+            "ObjectName": "Sữa Kun Nguyên chất",
+            "Order": "1",
+            "Rate": "1",
+            "IsDefault": "N"
+          },
+          {
+            "Code": "IG002",
+            "LineId": "2",
+            "ObjectCode": "SK002",
+            "ObjectName": "Sữa Kun hương socola",
+            "Order": "2",
+            "Rate": "1",
+            "IsDefault": "N"
+          }
+        ]
+      }
+    }  

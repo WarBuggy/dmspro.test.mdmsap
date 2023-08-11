@@ -1,0 +1,43 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "RouteMaster",
+  "Data": {
+    "Code": "RM3",
+    "Name": "Khu vực phường 3Khu vực phường 3Khu vực phường 3Khu vực phường 3Khu vực phường 3vực phường 3Khu vực1",
+    "Channel": "GT",
+    "IsGPSLock": "Y",
+    "SellingCategoryCode": "SC001",
+    "IsFullVisitOutRoute": "Y",
+    "SalesTerritoryCode": "GT",
+    "IsGPSOutRouteLock": "Y",
+    "SalesAreaCode": "P3Q3",
+    "SalesGroup": null,
+    "SellingZoneCode": "SZ001",
+    "IsCheckIn": "Y",
+    "IsOutRoute": "Y",
+    "EffectiveDate": "2023-07-15T00:00:00Z",
+    "EndDate": "2023-12-15T00:00:00Z",
+    "Distance": "10",
+    "RouteType": "O",
+    "IsAllowOfflineMode": "Y",
+    "RouteSalemanAssignment": [
+      {
+        "Code": "RM3",
+        "LineId": "1",
+        "SalesmanCode": "EMP002",
+        "EffectiveDate": "2023-07-15T00:00:00Z",
+        "EndDate": "2023-12-15T00:00:00Z"
+      }
+    ],
+    "RouteSupervisorAssignment": [
+      {
+        "Code": "RM3",
+        "LineId": "1",
+        "EmployeeCode": "EMP003",
+        "EffectiveDate": "2023-07-15T00:00:00Z",
+        "EndDate": "2023-12-15T00:00:00Z"
+      }
+    ]
+  }
+}

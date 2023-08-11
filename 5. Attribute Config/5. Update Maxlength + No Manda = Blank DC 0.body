@@ -1,0 +1,13 @@
+{
+  "Entity": "AttributeConfig",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "0",
+    "Name": "Nhóm khách hàng0000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "Active": "N",
+    "AttributeNumber": "0",
+    "HierarchyLevel": null,
+    "Type": "DC"
+  }
+}

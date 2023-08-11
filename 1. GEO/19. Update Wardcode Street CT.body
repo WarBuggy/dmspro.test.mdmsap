@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Street",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+     "Code": "CT",
+     "Name": "Cao Thắng",
+     "WardCode": "P3Q3",
+     "Active": "Y"
+  }
+}

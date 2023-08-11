@@ -1,0 +1,25 @@
+{
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHTT",
+        "Name": null,
+        "CusGroupType": "L",
+        "Status": "N",
+        "CusType": "C",
+        "CustomerGroupAttribute": null,
+        "CustomerGroupList": [
+          {
+            "Code": "KHTT",
+            "LineId": "1",
+            "ObjectCode": null
+          }, 
+          {
+            "Code": "KHTT",
+            "LineId": "2",
+            "ObjectCode": null
+          }
+        ]   
+      }
+    }

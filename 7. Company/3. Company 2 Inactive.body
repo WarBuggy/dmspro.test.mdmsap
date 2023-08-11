@@ -1,0 +1,20 @@
+{
+  "Entity": "CompanySetup",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "IDP02",
+    "Name": "IDP02",
+    "Active": "N",
+    "Address": "1234 Cao Thắng",
+    "CountryCode": "VN",
+    "RegionCode": "MN",
+    "ProvinceCode": "HCM",
+    "DistrictCode": "Q3",
+    "WardCode": "P3Q3",
+    "IsHeadOffice": "N",
+    "EffectiveDate": null,
+    "EndDate": null,
+    "DBName": "IDP"
+  }
+}

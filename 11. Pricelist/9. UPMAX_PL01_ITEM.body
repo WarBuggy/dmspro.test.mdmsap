@@ -1,0 +1,16 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "ItemPrices",
+  "Data":
+   [
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "2",
+      "UomEntry": "1",
+      "Price": "7000000000000",
+      "PriceListCode": "PL01",
+      "UomCode": "CHAI"
+    }
+  ]
+}    

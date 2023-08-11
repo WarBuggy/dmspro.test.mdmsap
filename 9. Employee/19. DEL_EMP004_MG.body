@@ -1,0 +1,15 @@
+{
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "Employee",
+  "Data": {
+    "empID": "4",
+    "lastName": null,
+    "firstName": null,
+    "middleName": null,
+    "position": "1",
+    "Code": "EMP004",
+    "Active": "N",
+    "mobile": null
+  }
+}

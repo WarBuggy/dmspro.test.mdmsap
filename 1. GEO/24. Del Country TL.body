@@ -1,0 +1,12 @@
+  
+
+{
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "Country",
+  "Data": {
+    "Code":"TL",
+    "Name": "Thái Lan",
+    "Active": "Y"
+  } 
+}

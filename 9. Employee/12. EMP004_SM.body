@@ -1,0 +1,14 @@
+{
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Salesman",
+      "Data": {
+        "SlpCode": "4",
+        "Name": null,
+        "Mobile": null,
+        "Fax": null,
+        "Email": null,
+        "Code": "EMP004",
+        "SalesmanType": "SM"
+      }
+    }

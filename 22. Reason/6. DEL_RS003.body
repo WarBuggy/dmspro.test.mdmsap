@@ -1,0 +1,11 @@
+{
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "Reason",
+  "Data": {
+    "Code": "RS003",
+    "Name": "Khách không nhận hàngKhách không nhận hàngKhách không nhận hàngKhách không nhận hàngKhách không nhận",
+    "Module": "SO",
+    "Active": "N" 
+  }
+}   

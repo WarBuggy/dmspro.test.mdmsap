@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Ward",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+     "Code": "PBNQ1",
+     "Name": "Phường 3 Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam 1",
+     "DistrictCode": "Q3",
+     "Active": "Y"
+  }
+}

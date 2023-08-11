@@ -1,0 +1,16 @@
+{
+  "Entity": "AttributeValues",
+  "Action": "Create",
+  "TenantName": "IDP", 
+  "Data": {
+    "Code": "IN_AT2_202",
+    "Name": "Hương Socola",
+    "Active": "Y",
+    "AttributeNumber": "2",
+    "Type": "IN",
+    "ParentCode": null,
+    "ValueCode": "202",
+    "ShortName": "Hương Socola"  
+  }
+}
+

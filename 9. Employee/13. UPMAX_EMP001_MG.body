@@ -1,0 +1,16 @@
+  
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "Employee",
+  "Data": {
+    "EmpID": "1",
+    "LastName": "AnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAn",
+    "FirstName": "LeAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnh",
+    "MiddleName": "VanAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAnhAn",
+    "Position": "1",
+    "Code": "EMP001",
+    "Active": "N",
+    "Mobile": "09000009010900000901"
+  }
+}

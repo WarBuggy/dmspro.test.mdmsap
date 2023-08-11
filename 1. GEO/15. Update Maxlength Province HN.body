@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Province",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HN",
+    "Name": "Hồ Chí Minh Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam 123",
+    "RegionCode": "MT",
+    "Active": "Y"
+  }
+}

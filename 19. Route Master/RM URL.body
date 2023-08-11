@@ -1,0 +1,43 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "RouteMaster",
+  "Data": {
+    "Code": "KVQ3",
+    "Name": null,
+    "Channel": null,
+    "IsGPSLock": "Y",
+    "SellingCategoryCode": null,
+    "IsFullVisitOutRoute": "Y",
+    "SalesTerritoryCode": null,
+    "IsGPSOutRouteLock": "Y",
+    "SalesAreaCode": null,
+    "SalesGroup": null,
+    "SellingZoneCode": null,
+    "IsCheckIn": "Y",
+    "IsOutRoute": "Y",
+    "EffectiveDate": null,
+    "EndDate": null,
+    "Distance": null,
+    "RouteType": "O",
+    "IsAllowOfflineMode": "Y",
+    "RouteSalemanAssignment": [
+      {
+        "Code": "KVQ3",
+        "LineId": "1",
+        "EmployeeCode": null,
+        "EffectiveDate": null,
+        "EndDate": null
+      }
+    ],
+    "RouteSupervisorAssignment": [
+      {
+        "Code": "KVQ3",
+        "LineId": "1",
+        "SalesmanCode": null,
+        "EffectiveDate": null,
+        "EndDate": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "MessageId": "105",
+  "Entity": "UomMaster",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HOP",
+    "Name": "HOP",
+    "UomEntry": "5"
+  }
+}

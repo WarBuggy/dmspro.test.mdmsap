@@ -1,0 +1,10 @@
+{
+  "MessageId": "1013",
+  "Data": {
+    "Url": "ItemPrices/IDP/20230731_Create_PricelistItem.json",
+    "FileName": "20230731_Create_PricelistItem.json"
+  },
+  "Entity": "ItemPrices",
+  "Action": "Create",
+  "TenantName": "IDP"
+}

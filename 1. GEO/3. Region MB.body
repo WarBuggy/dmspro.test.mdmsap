@@ -1,0 +1,13 @@
+ 
+{
+  "Entity": "Region",
+  "Action": "Create",
+  "TenantName": "IDP",  
+  "Data": {
+    "Code": "MB",
+    "Name": "Miền Bắc",
+    "CountryCode": "VN",
+    "Active": "Y"
+  }
+}
+

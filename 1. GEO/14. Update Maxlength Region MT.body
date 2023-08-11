@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Region",
+  "Action": "Update",
+  "TenantName": "IDP",  
+  "Data": {
+    "Code": "MT",
+    "Name": "Miền Trung Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam",
+    "CountryCode": "TL",
+    "Active": "Y"
+  }
+}

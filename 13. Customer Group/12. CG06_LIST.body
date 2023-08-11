@@ -1,0 +1,25 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "CustomerGroup",
+  "Data": {
+    "Code": "KHTT1",
+    "Name": "Khách hàng thân thiết 1",
+    "CusGroupType": "L",
+    "Status": "Y",
+    "CusType": "D",
+    "CustomerGroupAttribute": null,
+    "CustomerGroupList": [
+      {
+        "Code": "KHTT1",
+        "LineId": "1",
+        "ObjectCode": "BHX01"
+      }, 
+      {
+        "Code": "KHTT1",
+        "LineId": "2",
+        "ObjectCode": "THCB"
+      }
+    ]   
+  }
+}

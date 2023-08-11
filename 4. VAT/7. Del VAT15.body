@@ -1,0 +1,9 @@
+  {
+    "MessageId": "308",
+    "Action": "Delete",
+    "TenantName": "IDP",
+    "Entity": "VATGroup",
+    "Data": {
+      "Code": "VAT15"
+    }
+  }

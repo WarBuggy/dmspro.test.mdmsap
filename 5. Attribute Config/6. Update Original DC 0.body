@@ -1,0 +1,15 @@
+{
+  "MessageId": "406",
+  "Entity": "AttributeConfig",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "0",
+    "Name": "Nhóm khách hàng",
+    "Active": "Y",
+    "AttributeNumber": "0",
+    "HierarchyLevel": "0",
+    "Type": "DC"
+  }
+}
+

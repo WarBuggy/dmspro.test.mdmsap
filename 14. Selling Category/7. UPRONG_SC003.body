@@ -1,0 +1,10 @@
+{
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "SellingCategory",
+      "Data": {
+        "Code": "SC003",
+        "Name": "Ngành hàng 003",
+        "SellingCategoryDetail": null
+          }
+      }

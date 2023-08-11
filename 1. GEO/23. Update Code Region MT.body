@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Region",
+  "Action": "Update",
+  "TenantName": "IDP",  
+  "Data": {
+    "Code": "MT",
+    "Name": "Miền Trung",
+    "CountryCode": "VN",
+    "Active": "Y"
+  }
+}

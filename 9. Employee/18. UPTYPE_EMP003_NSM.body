@@ -1,0 +1,15 @@
+  
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "Salesman",
+  "Data": {
+    "SlpCode": "3",
+    "Name": "Nguyen Tuan",
+    "Mobile": "0909090909",
+    "Fax": null,
+    "Email": null,
+    "Code": "EMP003",
+    "SalesmanType": "SM"
+  }
+}

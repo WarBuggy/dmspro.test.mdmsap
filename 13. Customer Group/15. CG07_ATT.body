@@ -1,0 +1,43 @@
+    { 
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHVIP3",
+        "Name": "Khách hàng VIP",
+        "CusGroupType": "G",
+        "Status": "N",
+        "CusType": "C",
+        "CustomerGroupList": null,
+        "CustomerGroupAttribute":[
+          {
+            "Code": "KHVIP3",
+            "LineId": "1",
+            "AttValID0": "DC_AT0_001",
+            "AttValID1": "DC_AT1_102",
+            "AttValID2": null,
+            "AttValID3": null,
+            "AttValID4": null,
+            "AttValID5": null,
+            "AttValID6": null,
+            "AttValID7": null,
+            "AttValID8": null,
+            "AttValID9": null
+          },
+          {
+            "Code": "KHVIP3",
+            "LineId": "2",
+            "AttValID0": "DC_AT0_002",
+            "AttValID1": "DC_AT1_103",
+            "AttValID2": null,
+            "AttValID3": null,
+            "AttValID4": null,
+            "AttValID5": null,
+            "AttValID6": null,
+            "AttValID7": null,
+            "AttValID8": null,
+            "AttValID9": null
+          }
+        ]
+      }
+    }    

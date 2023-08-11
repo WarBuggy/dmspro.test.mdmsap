@@ -1,0 +1,20 @@
+{
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "PriceList",
+  "Data": [
+   {
+    "ListNum": "3",
+    "PriceListName": "Bảng giá 02",
+    "PriceListCode": "PL02",
+    "ValidFor": "Y",
+    "ValidFrom": "2023-07-15T00:00:00Z",
+    "ValidTo": "2026-12-30T00:00:00Z",
+    "BaseListNum": "1",
+    "IsGrossPrice": "Y",
+    "Factor": "1.3",
+    "BasePriceListCode": "BPL"
+  }
+ ]
+}
+

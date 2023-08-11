@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Province",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HN",
+    "Name": "Hà Nội",
+    "RegionCode": "MT",
+    "Active": "Y"
+  }
+}

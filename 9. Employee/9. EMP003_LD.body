@@ -1,0 +1,15 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Employee",
+  "Data": {
+    "empID": "3",
+    "lastName": null,
+    "firstName": null,
+    "middleName": null,
+    "position": "2",
+    "Code": "EMP003",
+    "Active": "Y",
+    "mobile": null
+  }
+}

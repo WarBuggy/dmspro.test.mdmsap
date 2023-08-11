@@ -1,0 +1,11 @@
+  {
+    "Action": "Create",
+    "TenantName": "IDP",
+    "Entity": "VATGroup",
+    "Data": {
+      "Code": "VAT15",
+      "Name": "VAT 15%",
+      "Rate": "15",
+      "EffectiveDate": "2023-07-01T00:00:00Z"
+    }
+  }

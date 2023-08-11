@@ -1,0 +1,43 @@
+  {
+    "Action": "Create",
+    "TenantName": "IDP",
+    "Entity": "UomGroup",
+    "Data": {
+      "UgpEntry": "10001",
+      "Code": "UOMGR01",
+      "Name": "Nhóm đơn vị 1",
+      "BaseUomCode": "CHAI",
+      "UomGroupDetail": [
+        {
+          "UgpEntry": "10001",
+          "UomEntry": "1",
+          "AltQty": "1",
+          "BaseQty": "1",
+          "IsActive": "Y",
+          "LineNum": "1",
+          "UomGroupCode": "UOMGR01",
+          "UomCode": "CHAI"
+        },
+        {
+          "UgpEntry": "10001",
+          "UomEntry": "2",
+          "AltQty": "1",
+          "BaseQty": "6",
+          "IsActive": "Y",
+          "LineNum": "2",
+          "UomGroupCode": "UOMGR01",
+          "UomCode": "LOC"
+        },
+        {
+          "UgpEntry": "10001",
+          "UomEntry": "3",
+          "AltQty": "1",
+          "BaseQty": "24",
+          "IsActive": "Y",
+          "LineNum": "3",
+          "UomGroupCode": "UOMGR01",
+          "UomCode": "THUNG"
+        }
+      ]
+    }
+  }

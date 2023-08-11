@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Street",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+     "Code": "CT",
+     "Name": "Cao Thắng Cao Thắng Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam",
+     "WardCode": "PBNQ1",
+     "Active": "Y"
+  }
+}

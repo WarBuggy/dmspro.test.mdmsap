@@ -1,0 +1,20 @@
+{
+  "Entity": "CompanySetup",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "IDP01",
+    "Name": "IDP01",
+    "Active": "N",
+    "Address": null,
+    "CountryCode": null,
+    "RegionCode": null,
+    "ProvinceCode": null,
+    "DistrictCode": null,
+    "WardCode": null,
+    "IsHeadOffice": "Y",
+    "EffectiveDate": null,
+    "EndDate": null,
+    "DBName": "IDP"
+  }
+}

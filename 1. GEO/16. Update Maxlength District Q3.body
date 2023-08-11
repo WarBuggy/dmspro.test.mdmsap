@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "District",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "Q3",
+    "Name": "Quận 3 Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam Việt Nam 123",
+    "ProvinceCode": "HN",
+    "Active": "Y"
+  }
+}

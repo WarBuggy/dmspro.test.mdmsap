@@ -1,0 +1,10 @@
+{
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Position",
+      "Data": {
+        "Code": "2",
+        "Name": "Leader",
+        "Description": "Trưởng nhóm"
+      }
+    }

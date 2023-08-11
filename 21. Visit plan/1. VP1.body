@@ -1,0 +1,49 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "VisitPlan",
+  "Data": [
+    {
+      "CompanyCode": "IDP",
+      "BranchCode": "BRANCH",
+      "RouteMasterCode": "KVQ3",
+      "RouteSettingCode": "RS001",
+      "SalesmanCode": "EMP001",
+      "CustomerCode": "BHX",
+      "ShipToCode": "BHX",
+      "VisitDate": "2023-08-02T09:00:00Z",
+      "VisitOrder": "1",
+      "CreatedDateTime": "2023-08-01T00:00:00Z",
+      "VisitType": null,
+      "VisitOutletType": null
+    },
+    {
+      "CompanyCode": "IDP01",
+      "BranchCode": "BRANCH01",
+      "RouteMasterCode": "KVQ3",
+      "RouteSettingCode": "RS001",
+      "SalesmanCode": "EMP001",
+      "CustomerCode": "BHX01",
+      "ShipToCode": "BHX01",
+      "VisitDate": "2023-08-02T09:00:00Z",
+      "VisitOrder": "2",
+      "CreatedDateTime": "2023-08-01T00:00:00Z",
+      "VisitType": null,
+      "VisitOutletType": null
+    },
+    {
+      "CompanyCode": "IDP",
+      "BranchCode": "BRANCH",
+      "RouteMasterCode": "KVQ1",
+      "RouteSettingCode": "RS001",
+      "SalesmanCode": "EMP002",
+      "CustomerCode": "BHX02",
+      "ShipToCode": "BHX02",
+      "VisitDate": "2023-08-02T09:00:00Z",
+      "VisitOrder": "1",
+      "CreatedDateTime": "2023-08-01T00:00:00Z",
+      "VisitType": "1",
+      "VisitOutletType": null
+    }
+  ]
+}

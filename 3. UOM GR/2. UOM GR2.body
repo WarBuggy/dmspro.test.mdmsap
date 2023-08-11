@@ -1,0 +1,33 @@
+  {
+    "Action": "Create",
+    "TenantName": "IDP",
+    "Entity": "UomGroup",
+    "Data": {
+      "UgpEntry": "10002",
+      "Code": "UOMGR02",
+      "Name": "Nhóm đơn vị 2",
+      "BaseUomCode": "LON",
+      "UomGroupDetail": [
+        {
+          "UgpEntry": "10002",
+          "UomEntry": "4",
+          "AltQty": "1",
+          "BaseQty": "1",
+          "IsActive": "Y",
+          "LineNum": "1",
+          "UomGroupCode": "UOMGR02",
+          "UomCode": "LON"
+        },
+        {
+          "UgpEntry": "10002",
+          "UomEntry": "2",
+          "AltQty": "1",
+          "BaseQty": "6",
+          "IsActive": "Y",
+          "LineNum": "2",
+          "UomGroupCode": "UOMGR02",
+          "UomCode": "LOC"
+        }
+      ]
+    }
+  }

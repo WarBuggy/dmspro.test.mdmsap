@@ -1,0 +1,10 @@
+{
+  "Entity": "UomMaster",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HOP",
+    "Name": "LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12LONLONLONLONLONLON12",
+    "UomEntry": "5"
+  }
+}

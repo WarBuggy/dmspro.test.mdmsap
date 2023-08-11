@@ -1,0 +1,13 @@
+{
+  "Entity": "AttributeConfig",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "1",
+    "Name": "Thời gian hợp tác",
+    "Active": "Y",
+    "AttributeNumber": "1",
+    "HierarchyLevel": null,
+    "Type": "DC"
+  }
+}

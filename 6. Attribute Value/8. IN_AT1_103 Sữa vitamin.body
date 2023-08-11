@@ -1,0 +1,15 @@
+{
+  "Entity": "AttributeValues",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "IN_AT1_103",
+    "Name": "Sữa bổ sung vitamin",
+    "Active": "N",
+    "AttributeNumber": "1",
+    "Type": "IN",
+    "ParentCode": null,
+    "ValueCode": null,
+    "ShortName": null
+  }
+}

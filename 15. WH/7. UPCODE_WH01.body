@@ -1,0 +1,20 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "Warehouse",
+  "Data": {
+    "Code": "WH01",
+    "Name": null,
+    "CompanyCode": "IDP02",
+    "BranchCode": "BRANCH02",
+    "Type": "V",
+    "Address": null,
+    "CountryCode": null,
+    "RegionCode": null,
+    "ProvinceCode": null,
+    "DistrictCode": null,
+    "WardCode": null,
+    "Street": null,
+    "Active": "Y"
+  }
+}

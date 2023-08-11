@@ -1,0 +1,10 @@
+  
+{
+  "MessageId": "907",
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "Item",
+  "Data": {
+    "Code": "SK003"
+  }
+}

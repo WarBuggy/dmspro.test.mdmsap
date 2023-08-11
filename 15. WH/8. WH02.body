@@ -1,0 +1,20 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Warehouse",
+  "Data": {
+    "Code": "WH02",
+    "Name": "Kho hàng phụ 2",
+    "CompanyCode": "IDP01",
+    "BranchCode": "BRANCH01",
+    "Type": "I",
+    "Address": "10",
+    "CountryCode": "VN",
+    "RegionCode": "MN",
+    "ProvinceCode": "HCM",
+    "DistrictCode": "Q3",
+    "WardCode": "P3Q3",
+    "Street": "Cống Quỳnh",
+    "Active": "Y"
+  }
+}

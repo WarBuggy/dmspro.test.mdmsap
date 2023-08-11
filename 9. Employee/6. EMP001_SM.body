@@ -1,0 +1,14 @@
+ {
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Salesman",
+  "Data": {
+    "SlpCode": "1",
+    "Name": "Le Van Anh",
+    "Mobile": "0900000901",
+    "Fax": "11111",
+    "Email": "levananh@gmail.com",
+    "Code": "EMP001",
+    "SalesmanType": "SM"
+  }
+}

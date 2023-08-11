@@ -1,0 +1,76 @@
+{
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "SalesTerritory",
+  "Data": {
+    "Code": "MT1",
+    "Name": "Kênh thương mại điện tử 1",
+    "CountryCode": "VN",
+    "Channel": "MT1",
+    "Active": "Y",
+    "Status": "R",
+    "EmployeeCode": "EMP003",
+    "SalesTerritoryHierarchy": [
+      {
+        "Code": "MT1",
+        "LineId": "1",
+        "Level": "0",
+        "LevelCode": "SubCountry",
+        "LevelName": "SubCountry",
+        "Active": "Y",
+        "ParentCode": null,
+        "LastLevel": "N",
+        "PositionName": "Phụ trách SubCountry",
+        "IsSalesGroup": "N"
+      }, 
+      {
+        "Code": "MT1",
+        "LineId": "2",
+        "Level": "1",
+        "LevelCode": "Region",
+        "LevelName": "Region",
+        "Active": "Y",
+        "ParentCode": "SubCountry",
+        "LastLevel": "Y",
+        "PositionName": "Phụ trách Region",
+        "IsSalesGroup": "N"
+      }
+    ],
+    "SaleTerritoryValues": [
+      {
+        "Code": "MT1",
+        "LineId": "1",
+        "Level": "0",
+        "ValueCode": "MB",
+        "ValueName": "Miền Bắc",
+        "Active": "Y",
+        "ParentCode": null,
+        "LastLevel": "N"
+      },
+      {
+        "Code": "MT1",
+        "LineId": "2",
+        "Level": "1",
+        "ValueCode": "HN",
+        "ValueName": "Hà Nội",
+        "Active": "Y",
+        "ParentCode": "MB",
+        "LastLevel": "Y"
+      }
+    ],
+    "SaleTerritoryAssignment": [
+      {
+        "EmployeeAssignmentCode": "1",
+        "EmployeeCode": "EMP003",
+        "SalesTerritoryValue": "HN",
+        "SalesTerritoryValueName": "Hà Nội",
+        "SalesTerritoryCode": "MT1",
+        "SalesTerritoryLevel": "1",
+        "SalesTerritoryLevelName": "Region",
+        "IsBase": "Y",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2023-12-01T00:00:00Z"
+      }
+    ]
+  }
+}

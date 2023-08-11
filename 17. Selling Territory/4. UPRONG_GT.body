@@ -1,0 +1,54 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "SalesTerritory",
+  "Data": {
+    "Code": "GT",
+    "Name": "Kênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền1111",
+    "CountryCode": "VN",
+    "Channel": "GT",
+    "Active": "N",
+    "Status": "N",
+    "EmployeeCode": "EMP001",
+    "SalesTerritoryHierarchy": [
+      {
+        "Code": "GT",
+        "LineId": "1",
+        "Level": null,
+        "LevelCode": "SubCountry",
+        "LevelName": null,
+        "Active": "Y",
+        "ParentCode": null,
+        "LastLevel": "N",
+        "PositionName": null,
+        "IsSalesGroup": "N"
+      }
+    ],
+    "SaleTerritoryValues": [
+      {
+        "Code": "GT",
+        "LineId": "1",
+        "Level": null,
+        "ValueCode": "MN",
+        "ValueName": null,
+        "Active": "Y",
+        "ParentCode": null,
+        "LastLevel": "N"
+      }
+    ],
+    "SaleTerritoryAssignment": [
+      {
+        "EmployeeAssignmentCode": "1",
+        "EmployeeCode": "EMP001",
+        "SalesTerritoryValue": "HCM",
+        "SalesTerritoryValueName": null,
+        "SalesTerritoryCode": "GT",
+        "SalesTerritoryLevel": "2",
+        "SalesTerritoryLevelName": null,
+        "IsBase": "Y",
+        "EffectiveDate": null,
+        "EndDate": null
+      }
+    ]
+  }
+} 

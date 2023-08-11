@@ -1,0 +1,35 @@
+  
+{
+  "MessageId": "208",
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "UomGroup",
+  "Data":{
+     "UgpEntry": "10004",
+     "Code": "UOMGR04",
+     "Name": "Nhóm đơn vị 4",
+     "BaseUomCode": "CHAI",
+     "UomGroupDetail": [
+       {
+        "UgpEntry": "10004",
+        "UomEntry": "1",
+        "AltQty": "1",
+        "BaseQty": "1",
+        "IsActive": "Y",
+        "LineNum": "1",
+        "UomGroupCode": "UOMGR04",
+        "UomCode": "CHAI"
+      },
+      {
+        "UgpEntry": "10004",
+        "UomEntry": "2",
+        "AltQty": "1",
+        "BaseQty": "6",
+        "IsActive": "Y",
+        "LineNum": "2",
+        "UomGroupCode": "UOMGR04",
+        "UomCode": "LOC"
+      }
+    ]
+  }
+ }  

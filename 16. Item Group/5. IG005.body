@@ -1,0 +1,31 @@
+{
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "ItemGroup",
+      "Data": {
+        "Code": "IG005",
+        "Name": "Nhóm sản phẩm 5",
+        "ApplyFor": "P",
+        "IsDefaultUom": "Y",
+        "DefaultUomBy": "C",
+        "Type": "0",
+        "SellingCategoryCode": "SC002",
+        "ItemGroupList": null,
+        "ItemGroupAttribute": [
+          {
+            "Code": "IG005",
+            "LineId": "1",
+            "AttValID0": "IN_AT0_002",
+            "AttValID1": null,
+            "AttValId2": null,
+            "AttValId3": null,
+            "AttValId4": null,
+            "AttValId5": null,
+            "AttValId6": null,
+            "AttValId7": null,
+            "AttValId8": null,
+            "AttValId9": null
+          }
+        ]
+      }
+    }

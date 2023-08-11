@@ -1,0 +1,17 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "PriceList",
+  "Data": {
+    "ListNum": "2",
+    "PriceListCode": "PL01",
+    "PriceListName": "Bảnggiá011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+    "ValidFor": "N",
+    "ValidFrom": null,
+    "ValidTo": null,
+    "BaseListNum": "1",
+    "IsGrossPrice": "Y",
+    "Factor": "1.2",
+    "BasePriceListCode": "BPL"
+  }
+}

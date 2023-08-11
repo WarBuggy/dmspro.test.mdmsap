@@ -1,0 +1,10 @@
+  
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "SalesmanType",
+  "Data": {
+    "Code": "NSM",
+    "Name": "No Saleman"
+  }
+}

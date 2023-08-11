@@ -1,0 +1,21 @@
+{
+  "MessageId": "1208",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "CustomerGroup",
+  "Data": {
+    "Code": "KHNL",
+    "Name": "Khách hàng nhỏ lẻ",
+    "CusGroupType": "L",
+    "Status": "Y",
+    "CusType": "C",
+    "CustomerGroupAttribute": null,
+    "CustomerGroupList": [
+      {
+        "Code": "KHNL",
+        "LineId": "1",
+        "ObjectCode": "THCB"
+      }
+    ]   
+  }
+}

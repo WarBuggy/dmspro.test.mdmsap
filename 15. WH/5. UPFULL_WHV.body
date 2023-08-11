@@ -1,0 +1,20 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "Warehouse",
+  "Data": {
+    "Code": "WHV",
+    "Name": "Kho hàng Van",
+    "CompanyCode": "IDP01",
+    "BranchCode": "BRANCH01",
+    "Type": "V",
+    "Address": "345",
+    "CountryCode": "VN",
+    "RegionCode": "MN",
+    "ProvinceCode": "HCM",
+    "DistrictCode": "Q1",
+    "WardCode": "PBNQ1",
+    "Street": "Nguyễn Huệ",
+    "Active": "Y"
+  }
+}

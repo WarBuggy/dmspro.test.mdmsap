@@ -1,0 +1,31 @@
+ {
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Entity": "ItemGroup",
+      "Data": {
+        "Code": "IG005",
+        "Name": null,
+        "ApplyFor": "P",
+        "IsDefaultUom": "Y",
+        "DefaultUomBy": "C",
+        "Type": "0",
+        "SellingCategoryCode": null,
+        "ItemGroupList": null,
+        "ItemGroupAttribute": [
+          {
+            "Code": "IG005",
+            "LineId": "1",
+            "AttValID0": null,
+            "AttValID1": null,
+            "AttValId2": null,
+            "AttValId3": null,
+            "AttValId4": null,
+            "AttValId5": null,
+            "AttValId6": null,
+            "AttValId7": null,
+            "AttValId8": null,
+            "AttValId9": null
+          }
+        ]
+      }
+    }

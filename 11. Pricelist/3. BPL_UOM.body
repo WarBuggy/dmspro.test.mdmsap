@@ -1,0 +1,55 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "ItemUomPrices",
+  "Data": [
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "7000",
+      "PriceListCode": "BPL",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "42000",
+      "PriceListCode": "BPL",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "168000",
+      "PriceListCode": "BPL",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "8000",
+      "PriceListCode": "BPL",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "48000",
+      "PriceListCode": "BPL",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "192000",
+      "PriceListCode": "BPL",
+      "UomCode": "THUNG"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "ItemPrices",
+  "Data":
+    [
+     {
+      "ItemCode": "SK002",
+      "PriceListNum": "3",
+      "UomEntry": "1",
+      "Price": null,
+      "PriceListCode": "PL02",
+      "UomCode": "CHAI"
+    }
+  ]
+}

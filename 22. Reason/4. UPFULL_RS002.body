@@ -1,0 +1,11 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "Reason",
+  "Data": {
+    "Code": "RS002",
+    "Name": "Khách đi vắng",
+    "Module": "SO",
+    "Active": "Y" 
+  }
+}  

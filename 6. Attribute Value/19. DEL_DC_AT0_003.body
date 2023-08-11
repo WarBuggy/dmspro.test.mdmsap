@@ -1,0 +1,16 @@
+{
+  "Entity": "AttributeValues",
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "DC_AT0_003",
+    "Name": "Khách vãng lai",
+    "Active": "Y",
+    "AttributeNumber": "0",
+    "Type": "DC",
+    "ParentCode": null,
+    "ValueCode": null,
+    "ShortName": null  
+  }
+}
+

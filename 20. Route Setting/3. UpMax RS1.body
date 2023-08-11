@@ -1,0 +1,61 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "RouteSetting",
+  "Data": {
+    "Code": "RS001",
+    "Name": "Kế hoạch viếng thăm quận 3 tháng 8Kế hoạch viếng thăm quận 3 tháng 8Kế hoạch viếng thăm quận 3 tháng",
+    "RouteMasterCode": "KVQ3",
+    "SalesmanCode": "EMP001",
+    "EffectiveDate": "2023-08-01T00:00:00+07:00",
+    "EndDate": "2023-08-31T00:00:00+07:00",
+    "RouteSettingDetail":[
+      {
+        "Code": "RS001",
+        "LineId": "1",
+        "CustomerCode": "BHX",
+        "BranchCode": "BRANCH",
+        "ShipToCode": "BHX",
+        "CompanyCode": "IDP",
+        "EffectiveDate": "2023-08-01T00:00:00+07:00",
+        "EndDate": "2023-08-31T00:00:00+07:00",
+        "Monday": "Y",
+        "Tuesday": "Y",
+        "Wednesday": "Y",
+        "Thursday": "Y",
+        "Friday": "Y",
+        "Saturday": "Y",
+        "Sunday": "Y",
+        "Week1": "Y",
+        "Week2": "Y",
+        "Week3": "Y",
+        "Week4": "Y",
+        "VisitOrder": "1",
+        "CustomerType": "Khách VIP1"
+      },
+        {
+          "Code": "RS001",
+          "LineId": "2",
+          "CustomerCode": "BHX01",
+          "BranchCode": "BRANCH01",
+          "ShipToCode": "BHX01",
+          "CompanyCode": "IDP01",
+          "EffectiveDate": "2023-08-01T00:00:00+07:00",
+          "EndDate": "2023-08-31T00:00:00+07:00",
+          "Monday": "Y",
+          "Tuesday": "Y",
+          "Wednesday": "Y",
+          "Thursday": "Y",
+          "Friday": "Y",
+          "Saturday": "Y",
+          "Sunday": "Y",
+          "Week1": "Y",
+          "Week2": "Y",
+          "Week3": "Y",
+          "Week4": "Y",
+          "VisitOrder": "2",
+          "CustomerType": null
+      }
+    ]
+  }
+}

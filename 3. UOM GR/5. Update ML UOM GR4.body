@@ -1,0 +1,23 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "UomGroup",
+  "Data":{
+     "UgpEntry": "10004",
+     "Code": "UOMGR04",
+     "Name": "Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị 4 Nhóm đơn vị nhóm",
+     "BaseUomCode": "CHAI",
+     "UomGroupDetail": [
+       {
+        "UgpEntry": "10004",
+        "UomEntry": "1",
+        "AltQty": "1111111111111",
+        "BaseQty": "1111111111111",
+        "IsActive": "Y",
+        "LineNum": "1",
+        "UomGroupCode": "UOMGR04",
+        "UomCode": "CHAI"
+      }
+     ]
+   }
+  }

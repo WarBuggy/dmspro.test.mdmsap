@@ -1,0 +1,15 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "Employee",
+  "Data": {
+    "empID": "3",
+    "lastName": "Nguyen",
+    "firstName": "Tuan",
+    "middleName": null,
+    "position": "2",
+    "Code": "EMP003",
+    "Active": "Y",
+    "mobile": "0909090909"
+  }
+}

@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "District",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "Q1",
+    "Name": "Quận 1",
+    "ProvinceCode": "HCM",
+    "Active": "Y"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Entity": "BranchSetup",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "BRANCH03",
+    "Name": "BRANCH03",
+    "BPLID": null,
+    "CompanyCode": "IDP01",
+    "Email": null,
+    "ERPCode": null,
+    "ForeignName": null,
+    "CountryCode": null,
+    "RegionCode": null,
+    "ProvinceCode": null,
+    "DistrictCode": null,
+    "WardCode": null,
+    "WhsCode1": null,
+    "WhsCode2": null,
+    "WhsCode3": null,
+    "Active": "N",
+    "ContactPerson": null
+  }
+}

@@ -1,0 +1,18 @@
+{
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "SellingCategory",
+      "Data": {
+        "Code": "SC002",
+        "Name": null,
+        "SellingCategoryDetail": [
+      {
+        "Code": "SC002",
+        "LineId": "1",
+        "AttributeNumber": null,
+        "AttributeValueCode": null,
+        "AttributeValueName": null
+      }
+    ]
+    }
+ }

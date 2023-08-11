@@ -1,0 +1,11 @@
+  {
+    "Action": "Update",
+    "TenantName": "IDP",
+    "Entity": "VATGroup",
+    "Data": {
+      "Code": "VAT10",
+      "Name": "VAT10VATVAT10VATVAT10VATVAT10VATVAT10VATVAT10VATVA",
+      "Rate": "1000000000000",
+      "EffectiveDate": null
+    }
+  }

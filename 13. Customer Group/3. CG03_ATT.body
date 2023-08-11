@@ -1,0 +1,14 @@
+ { 
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHVIP1",
+        "Name": null,
+        "CusGroupType": "G",
+        "Status": "N",
+        "CusType": "D",
+        "CustomerGroupList": null,
+        "CustomerGroupAttribute": null
+        }
+      }   

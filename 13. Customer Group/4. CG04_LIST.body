@@ -1,0 +1,20 @@
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHNL",
+        "Name": null,
+        "CusGroupType": "L",
+        "Status": "N",
+        "CusType": "D",
+        "CustomerGroupAttribute": null,
+        "CustomerGroupList": [
+          {
+            "Code": "KHNL",
+            "LineId": "1",
+            "ObjectCode": null
+          }
+        ]   
+      }
+    }

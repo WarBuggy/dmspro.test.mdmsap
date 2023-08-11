@@ -1,0 +1,16 @@
+{
+  "Entity": "AttributeValues",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "IN_AT1_102",
+    "Name": "Sữa bổ sung canxi",
+    "Active": "N",
+    "AttributeNumber": "1",
+    "Type": "IN",
+    "ParentCode": "IN_AT0_001",
+    "ValueCode": "102",
+    "ShortName": "Sữa bổ sung canxi"  
+  }
+}
+

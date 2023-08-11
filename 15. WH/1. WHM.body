@@ -1,0 +1,20 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Warehouse",
+  "Data": {
+    "Code": "WHM",
+    "Name": "Kho hàng chính",
+    "CompanyCode": "IDP",
+    "BranchCode": "BRANCH",
+    "Type": "N",
+    "Address": "100",
+    "CountryCode": "VN",
+    "RegionCode": "MN",
+    "ProvinceCode": "HCM",
+    "DistrictCode": "Q3",
+    "WardCode": "P3Q3",
+    "Street": "Cống Quỳnh",
+    "Active": "Y"
+  }
+}

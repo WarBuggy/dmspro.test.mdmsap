@@ -1,0 +1,14 @@
+{
+  "Entity": "AttributeConfig",
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "3",
+    "Name": "Nhóm sản phẩm phụ",
+    "Active": "Y",
+    "AttributeNumber": "1",
+    "HierarchyLevel": "1",
+    "Type": "IN"
+  }
+}
+

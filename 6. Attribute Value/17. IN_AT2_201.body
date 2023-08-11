@@ -1,0 +1,16 @@
+{
+  "Entity": "AttributeValues",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "IN_AT2_201",
+    "Name": "Nguyên bản",
+    "Active": "Y",
+    "AttributeNumber": "2",
+    "Type": "IN",
+    "ParentCode": null,
+    "ValueCode": "201",
+    "ShortName": "Nguyên bản"  
+  }
+}
+

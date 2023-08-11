@@ -1,0 +1,21 @@
+{ 
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Warehouse",
+      "Data": 
+        {
+          "Code": "WHV",
+          "Name": null,
+          "CompanyCode": "IDP01",
+          "BranchCode": null,
+          "Type": "V",
+          "Address": null,
+          "CountryCode": null,
+          "RegionCode": null,
+          "ProvinceCode": null,
+          "DistrictCode": null,
+          "WardCode": null,
+          "Street": null,
+          "Active": "N"
+        }
+    }

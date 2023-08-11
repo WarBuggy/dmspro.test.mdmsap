@@ -1,0 +1,11 @@
+  
+{
+  "Action": "Delete",
+  "TenantName": "IDP",
+  "Entity": "Salesman",
+  "Data": {
+    "SlpCode": "4",
+    "Code": "EMP004",
+    "SalesmanType": "SM"
+  }
+}

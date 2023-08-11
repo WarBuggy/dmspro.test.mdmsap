@@ -1,0 +1,17 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "PriceList",
+  "Data": {
+    "ListNum": "3",
+    "PriceListCode": "PL02",
+    "PriceListName": "Bảng giá 02",
+    "ValidFor": "N",
+    "ValidFrom": null,
+    "ValidTo": null,
+    "BaseListNum": null,
+    "IsGrossPrice": "N",
+    "Factor": null,
+    "BasePriceListCode": null
+  }
+}
