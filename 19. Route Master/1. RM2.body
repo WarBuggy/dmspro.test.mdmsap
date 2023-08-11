@@ -1,0 +1,43 @@
+{
+    "Action": "Create",
+    "TenantName": "IDP",
+    "Entity": "RouteMaster",
+    "Data": {
+        "Code": "RM2",
+        "Name": "Khu vực quận 3",
+        "Channel": "GT",
+        "IsGPSLock": "N",
+        "SellingCategoryCode": "SC001",
+        "IsFullVisitOutRoute": "N",
+        "SalesTerritoryCode": "GT",
+        "IsGPSOutRouteLock": "N",
+        "SalesAreaCode": "Q3",
+        "SalesGroup": null,
+        "SellingZoneCode": "SZ001",
+        "IsCheckIn": "N",
+        "IsOutRoute": "N",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2023-12-01T00:00:00Z",
+        "Distance": "100",
+        "RouteType": "U",
+        "IsAllowOfflineMode": "N",
+        "RouteSalemanAssignment": [
+            {
+                "Code": "RM2",
+                "LineId": "1",
+                "SalesmanCode": "EMP002",
+                "EffectiveDate": "2023-07-01T00:00:00Z",
+                "EndDate": "2023-12-01T00:00:00Z"
+            }
+        ],
+        "RouteSupervisorAssignment": [
+            {
+                "Code": "RM2",
+                "LineId": "1",
+                "EmployeeCode": "EMP001",
+                "EffectiveDate": "2023-07-01T00:00:00Z",
+                "EndDate": "2023-12-01T00:00:00Z"
+            }
+        ]
+    }
+}
