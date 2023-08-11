@@ -3,7 +3,7 @@
   "TenantName": "IDP",
   "Entity": "RouteMaster",
   "Data": {
-    "Code": "RM3",
+    "Code": "RM5",
     "Name": "Khu vực phường 3Khu vực phường 3Khu vực phường 3Khu vực phường 3Khu vực phường 3vực phường 3Khu vực1",
     "Channel": "GT",
     "IsGPSLock": "Y",
@@ -23,7 +23,7 @@
     "IsAllowOfflineMode": "Y",
     "RouteSalemanAssignment": [
       {
-        "Code": "RM3",
+        "Code": "RM5",
         "LineId": "1",
         "SalesmanCode": "EMP003",
         "EffectiveDate": "2023-07-01T00:00:00Z",
@@ -32,7 +32,7 @@
     ],
     "RouteSupervisorAssignment": [
       {
-        "Code": "RM3",
+        "Code": "RM5",
         "LineId": "1",
         "EmployeeCode": "EMP002",
         "EffectiveDate": "2023-07-01T00:00:00Z",

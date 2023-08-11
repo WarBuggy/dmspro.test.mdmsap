@@ -5,7 +5,7 @@
   "Data": {
     "Code": "RS001",
     "Name": "RS001",
-    "RouteMasterCode": "RM001",
+    "RouteMasterCode": "RM1",
     "SalesmanCode": "EMP002",
     "EffectiveDate": "2023-08-01T00:00:00Z",
     "EndDate": "2023-08-31T00:00:00Z",

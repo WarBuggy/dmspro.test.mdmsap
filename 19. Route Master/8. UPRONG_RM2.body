@@ -1,0 +1,43 @@
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "RouteMaster",
+  "Data": {
+    "Code": "RM2",
+    "Name": null,
+    "Channel": null,
+    "IsGPSLock": "N",
+    "SellingCategoryCode": null,
+    "IsFullVisitOutRoute": "N",
+    "SalesTerritoryCode": null,
+    "IsGPSOutRouteLock": "N",
+    "SalesAreaCode": null,
+    "SalesGroup": null,
+    "SellingZoneCode": null,
+    "IsCheckIn": "N",
+    "IsOutRoute": "N",
+    "EffectiveDate": null,
+    "EndDate": null,
+    "Distance": null,
+    "RouteType": "U",
+    "IsAllowOfflineMode": "N",
+    "RouteSalemanAssignment": [
+      {
+        "Code": "RM2",
+        "LineId": "1",
+        "SalesmanCode": null,
+        "EffectiveDate": null,
+        "EndDate": null
+      }
+    ],
+    "RouteSupervisorAssignment": [
+      {
+        "Code": "RM2",
+        "LineId": "1",
+        "EmployeeCode": null,
+        "EffectiveDate": null,
+        "EndDate": null
+      }
+    ]
+  }
+}
