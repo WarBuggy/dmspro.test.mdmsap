@@ -10,7 +10,7 @@
         "DefaultUomBy": "C",
         "Type": "0",
         "SellingCategoryCode": "SC002",
-        "ItemGroupList": null,
+        "ItemGroupDetail": null,
         "ItemGroupAttribute": [
           {
             "Code": "IG005",

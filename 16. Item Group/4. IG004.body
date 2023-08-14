@@ -11,7 +11,7 @@
         "Type": "-1",
         "SellingCategoryCode": null,
         "ItemGroupAttribute": null,
-        "ItemGroupList": [
+        "ItemGroupDetail": [
           {
             "Code": "IG004",
             "LineId": "1",
