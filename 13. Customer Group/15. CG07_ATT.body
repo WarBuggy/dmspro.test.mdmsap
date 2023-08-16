@@ -1,10 +1,10 @@
-    { 
+{ 
       "Action": "Create",
       "TenantName": "IDP",
       "Entity": "CustomerGroup",
       "Data": {
         "Code": "KHVIP3",
-        "Name": "Khách hàng VIP",
+        "Name": "Khách hàng VIP 3",
         "CusGroupType": "G",
         "Status": "N",
         "CusType": "C",

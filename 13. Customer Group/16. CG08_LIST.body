@@ -4,7 +4,7 @@
   "Entity": "CustomerGroup",
   "Data": {
     "Code": "KHTT2",
-    "Name": "Khách hàng thân thiết",
+    "Name": "Khách hàng thân thiết 2",
     "CusGroupType": "L",
     "Status": "N",
     "CusType": "C",

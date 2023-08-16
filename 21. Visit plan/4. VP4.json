@@ -15,9 +15,9 @@
           "CompanyCode": "IDP",
           "BranchCode": "BRANCH",
           "VisitOrder": 0,
-          "CreatedDateTime": null,
-          "VisitType": null,
-          "VisitOutletType": null
+          "CreatedDateTime": "2023-08-01T00:00:00Z",
+          "VisitType": "Online",
+          "VisitOutletType": "D"
         }
       ]
     }

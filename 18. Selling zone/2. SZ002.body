@@ -1,0 +1,39 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "SellingZone",
+  "Data": {
+    "Code": "SZ002",
+    "Name": null,
+    "SalesAreaCode": null,
+    "SalesTerritoryCode": null,
+    "Status": "Open",
+    "SellingZoneDetail": [
+      {
+        "Code": "SZ002",
+        "LineId": "1",
+        "GeoType": "P",
+        "GeoCode": null,
+        "EffectiveDate": null,
+        "EndDate": null
+      }
+    ],
+    "SellingZoneBranchAssignment": [
+      {
+        "Code": "SZ002",
+        "LineId": "1",
+        "CompanyCode": null,
+        "BranchCode": null,
+        "EffectiveDate": null,
+        "EndDate": null
+      }
+    ],
+    "SellingZoneEmployeeAssignment": [
+      {
+        "Code": "SZ002",
+        "LineId": "1",
+        "EmployeeCode": null
+      }
+    ]
+  }
+}

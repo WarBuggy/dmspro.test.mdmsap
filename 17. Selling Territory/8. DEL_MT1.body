@@ -60,7 +60,7 @@
     ],
     "SaleTerritoryAssignment": [
       {
-        "EmployeeAssignmentCode": "1",
+        "EmployeeAssignmentCode": "4",
         "EmployeeCode": "EMP003",
         "SalesTerritoryValue": "HN",
         "SalesTerritoryValueName": "Hà Nội",

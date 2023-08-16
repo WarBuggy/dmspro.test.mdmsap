@@ -1,5 +1,4 @@
 {
-  "MessageId": "1208",
   "Action": "Update",
   "TenantName": "IDP",
   "Entity": "CustomerGroup",
@@ -11,11 +10,16 @@
     "CusType": "C",
     "CustomerGroupAttribute": null,
     "CustomerGroupList": [
-      {
-        "Code": "KHNL",
-        "LineId": "1",
-        "ObjectCode": "THCB"
-      }
-    ]   
-  }
+   {
+    "Code": "KHNL",
+    "LineId": "1",
+    "ObjectCode": "THCB"
+   },
+   {
+    "Code": "KHNL",
+    "LineId": "2",
+    "ObjectCode": "THSGX"
+   }
+]   
+}
 }
