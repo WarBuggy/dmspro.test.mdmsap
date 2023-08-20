@@ -8,8 +8,6 @@
 	<BusReceiveFrom>oms_out</BusReceiveFrom>
 	<!-- Send to this -->
 	<BusSendTo>sap_out</BusSendTo>
-	<!-- Consume out message -->
-	<ConsumeOutputMessage>true</ConsumeOutputMessage>
 	<!-- Wait amount of time after receive output message -->
 	<!-- to make sure entities are inserted into database -->
 	<WaitAfterOutputMessage>10</WaitAfterOutputMessage>
@@ -33,7 +31,7 @@
 	<!-- Result directory -->
 	<ResultDirectory>Docs\Result</ResultDirectory>
 	<!-- Inbox Subject Filter -->
-	<InboxSubjectFilter>DMSpro.OMS.MdmSapService.BaseOmsEto</InboxSubjectFilter>
+	<InboxSubjectFilter>DMSpro.OMS.Shared.Domain.ExternalEntities.BaseOmsEto</InboxSubjectFilter>
 	<!-- Outbox Subject Filter -->
 	<OutboxSubjectFilter>DMSpro.OMS.MdmSapService.BaseSapEto</OutboxSubjectFilter>
 	<!-- Ignore properties when compare record and output message -->
