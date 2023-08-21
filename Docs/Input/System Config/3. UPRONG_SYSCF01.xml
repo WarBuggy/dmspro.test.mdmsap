@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPRONG_SYSCF01</Name>
+	<Description>UPRONG_SYSCF01</Description>
+	<OutputName>UPRONG_SYSCF01</OutputName>
+	<Entity>SystemConfig</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPRONG_SYSCF01</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SystemConfigs];</string>
+  </RunSqlCommands>
+	<Body>
+{
+  "Action": "Update",
+  "TenantName": "IDP",
+  "Entity": "SystemConfig",
+  "Data": {
+    "Code": "SYSCF01",
+    "Name": null,
+    "IncentiveItem": null,
+    "RTOrderConfirmBy": null,
+    "SalesDate": null,
+    "IsManageCrate":null,
+    "LimitBaseLine": null,
+    "UpdateDeliDateBy":null,
+    "OrdProcessDay": null,
+    "IsCheckGPSQR": null,
+    "PaymentConf": null,
+    "CancelBaseline": null,
+    "isConfigWS": null,
+    "AssignCus": null,
+    "AttConfigNbr": null,
+    "UpdatePrice": null,
+    "AttValue": null,
+    "SyncItem": null,
+    "PayConf": null,
+    "AlwCreatePastDoc": null,
+    "AlwChangeDocDate": null,
+    "IsAllowExceedCreditLimit": null,
+    "CusForDis": null,
+    "Type": null,
+    "MonthCloseDate": null,
+    "Attribute": null,
+    "AlwCMOutMonth": null,
+    "IsAllowsyncingimagesvsbPRO": null,
+    "MCPApprBy": null,
+    "BrComSFA": null,
+    "isMCPAppr": null,
+    "BrCompeSFA": null,
+    "KPIApprBy": null,
+    "DMSModelType": null,
+    "isKPIAppr": null,
+    "TaxDirect": null,
+    "isHOAppr": null,
+    "TaxIndirect": null,
+    "HOSM": null,
+    "IsAllocateDC": null,
+    "DefSUFactor": null,
+    "IsRTPInteg": null,
+    "SUFactor": null,
+    "SalesProcess": null,
+    "IsMBLProject": null,
+    "IsAccruSOManual":null,
+    "IncPromMoney":null,
+    "AccruSOType":null,
+    "IsAutoPOSM":null,
+    "RevenueBy":null
+  }
+}
+	</Body>
+</TestInfo>

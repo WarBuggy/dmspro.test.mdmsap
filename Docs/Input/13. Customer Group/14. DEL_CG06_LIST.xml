@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_CG06_LIST</Name>
+	<Description>DEL_CG06_LIST</Description>
+	<OutputName>DEL_CG06_LIST</OutputName>
+	<Entity>CustomerGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>DEL_CG06_LIST</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupLists];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupAttributes];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroups];</string>
+  </RunSqlCommands>
+	<Body>   
+    {
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHTT1",
+        "Name": "Khách hàng thân thiết 1",
+        "CusGroupType": "L",
+        "Status": "Y",
+        "CusType": "C",
+        "CustomerGroupAttribute": null,
+        "CustomerGroupList": [
+          {
+            "Code": "KHTT1",
+            "LineId": "1",
+            "ObjectCode": "BHX01"
+          }, 
+          {
+            "Code": "KHTT1",
+            "LineId": "2",
+            "ObjectCode": "THCB"
+          }
+        ]   
+      }
+    }
+	</Body>
+</TestInfo>

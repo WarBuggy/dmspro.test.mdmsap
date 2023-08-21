@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_RS003</Name>
+	<Description>DEL_RS003</Description>
+	<OutputName>DEL_RS003</OutputName>
+	<Entity>Reason</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>DEL_RS003</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[Reasons];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Entity": "Reason",
+      "Data": {
+        "Code": "RS003",
+        "Name": "Khách không nhận hàngKhách không nhận hàngKhách không nhận hàngKhách không nhận hàngKhách không nhận",
+        "Module": "SO",
+        "Active": "N" 
+      }
+    }      
+	</Body>
+</TestInfo>

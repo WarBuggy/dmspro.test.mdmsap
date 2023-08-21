@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>DEL_EMP004_MG</Name>
+	<Description>DEL_EMP004_MG</Description>
+	<OutputName>DEL_EMP004_MG</OutputName>
+	<Entity>Employee</Entity>
+	<MaxWaitTime>20</MaxWaitTime>
+	<MessageIdPrefix>DEL_EMP004_MG</MessageIdPrefix>
+	<Body>
+
+    {
+      "Action": "Delete",
+      "TenantName": "IDP",
+      "Entity": "Employee",
+      "Data": {
+        "empID": "4",
+        "lastName": null,
+        "firstName": null,
+        "middleName": null,
+        "position": "1",
+        "Code": "EMP004",
+        "Active": "N",
+        "mobile": null
+      }
+    }
+
+	</Body>
+</TestInfo>

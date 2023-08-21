@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>SZ002</Name>
+	<Description>SZ002</Description>
+	<IgnoreFields>
+		<string>SellingZone:saleTerritoryValueId</string>
+		<string>SellingZoneDetail:geoMasterId,sellingZoneId,id</string>
+		<string>SellingZoneBranchAssignment:companyId,branchId,sellingZoneId,id</string>
+		<string>SellingZoneEmployeeAssignment:employeeId,sellingZoneId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "SellingZone",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "SZ002",
+			  "name": null,
+			  "salesAreaCode": null,
+			  "salesTerritoryCode": null,
+			  "status": "Open",
+			  "sellingZoneDetail": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ002",
+				  "lineId": 1,
+				  "geoType": "P",
+				  "geoCode": null,
+				  "effectiveDate": null,
+				  "endDate": null
+				}
+			  ],
+			  "sellingZoneBranchAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ002",
+				  "lineId": 1,
+				  "companyCode": null,
+				  "branchCode": null,
+				  "effectiveDate": null,
+				  "endDate": null
+				}
+			  ],
+			  "sellingZoneEmployeeAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ002",
+				  "lineId": 1,
+				  "employeeCode": null
+				}
+			  ]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

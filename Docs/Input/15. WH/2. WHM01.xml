@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>WH01</Name>
+	<Description>WH01</Description>
+	<OutputName>WH01</OutputName>
+	<Entity>Warehouse</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>WH01</MessageIdPrefix>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Warehouse",
+      "Data": {
+        "Code": "WH01",
+        "Name": "Kho hàng phụ",
+        "CompanyCode": "IDP01",
+        "BranchCode": "BRANCH01",
+        "Type": "N",
+        "Address": "10",
+        "CountryCode": "VN",
+        "RegionCode": "MN",
+        "ProvinceCode": "HCM",
+        "DistrictCode": "Q3",
+        "WardCode": "P3Q3",
+        "Street": "Cống Quỳnh",
+        "Active": "Y"
+      }
+    } 
+	</Body>
+</TestInfo>

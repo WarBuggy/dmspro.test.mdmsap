@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>RM6</Name>
+	<Description>RM6</Description>
+	<OutputName>RM6</OutputName>
+	<Entity>RouteMaster</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>RM6</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[RouteSalemanAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[RouteSupervisorAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[RouteMasters];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "RouteMaster",
+      "Data": {
+        "Code": "RM6",
+        "Name": null,
+        "Channel": null,
+        "IsGPSLock": "N",
+        "SellingCategoryCode": null,
+        "IsFullVisitOutRoute": "N",
+        "SalesTerritoryCode": null,
+        "IsGPSOutRouteLock": "N",
+        "SalesAreaCode": null,
+        "SalesGroup": null,
+        "SellingZoneCode": null,
+        "IsCheckIn": "N",
+        "IsOutRoute": "N",
+        "EffectiveDate": null,
+        "EndDate": null,
+        "Distance": null,
+        "RouteType": "O",
+        "IsAllowOfflineMode": "N",
+        "RouteSalemanAssignment": [
+          {
+            "Code": "RM6",
+            "LineId": "1",
+            "SalesmanCode": null,
+            "EffectiveDate": null,
+            "EndDate": null
+          }
+        ],
+        "RouteSupervisorAssignment": [
+          {
+            "Code": "RM6",
+            "LineId": "1",
+            "EmployeeCode": null,
+            "EffectiveDate": null,
+            "EndDate": null
+          }
+        ]
+      }
+    }
+	</Body>
+</TestInfo>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>BHX02</Name>
+	<Description>BHX02</Description>
+	<IgnoreFields>
+		<string>CustomerMasterData:priceListId,vatId,parentId</string>
+		<string>CustomerAddress:customerId,id</string>
+		<string>CustomerAttribute:shiptoId,branchId,shipToId,customerId,id</string>
+		<string>CustomerCompanyAssignment:shipToId,customerId,id</string>
+	</IgnoreFields>
+	<ForcedNameFields>
+		<string>erpCusCode:ERPCusCode</string>
+		<string>sfaCusCode:SFACusCode</string>
+		<string>sfaShipCode:sFAShipCode</string>
+		<string>erpShipCode:eRPShipCode</string>
+	</ForcedNameFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Customer",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"code": "BHX02",
+				"name": "Bách hóa xanh 02",
+				"foreignName": null,
+				"contactPerson": null,
+				"active": "Y",
+				"creditLimit": null,
+				"email": null,
+				"erpCusCode": null,
+				"fax": null,
+				"fedTaxID": null,
+				"validFrom": null,
+				"validTo": null,
+				"sfaCusCode": null,
+				"phone2": null,
+				"phone1": null,
+				"priceListCode": null,
+				"parentCode": null,
+				"paymentGroup": null,
+				"taxGroupCode": null,
+				"customerAddress": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "BHX02",
+						"lineId": 1,
+						"shipToCode": "BHX02",
+						"shipToName": null,
+						"address": null,
+						"regionCode": null,
+						"provinceCode": null,
+						"districtCode": null,
+						"wardCode": null,
+						"latitude": null,
+						"longtitude": null,
+						"sfaShipCode": null,
+						"erpShipCode": null,
+						"type": "C",
+						"regionName": null,
+						"provinceName": null,
+						"districtName": null,
+						"wardName": null
+					}
+				],
+				"customerAttribute": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "BHX02",
+						"lineId": 1,
+						"shipToCode": "BHX02",
+						"attrID0": null,
+						"attrName0": null,
+						"attrID1": null,
+						"attrName1": null,
+						"attrID2": null,
+						"attrName2": null,
+						"attrID3": null,
+						"attrName3": null,
+						"attrID4": null,
+						"attrName4": null,
+						"attrID5": null,
+						"attrName5": null,
+						"attrID6": null,
+						"attrName6": null,
+						"attrID7": null,
+						"attrName7": null,
+						"attrID8": null,
+						"attrName8": null,
+						"attrID9": null,
+						"attrName9": null
+					}
+				],
+				"customerCompanyAssignment": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "BHX02",
+						"lineId": 1,
+						"shipToCode": "BHX02",
+						"companyCode": "IDP02",
+						"branchCode": "BRANCH02",
+						"priceListCode": null,
+						"effectiveDate": null,
+						"endDate": null
+					}
+				]
+			}
+		}
+	</Body>
+</TestOutputInfo>

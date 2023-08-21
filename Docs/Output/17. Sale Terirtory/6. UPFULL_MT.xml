@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPFULL_MT</Name>
+	<Description>UPFULL_MT</Description>
+	<IgnoreFields>
+		<string>SalesTerritory:employeeId</string>
+		<string>SalesTerritoryHierarchy:parentId,saleTerritoryId,id</string>
+		<string>SaleTerritoryValues:parentId,saleTerritoryId,id</string>
+		<string>SaleTerritoryAssignment:employeeId,saleTerritoryId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "SaleTerritory",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"code": "MT",
+				"name": "Kênh thương mại điện tử",
+				"countryCode": "VN",
+				"channel": "MT",
+				"active": "Y",
+				"status": "R",
+				"employeeCode": "EMP003",
+				"salesTerritoryHierarchy": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "MT",
+						"lineId": 1,
+						"level": 0,
+						"levelCode": "SubCountry",
+						"levelName": "SubCountry",
+						"active": "Y",
+						"parentCode": null,
+						"lastLevel": "N",
+						"positionName": "Phụ trách SubCountry",
+						"isSalesGroup": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "MT",
+						"lineId": 2,
+						"level": 1,
+						"levelCode": "Region",
+						"levelName": "Region",
+						"active": "Y",
+						"parentCode": "SubCountry",
+						"lastLevel": "Y",
+						"positionName": "Phụ trách Region",
+						"isSalesGroup": "N"
+					}
+				],
+				"saleTerritoryValues": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "MT",
+						"lineId": 1,
+						"level": 0,
+						"valueCode": "MN",
+						"valueName": "Miền Nam",
+						"active": "Y",
+						"parentCode": null,
+						"lastLevel": "N"
+					}
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "MT",
+						"lineId": 2,
+						"level": 1,
+						"valueCode": "HCM",
+						"valueName": "Hồ Chí Minh",
+						"active": "Y",
+						"parentCode": "MN",
+						"lastLevel": "Y"
+					}
+				  ],
+				"saleTerritoryAssignment": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"employeeAssignmentCode": 3,
+						"employeeCode": "EMP003",
+						"salesTerritoryValue": "HCM",
+						"salesTerritoryValueName": "Hồ Chí Minh",
+						"salesTerritoryCode": "MT",
+						"salesTerritoryLevel": 1,
+						"salesTerritoryLevelName": "Region",
+						"isBase": "Y",
+						"effectiveDate": "2023-07-01T00:00:00",
+						"endDate": "2023-12-01T00:00:00"
+					}
+				]
+			}
+		}
+	</Body>
+</TestOutputInfo>

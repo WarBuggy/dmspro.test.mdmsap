@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>SZ001</Name>
+	<Description>SZ001</Description>
+	<IgnoreFields>
+		<string>SellingZone:saleTerritoryValueId</string>
+		<string>SellingZoneDetail:geoMasterId,sellingZoneId,id</string>
+		<string>SellingZoneBranchAssignment:companyId,branchId,sellingZoneId,id</string>
+		<string>SellingZoneEmployeeAssignment:employeeId,sellingZoneId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "SellingZone",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "SZ001",
+			  "name": "SZ001",
+			  "salesAreaCode": "HCM",
+			  "salesTerritoryCode": "GT",
+			  "status": "Release",
+			  "sellingZoneDetail": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ001",
+				  "lineId": 1,
+				  "geoType": "P",
+				  "geoCode": "HCM",
+				  "effectiveDate": "2023-07-01T00:00:00",
+				  "endDate": "2023-12-01T00:00:00"
+				},
+				{
+					"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+					"code": "SZ001",
+					"lineId": 2,
+					"geoType": "D",
+					"geoCode": "Q3",
+					"effectiveDate": "2023-07-01T00:00:00",
+					"endDate": "2023-12-01T00:00:00"
+				},
+				{
+					"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+					"code": "SZ001",
+					"lineId": 3,
+					"geoType": "W",
+					"geoCode": "P3Q3",
+					"effectiveDate": "2023-07-01T00:00:00",
+					"endDate": "2023-12-01T00:00:00"
+				}
+			  ],
+			  "sellingZoneBranchAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ001",
+				  "lineId": 1,
+				  "companyCode": "IDP",
+				  "branchCode": "BRANCH",
+				  "effectiveDate": "2023-07-07T00:00:00",
+				  "endDate": "2023-12-01T00:00:00"
+				}
+			  ],
+			  "sellingZoneEmployeeAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ001",
+				  "lineId": 1,
+				  "employeeCode": "EMP001"
+				}
+			  ]
+		  }
+		}
+	</Body>
+</TestOutputInfo>

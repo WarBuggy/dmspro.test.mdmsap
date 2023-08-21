@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPRONG_GT</Name>
+	<Description>UPRONG_GT</Description>
+	<IgnoreFields>
+		<string>SalesTerritory:employeeId</string>
+		<string>SalesTerritoryHierarchy:parentId,saleTerritoryId,id</string>
+		<string>SaleTerritoryValues:parentId,saleTerritoryId,id</string>
+		<string>SaleTerritoryAssignment:employeeId,saleTerritoryId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "SaleTerritory",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"code": "GT",
+				"name": "Kênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền1111",
+				"countryCode": null,
+				"channel": null,
+				"active": "N",
+				"status": "N",
+				"employeeCode": null,
+				"salesTerritoryHierarchy": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 1,
+						"level": null,
+						"levelCode": null,
+						"levelName": null,
+						"active": "N",
+						"parentCode": null,
+						"lastLevel": "N",
+						"positionName": null,
+						"isSalesGroup": "N"
+					}
+				],
+				"saleTerritoryValues": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 1,
+						"level": null,
+						"valueCode": null,
+						"valueName": null,
+						"active": "Y",
+						"parentCode": null,
+						"lastLevel": "N"
+					}
+				  ],
+				"saleTerritoryAssignment": []
+			}
+		}
+	</Body>
+</TestOutputInfo>

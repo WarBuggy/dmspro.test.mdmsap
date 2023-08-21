@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPRONG_WH01</Name>
+	<Description>UPRONG WH01</Description>
+	<OutputName>UPRONG_WH01</OutputName>
+	<Entity>Warehouse</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPRONG_WH01</MessageIdPrefix>
+	<Body>
+      {
+    "Action": "Update",
+    "TenantName": "IDP",
+    "Entity": "Warehouse",
+    "Data": {
+      "Code": "WH01",
+      "Name": null,
+      "CompanyCode": "IDP01",
+      "BranchCode": null,
+      "Type": "N",
+      "Address": null,
+      "CountryCode": null,
+      "RegionCode": null,
+      "ProvinceCode": null,
+      "DistrictCode": null,
+      "WardCode": null,
+      "Street": null,
+      "Active": "Y"
+    }
+  }
+	</Body>
+</TestInfo>

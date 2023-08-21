@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>IG003</Name>
+	<Description>IG003</Description>
+	<OutputName>IG003</OutputName>
+	<Entity>ItemGroup</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>IG003</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroupList];</string>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroupAttribute];</string>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroup];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "ItemGroup",
+      "Data": {
+        "Code": "IG003",
+        "Name": null,
+        "ApplyFor": "S",
+        "IsDefaultUom": "Y",
+        "DefaultUomBy": "S",
+        "Type": "0",
+        "SellingCategoryCode": null,
+        "ItemGroupDetail": null,
+        "ItemGroupAttribute": [
+          {
+            "Code": "IG003",
+            "LineId": "1",
+            "AttValID0": null,
+            "AttValID1": null,
+            "AttValId2": null,
+            "AttValId3": null,
+            "AttValId4": null,
+            "AttValId5": null,
+            "AttValId6": null,
+            "AttValId7": null,
+            "AttValId8": null,
+            "AttValId9": null
+          }
+        ]
+      }
+    }
+	</Body>
+</TestInfo>

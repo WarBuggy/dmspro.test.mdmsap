@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPRONG_GT</Name>
+	<Description>UPRONG_GT</Description>
+	<OutputName>UPRONG_GT</OutputName>
+	<Entity>SalesTerritory</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPRONG_GT</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SalesTerritoryHierarchies];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritoryAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritoryValues];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritories];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "SalesTerritory",
+      "Data": {
+        "Code": "GT",
+        "Name": "Kênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền1111",
+        "CountryCode": null,
+        "Channel": null,
+        "Active": "N",
+        "Status": "N",
+        "EmployeeCode": null,
+        "SalesTerritoryHierarchy": [
+          {
+            "Code": "GT",
+            "LineId": "1",
+            "Level": null,
+            "LevelCode": null,
+            "LevelName": null,
+            "Active": "N",
+            "ParentCode": null,
+            "LastLevel": "N",
+            "PositionName": null,
+            "IsSalesGroup": "N"
+          }
+        ],
+        "SaleTerritoryValues": [
+          {
+            "Code": "GT",
+            "LineId": "1",
+            "Level": null,
+            "ValueCode": null,
+            "ValueName": null,
+            "Active": "Y",
+            "ParentCode": null,
+            "LastLevel": "N"
+          }
+        ],
+        "SaleTerritoryAssignment": null
+      }
+    } 
+	</Body>
+</TestInfo>

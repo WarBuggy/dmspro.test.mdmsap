@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>SK003</Name>
+	<Description>SK003</Description>
+	<IgnoreFields>
+		<string>Item:parentId,attributeValue0,attributeValue0Id,attributeValue1,attributeValue1Id,attributeValue2,attributeValue2Id,attributeValue3,attributeValue3Id,attributeValue4,attributeValue4Id,attributeValue5,attributeValue5Id,attributeValue6,attributeValue6Id,attributeValue7,attributeValue7Id,attributeValue8,attributeValue8Id,attributeValue9,attributeValue9Id,salesVatGroupId,purchaseVatGroupId,id</string>
+	</IgnoreFields>
+	<ForcedNameFields>
+		<string>suFactor:SUFactor</string>
+		<string>posmType:POSMType</string>
+		<string>hierarchyCode:HierarchyCode</string>
+	</ForcedNameFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Item",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "SK005",
+			  "name": "Sữa Kun 005",
+			  "foreignName": null,
+			  "isPurchaseItem": "N",
+			  "isSellItem": "N",
+			  "isInventoryItem": "N",
+			  "buyUnitMeasure": null,
+			  "numInBuy": null,
+			  "salesUnitMeasure": null,
+			  "numInSale": null,
+			  "purchasePackMeasure": null,
+			  "purchasePackQty": null,
+			  "salesPackMeasure": null,
+			  "salesPackQty": null,
+			  "manBatchNum": "Y",
+			  "manSerialNum": "N",
+			  "validFor": "Y",
+			  "validFrom": "2023-07-15T00:00:00",
+			  "validTo": "2023-12-15T00:00:00",
+			  "frozenFor": "N",
+			  "frozenFrom": null,
+			  "frozenTo": null,
+			  "ugpEntry": null,
+			  "uomGroupCode": "UOMGR02",
+			  "pUoMEntry": null,
+			  "purchaseUomCode": null,
+			  "sUoMEntry": null,
+			  "salesUomCode": null,
+			  "iUoMEntry": null,
+			  "inventoryUomCode": null,
+			  "priceUnit": null,
+			  "priceUomCode": null,
+			  "pricingPrc": null,
+			  "attrID0": "IN_AT0_001",
+			  "attrID1": null,
+			  "attrID2": null,
+			  "attrID3": null,
+			  "attrID4": null,
+			  "attrID5": null,
+			  "attrID6": null,
+			  "attrID7": null,
+			  "attrID8": null,
+			  "attrID9": null,
+			  "suFactor": null,
+			  "salesType": "N",
+			  "posmType": "POSM",
+			  "isPOSM": "N",
+			  "salesVatGroupCode": null,
+			  "purchaseVatGroupCode": null,
+			  "hierarchyCode": null,
+			  "itemType": null,
+			  "sLength": null,
+			  "sLengthUnit": null,
+			  "sHeight": null,
+			  "sHeightUnit": null,
+			  "sWidth": null,
+			  "sWidthUnit": null,
+			  "sVolume": null,
+			  "sVolumeUnit": null,
+			  "sWeight": null,
+			  "sWeightUnit": null,
+			  "bLength": null,
+			  "bLengthUnit": null,
+			  "bHeight": null,
+			  "bHeightUnit": null,
+			  "bWidth": null,
+			  "bWidthUnit": null,
+			  "bVolume": null,
+			  "bVolumeUnit": null,
+			  "bWeight": null,
+			  "bWeightUnit": null,
+			  "iWeight":  null,
+    		  "iWeightUnit":  null,
+    		  "invUnitMeasure":  null,
+   			  "countingUnitMeasure":  null,
+    		  "numInCounting":  null,
+			  "valuationMethod": "F"
+			}
+		  }
+	</Body>
+</TestOutputInfo>

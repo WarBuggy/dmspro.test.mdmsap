@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>RM5</Name>
+	<Description>RM5</Description>
+	<IgnoreFields>
+		<string>RouteMaster:sellingCategoryId,saleTerritoryValueId,sellingZoneId</string>
+		<string>RouteSalemanAssignment:salemanId,routeMasterId,id</string>
+		<string>RouteSupervisorAssignment:employeeId,routeMasterId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "RouteMaster",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "RM5",
+			  "name": null,
+			  "channel": null,
+			  "isGPSLock": "N",
+			  "sellingCategoryCode": null,
+			  "isFullVisitOutRoute": "N",
+			  "salesTerritoryCode": null,
+			  "isGPSOutRouteLock": "N",
+			  "salesAreaCode": null,
+			  "salesGroup": null,
+			  "sellingZoneCode": null,
+			  "isCheckIn": "N",
+			  "isOutRoute": "N",
+			  "effectiveDate": null,
+			  "endDate": null,
+			  "distance": null,
+			  "routeType": "U",
+			  "isAllowOfflineMode": "N",
+			  "routeSalemanAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "RM5",
+				  "lineId": 1,
+				  "salesmanCode": null,
+				  "effectiveDate": null,
+				  "endDate": null
+				 }
+				],
+			  "routeSupervisorAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "RM5",
+				  "lineId": 1,
+				  "employeeCode": null,
+				  "effectiveDate": null,
+				  "endDate": null
+				}
+			  ]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

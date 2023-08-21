@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>RouteMasterTemplate</Name>
+	<Description>Route Master Test Template</Description>
+	<TestNames>
+		<string>RM1</string>
+		<string>RM2</string>
+		<string>RM3</string>
+		<string>RM4</string>
+		<string>RM5</string>
+		<string>RM5</string>
+		<string>UPMAX_RM5</string>
+		<string>UPRONG_RM2</string>
+		<string>UPCODE_RM3</string>
+	</TestNames>
+</TestTemplateInfo>

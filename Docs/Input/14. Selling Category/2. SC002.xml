@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>SC002</Name>
+	<Description>SC002</Description>
+	<OutputName>SC002</OutputName>
+	<Entity>SellingCategory</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>SC002</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SellingCategoryDetails];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SellingCategories];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "SellingCategory",
+      "Data": {
+        "Code": "SC002",
+        "Name": null,
+        "SellingCategoryDetail": [
+      {
+        "Code": "SC002",
+        "LineId": "1",
+        "AttributeNumber": null,
+        "AttributeValueCode": null,
+        "AttributeValueName": null
+      }
+    ]
+    }
+ }
+	</Body>
+</TestInfo>

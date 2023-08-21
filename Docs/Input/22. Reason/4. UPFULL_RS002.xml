@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPFULL_RS002</Name>
+	<Description>UPFULL_RS002</Description>
+	<OutputName>UPFULL_RS002</OutputName>
+	<Entity>Reason</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPFULL_RS002</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[Reasons];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "Reason",
+      "Data": {
+        "Code": "RS002",
+        "Name": "Khách đi vắng",
+        "Module": "SO",
+        "Active": "Y" 
+      }
+    }   
+	</Body>
+</TestInfo>

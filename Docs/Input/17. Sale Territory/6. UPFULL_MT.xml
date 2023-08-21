@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPFULL_MT</Name>
+	<Description>UPFULL_MT</Description>
+	<OutputName>UPFULL_MT</OutputName>
+	<Entity>SalesTerritory</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPFULL_MT</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SalesTerritoryHierarchies];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritoryAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritoryValues];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritories];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "SalesTerritory",
+      "Data": {
+        "Code": "MT",
+        "Name": "Kênh thương mại điện tử",
+        "CountryCode": "VN",
+        "Channel": "MT",
+        "Active": "Y",
+        "Status": "R",
+        "EmployeeCode": "EMP003",
+        "SalesTerritoryHierarchy": [
+          {
+            "Code": "MT",
+            "LineId": "1",
+            "Level": "0",
+            "LevelCode": "SubCountry",
+            "LevelName": "SubCountry",
+            "Active": "Y",
+            "ParentCode": null,
+            "LastLevel": "N",
+            "PositionName": "Phụ trách SubCountry",
+            "IsSalesGroup": "N"
+          }, 
+          {
+            "Code": "MT",
+            "LineId": "2",
+            "Level": "1",
+            "LevelCode": "Region",
+            "LevelName": "Region",
+            "Active": "Y",
+            "ParentCode": "SubCountry",
+            "LastLevel": "Y",
+            "PositionName": "Phụ trách Region",
+            "IsSalesGroup": "N"
+          }
+        ],
+        "SaleTerritoryValues": [
+          {
+            "Code": "MT",
+            "LineId": "1",
+            "Level": "0",
+            "ValueCode": "MN",
+            "ValueName": "Miền Nam",
+            "Active": "Y",
+            "ParentCode": null,
+            "LastLevel": "N"
+          },
+          {
+            "Code": "MT",
+            "LineId": "2",
+            "Level": "1",
+            "ValueCode": "HCM",
+            "ValueName": "Hồ Chí Minh",
+            "Active": "Y",
+            "ParentCode": "MN",
+            "LastLevel": "Y"
+          }
+        ],
+        "SaleTerritoryAssignment": [
+          {
+            "EmployeeAssignmentCode": "3",
+            "EmployeeCode": "EMP003",
+            "SalesTerritoryValue": "HCM",
+            "SalesTerritoryValueName": "Hồ Chí Minh",
+            "SalesTerritoryCode": "MT",
+            "SalesTerritoryLevel": "1",
+            "SalesTerritoryLevelName": "Region",
+            "IsBase": "Y",
+            "EffectiveDate": "2023-07-01T00:00:00Z",
+            "EndDate": "2023-12-01T00:00:00Z"
+          }
+        ]
+      }
+    }
+	</Body>
+</TestInfo>

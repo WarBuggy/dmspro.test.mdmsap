@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>ROUTE2</Name>
+	<Description>ROUTE2</Description>
+	<OutputName>ROUTE2</OutputName>
+	<Entity>RouteSetting</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>ROUTE2</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[RouteSettingDetails];</string>
+    <string>delete from [FullMdmSapService].[dbo].[RouteSettings];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "RouteSetting",
+      "Data": {
+        "Code": "RS002",
+        "Name": null,
+        "RouteMasterCode": "RM2",
+        "SalesmanCode": "EMP002",
+        "EffectiveDate": "2023-08-01T00:00:00+07:00",
+        "EndDate": null,
+        "RouteSettingDetail":[
+          {
+            "Code": "RS002",
+            "LineId": "2",
+            "CustomerCode": null,
+            "BranchCode": null,
+            "ShipToCode": null,
+            "CompanyCode": null,
+            "EffectiveDate": "2023-08-01T00:00:00+07:00",
+            "EndDate": null,
+            "Monday": "Y",
+            "Tuesday": "N",
+            "Wednesday": "Y",
+            "Thursday": "N",
+            "Friday": "Y",
+            "Saturday": "N",
+            "Sunday": "N",
+            "Week1": "Y",
+            "Week2": "N",
+            "Week3": "Y",
+            "Week4": "N",
+            "VisitOrder": null,
+            "CustomerType": null
+          }
+        ]
+      }
+    }
+	</Body>
+</TestInfo>

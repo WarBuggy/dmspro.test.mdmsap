@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPOR_CG02_LIST</Name>
+	<Description>UPOR_CG02_LIST</Description>
+	<OutputName>UPOR_CG02_LIST</OutputName>
+	<Entity>CustomerGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPOR_CG02_LIST</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupLists];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupAttributes];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroups];</string>
+  </RunSqlCommands>
+	<Body>   
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHTT",
+        "Name": "Khách hàng thân thiết",
+        "CusGroupType": "L",
+        "Status": "Y",
+        "CusType": "C",
+        "CustomerGroupAttribute": null,
+        "CustomerGroupList": [
+          {
+            "Code": "KHTT",
+            "LineId": "1",
+            "ObjectCode": "BHX"
+          }, 
+          {
+            "Code": "KHTT",
+            "LineId": "2",
+            "ObjectCode": "BHX01"
+          }
+        ]   
+      }
+    }
+	</Body>
+</TestInfo>

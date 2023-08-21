@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPRONG_SC003</Name>
+	<Description>UPRONG_SC003</Description>
+	<OutputName>UPRONG_SC003</OutputName>
+	<Entity>SellingCategory</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPRONG_SC003</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SellingCategoryDetails];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SellingCategories];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "SellingCategory",
+      "Data": {
+        "Code": "SC003",
+        "Name": "Ngành hàng 003",
+        "SellingCategoryDetail": null
+          }
+      }
+	</Body>
+</TestInfo>

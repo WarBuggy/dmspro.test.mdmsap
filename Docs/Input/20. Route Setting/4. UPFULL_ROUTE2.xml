@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPFULL_ROUTE2</Name>
+	<Description>UPFULL_ROUTE2</Description>
+	<OutputName>UPFULL_ROUTE2</OutputName>
+	<Entity>RouteSetting</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPFULL_ROUTE2</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[RouteSettingDetails];</string>
+    <string>delete from [FullMdmSapService].[dbo].[RouteSettings];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "RouteSetting",
+      "Data": {
+        "Code": "RS002",
+        "Name": "RS002",
+        "RouteMasterCode": "RM2",
+        "SalesmanCode": "EMP002",
+        "EffectiveDate": "2023-08-01T00:00:00+07:00",
+        "EndDate": "2023-08-31T00:00:00+07:00",
+        "RouteSettingDetail":[
+          {
+            "Code": "RS002",
+            "LineId": "2",
+            "CustomerCode": "BHX01",
+            "BranchCode": "BRANCH01",
+            "ShipToCode": "BHX01",
+            "CompanyCode": "IDP01",
+            "EffectiveDate": "2023-08-01T00:00:00+07:00",
+            "EndDate": "2023-08-31T00:00:00+07:00",
+            "Monday": "Y",
+            "Tuesday": "N",
+            "Wednesday": "Y",
+            "Thursday": "N",
+            "Friday": "Y",
+            "Saturday": "N",
+            "Sunday": "N",
+            "Week1": "Y",
+            "Week2": "N",
+            "Week3": "Y",
+            "Week4": "N",
+            "VisitOrder": "1",
+            "CustomerType": "Khách lẻ"
+          }
+        ]
+      }
+    }
+	</Body>
+</TestInfo>

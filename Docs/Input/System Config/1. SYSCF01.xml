@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>SYSCF01</Name>
+	<Description>SYSCF01</Description>
+	<OutputName>SYSCF01</OutputName>
+	<Entity>SystemConfig</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>SYSCF01</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SystemConfigs];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "SystemConfig",
+      "Data": {
+        "Code": "SYSCF01",
+        "Name": "SYSCF01",
+        "IncentiveItem": "IncentiveItem", 
+        "RTOrderConfirmBy": "Y",
+        "SalesDate": "Y",
+        "IsManageCrate": "Y",
+        "LimitBaseLine": "0", 
+        "UpdateDeliDateBy": "Y",
+        "OrdProcessDay": "1", 
+        "IsCheckGPSQR": "Y",
+        "PaymentConf": "Y",
+        "CancelBaseline": "N",
+        "isConfigWS": "N",
+        "AssignCus": "Y",
+        "AttConfigNbr": "1", 
+        "UpdatePrice": "N",
+        "AttValue": "DC_AT0_001",
+        "SyncItem": "N",
+        "PayConf": "PAYCONF", 
+        "AlwCreatePastDoc": "N",
+        "AlwChangeDocDate": "N",
+        "IsAllowExceedCreditLimit": "N",
+        "CusForRoute": "Y",
+        "CusForDis": "Y",
+        "Type": "N",
+        "MonthCloseDate": "1", 
+        "Attribute": "1", 
+        "AlwCMOutMonth": "N",
+        "IsAllowsyncingimagesvsbPRO": "N",
+        "MCPApprBy": "MCP", 
+        "BrComSFA": "N",
+        "isMCPAppr": "N",
+        "BrCompeSFA": "N",
+        "KPIApprBy": "KPI", 
+        "DMSModelType": "N",
+        "isKPIAppr": "N",
+        "TaxDirect": "Tax", 
+        "isHOAppr": "N",
+        "TaxIndirect": "TaxIndirect", 
+        "HOSM": "HOSM", 
+        "IsAllocateDC": "N",
+        "DefSUFactor": "N",
+        "IsRTPInteg": "N",
+        "SUFactor": "1", 
+        "SalesProcess": "N",
+        "DayGetMCP": "2147483647",
+        "IsMBLProject": "Y",
+        "IsAccruSOManual": "Y",
+        "IncPromMoney": "Y",
+        "AccruSOType": "N",
+        "IsAutoPOSM": "N",
+        "RevenueBy": "Y"
+      }
+    }   
+	</Body>
+</TestInfo>

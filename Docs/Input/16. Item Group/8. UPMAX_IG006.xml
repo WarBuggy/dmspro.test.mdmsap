@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_IG006</Name>
+	<Description>UPMAX_IG006</Description>
+	<OutputName>UPMAX_IG006</OutputName>
+	<Entity>ItemGroup</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_IG006</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroupList];</string>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroupAttribute];</string>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroup];</string>
+  </RunSqlCommands>
+	<Body>
+    
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "ItemGroup",
+      "Data": {
+        "Code": "IG006",
+        "Name": "Nhóm sản phẩm 6Nhóm sản phẩm 6Nhóm sản phẩm 6Nhóm sản phẩm 6Nhóm sản phẩm 6Nhóm sản phẩm 6 Nhóm sản1",
+        "ApplyFor": "L",
+        "IsDefaultUom": "Y",
+        "DefaultUomBy": "C",
+        "Type": "-1",
+        "SellingCategoryCode": null,
+        "ItemGroupAttribute": null,
+        "ItemGroupDetail": [
+          {
+            "Code": "IG006",
+            "LineId": "1",
+            "ObjectCode": "NN001",
+            "ObjectName": "Nước ngọt vị nguyên bản",
+            "Order": "1",
+            "Rate": "1000000000000",
+            "IsDefault": "Y"
+          }
+        ]
+      }
+    }    
+	</Body>
+</TestInfo>

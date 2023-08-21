@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>IG001</Name>
+	<Description>IG001</Description>
+	<OutputName>IG001</OutputName>
+	<Entity>ItemGroup</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>IG001</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroupList];</string>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroupAttribute];</string>
+    <string>delete from [FullMdmSapService].[dbo].[ItemGroup];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "ItemGroup",
+      "Data": {
+        "Code": "IG001",
+        "Name": "Nhóm sản phẩm 1",
+        "ApplyFor": "K",
+        "IsDefaultUom": "N",
+        "DefaultUomBy": "I",
+        "Type": "0",
+        "SellingCategoryCode": "SC001",
+        "ItemGroupDetail": null,
+        "ItemGroupAttribute": [
+          {
+            "Code": "IG001",
+            "LineId": "1",
+            "AttValID0": "IN_AT0_001",
+            "AttValID1": "IN_AT1_101",
+            "AttValId2": "IN_AT2_201",
+            "AttValId3": null,
+            "AttValId4": null,
+            "AttValId5": null,
+            "AttValId6": null,
+            "AttValId7": null,
+            "AttValId8": null,
+            "AttValId9": null
+          },
+          {
+            "Code": "IG001",
+            "LineId": "2",
+            "AttValID0": "IN_AT0_001",
+            "AttValID1": "IN_AT1_102",
+            "AttValId2": "IN_AT2_201",
+            "AttValId3": null,
+            "AttValId4": null,
+            "AttValId5": null,
+            "AttValId6": null,
+            "AttValId7": null,
+            "AttValId8": null,
+            "AttValId9": null
+          }
+        ]
+      }
+    }
+	</Body>
+</TestInfo>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPMAX_GT</Name>
+	<Description>UPMAX_GT</Description>
+	<IgnoreFields>
+		<string>SalesTerritory:employeeId</string>
+		<string>SalesTerritoryHierarchy:parentId,saleTerritoryId,id</string>
+		<string>SaleTerritoryValues:parentId,saleTerritoryId,id</string>
+		<string>SaleTerritoryAssignment:employeeId,saleTerritoryId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "SaleTerritory",
+			"data": {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"code": "GT",
+				"name": "Kênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền1111",
+				"countryCode": "VN",
+				"channel": "GT",
+				"active": "Y",
+				"status": "N",
+				"employeeCode": "EMP001",
+				"salesTerritoryHierarchy": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 1,
+						"level": 0,
+						"levelCode": "SubCountry",
+						"levelName": "Kênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền1111",
+						"active": "Y",
+						"parentCode": null,
+						"lastLevel": "N",
+						"positionName": "Phụ trách SubCountry",
+						"isSalesGroup": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 2,
+						"level": 1,
+						"levelCode": "Region",
+						"levelName": "Kênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền1111",
+						"active": "Y",
+						"parentCode": "SubCountry",
+						"lastLevel": "N",
+						"positionName": "Kênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền thốngKênh truyền1111",
+						"isSalesGroup": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 3,
+						"level": 2,
+						"levelCode": "Area",
+						"levelName": "Area",
+						"active": "Y",
+						"parentCode": "Region",
+						"lastLevel": "Y",
+						"positionName": "Phụ trách Area",
+						"isSalesGroup": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 4,
+						"level": 3,
+						"levelCode": "SubArea",
+						"levelName": "SubArea",
+						"active": "Y",
+						"parentCode": "Area",
+						"lastLevel": "Y",
+						"positionName": "Phụ trách SubArea",
+						"isSalesGroup": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 5,
+						"level": 4,
+						"levelCode": "SubArea1",
+						"levelName": "SubArea1",
+						"active": "Y",
+						"parentCode": "SubArea",
+						"lastLevel": "Y",
+						"positionName": "Phụ trách SubArea1",
+						"isSalesGroup": "N"
+					}
+				],
+				"saleTerritoryValues": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 1,
+						"level": 0,
+						"valueCode": "MN",
+						"valueName": "Miền Nam",
+						"active": "Y",
+						"parentCode": null,
+						"lastLevel": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 2,
+						"level": 0,
+						"valueCode": "MB",
+						"valueName": "Miền Bắc",
+						"active": "Y",
+						"parentCode": null,
+						"lastLevel": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 3,
+						"level": 1,
+						"valueCode": "MN1",
+						"valueName": "Miền Nam 1",
+						"active": "Y",
+						"parentCode": "MN",
+						"lastLevel": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 4,
+						"level": 1,
+						"valueCode": "MB1",
+						"valueName": "Miền Bắc 1",
+						"active": "Y",
+						"parentCode": "MB",
+						"lastLevel": "N"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 5,
+						"level": 2,
+						"valueCode": "HCM",
+						"valueName": "Hồ Chí Minh",
+						"active": "Y",
+						"parentCode": "MN1",
+						"lastLevel": "Y"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 6,
+						"level": 2,
+						"valueCode": "HN",
+						"valueName": "Hà Nội",
+						"active": "Y",
+						"parentCode": "MB1",
+						"lastLevel": "Y"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 7,
+						"level": 3,
+						"valueCode": "Q3",
+						"valueName": "Quận 3",
+						"active": "Y",
+						"parentCode": "HCM",
+						"lastLevel": "Y"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 8,
+						"level": 3,
+						"valueCode": "Q1",
+						"valueName": "Quận 1",
+						"active": "Y",
+						"parentCode": "HCM",
+						"lastLevel": "Y"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 9,
+						"level": 4,
+						"valueCode": "P3Q3",
+						"valueName": "Phường 3",
+						"active": "Y",
+						"parentCode": "HCM",
+						"lastLevel": "Y"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"code": "GT",
+						"lineId": 10,
+						"level": 4,
+						"valueCode": "PBNQ1",
+						"valueName": "Phường Bến Nghé",
+						"active": "Y",
+						"parentCode": "HCM",
+						"lastLevel": "Y"
+					}
+				  ],
+				"saleTerritoryAssignment": [
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"employeeAssignmentCode": 1,
+						"employeeCode": "EMP001",
+						"salesTerritoryValue": "HCM",
+						"salesTerritoryValueName": "Hồ Chí Minh",
+						"salesTerritoryCode": "GT",
+						"salesTerritoryLevel": 2,
+						"salesTerritoryLevelName": "Area",
+						"isBase": "Y",
+						"effectiveDate": "2023-07-01T00:00:00",
+						"endDate": "2023-12-01T00:00:00"
+					},
+					{
+						"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+						"employeeAssignmentCode": 2,
+						"employeeCode": "EMP002",
+						"employeeId": "0a1ffc0f-5612-9bd9-d658-3a0ceac24218",
+						"salesTerritoryValue": "Q3",
+						"salesTerritoryValueName": "Quận 3",
+						"salesTerritoryCode": "GT",
+						"salesTerritoryLevel": 3,
+						"salesTerritoryLevelName": "SubArea",
+						"isBase": "Y",
+						"effectiveDate": "2023-07-01T00:00:00",
+						"endDate": "2023-12-01T00:00:00"
+					}
+				]
+			}
+		}
+	</Body>
+</TestOutputInfo>

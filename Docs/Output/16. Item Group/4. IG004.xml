@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>IG004</Name>
+	<Description>IG004</Description>
+	<IgnoreFields>
+		<string>ItemGroup:sellingCategoryId</string>
+		<string>ItemGroupList:itemId,itemGroupId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "ItemGroup",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "IG004",
+			  "name": null,
+			  "applyFor": "I",
+			  "isDefaultUom": "Y",
+			  "defaultUomBy": "P",
+			  "type": "-1",
+			  "sellingCategoryCode": null,
+			  "itemGroupAttribute": [],
+			  "itemGroupDetail": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "IG004",
+				  "lineId": 1,
+				  "objectCode": null,
+				  "objectName": null,
+				  "order": null,
+				  "rate": null,
+				  "isDefault": "N"
+				}
+			  ]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

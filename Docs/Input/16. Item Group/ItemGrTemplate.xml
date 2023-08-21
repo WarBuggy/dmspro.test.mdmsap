@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>ItemGrTemplate</Name>
+	<Description>Item Group Test Template</Description>
+	<TestNames>
+		<string>IG001</string>
+		<string>IG002</string>
+		<string>IG003</string>
+		<string>IG004</string>
+		<string>IG005</string>
+		<string>IG006</string>
+		<string>UPRONG_IG005</string>
+		<string>UPMAX_IG006</string>
+		<string>DEL_IG005</string>
+		<string>DEL_IG006</string>
+	</TestNames>
+</TestTemplateInfo>

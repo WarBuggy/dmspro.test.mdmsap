@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_CG02_LIST</Name>
+	<Description>UPMAX_CG02_LIST</Description>
+	<OutputName>UPMAX_CG02_LIST</OutputName>
+	<Entity>CustomerGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_CG02_LIST</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupLists];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupAttributes];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroups];</string>
+  </RunSqlCommands>
+	<Body>   
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHTT",
+        "Name": null,
+        "CusGroupType": "L",
+        "Status": "N",
+        "CusType": "C",
+        "CustomerGroupAttribute": null,
+        "CustomerGroupList": [
+          {
+            "Code": "KHTT",
+            "LineId": "1",
+            "ObjectCode": null
+          }, 
+          {
+            "Code": "KHTT",
+            "LineId": "2",
+            "ObjectCode": null
+          }
+        ]   
+      }
+    }
+	</Body>
+</TestInfo>

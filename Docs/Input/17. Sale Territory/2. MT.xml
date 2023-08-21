@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>MT</Name>
+	<Description>MT</Description>
+	<OutputName>MT</OutputName>
+	<Entity>SalesTerritory</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>MT</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SalesTerritoryHierarchies];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritoryAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritoryValues];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SaleTerritories];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "SalesTerritory",
+      "Data": {
+        "Code": "MT",
+        "Name": "Kênh thương mại điện tử",
+        "CountryCode": null,
+        "Channel": null,
+        "Active": "N",
+        "Status": "N",
+        "EmployeeCode": null,
+        "SalesTerritoryHierarchy": [
+          {
+            "Code": "MT",
+            "LineId": "1",
+            "Level": null,
+            "LevelCode": "SubCountry",
+            "LevelName": null,
+            "Active": "N",
+            "ParentCode": null,
+            "LastLevel": "N",
+            "PositionName": null,
+            "IsSalesGroup": "N"
+          }
+        ],
+        "SaleTerritoryValues": [
+          {
+            "Code": "MT",
+            "LineId": "1",
+            "Level": null,
+            "ValueCode": "MN",
+            "ValueName": null,
+            "Active": "N",
+            "ParentCode": null,
+            "LastLevel": "N"
+          }
+        ],
+        "SaleTerritoryAssignment": null
+      }
+    }
+	</Body>
+</TestInfo>

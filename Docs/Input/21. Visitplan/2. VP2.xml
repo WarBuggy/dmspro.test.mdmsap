@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>VP2</Name>
+	<Description>VP2</Description>
+	<OutputName>VP2</OutputName>
+	<Entity>VisitPlan</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>VP2</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[VisitPlans];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "VisitPlan",
+      "Data": [
+        {
+          "VisitDate": "2023-08-05T00:00:00",
+          "RouteMasterCode": "RM1",
+          "RouteSettingCode": "RS001",
+          "SalesmanCode": "EMP002",
+          "Details": [
+            {
+              "CustomerCode": "BHX",
+              "ShipToCode": "BHX",
+              "CompanyCode": "IDP",
+              "BranchCode": "BRANCH",
+              "VisitOrder": 0,
+              "CreatedDateTime": null,
+              "VisitType": null,
+              "VisitOutletType": null
+            }
+          ]
+        }
+      ]
+    }
+	</Body>
+</TestInfo>

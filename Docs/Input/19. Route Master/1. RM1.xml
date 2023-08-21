@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>RM1</Name>
+	<Description>RM1</Description>
+	<OutputName>RM1</OutputName>
+	<Entity>RouteMaster</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>RM1</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[RouteSalemanAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[RouteSupervisorAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[RouteMasters];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "RouteMaster",
+      "Data": {
+        "Code": "RM1",
+        "Name": "Khu vực quận 3",
+        "Channel": "GT",
+        "IsGPSLock": "Y",
+        "SellingCategoryCode": "SC001",
+        "IsFullVisitOutRoute": "Y",
+        "SalesTerritoryCode": "GT",
+        "IsGPSOutRouteLock": "Y",
+        "SalesAreaCode": "Q3",
+        "SalesGroup": null,
+        "SellingZoneCode": "SZ001",
+        "IsCheckIn": "Y",
+        "IsOutRoute": "Y",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2023-12-01T00:00:00Z",
+        "Distance": "100",
+        "RouteType": "U",
+        "IsAllowOfflineMode": "Y",
+        "RouteSalemanAssignment": [
+          {
+            "Code": "RM1",
+            "LineId": "1",
+            "SalesmanCode": "EMP002",
+            "EffectiveDate": "2023-07-01T00:00:00Z",
+            "EndDate": "2023-12-01T00:00:00Z"
+          }
+        ],
+        "RouteSupervisorAssignment": [
+          {
+            "Code": "RM1",
+            "LineId": "1",
+            "EmployeeCode": "EMP001",
+            "EffectiveDate": "2023-07-01T00:00:00Z",
+            "EndDate": "2023-12-01T00:00:00Z"
+          }
+        ]
+      }
+    } 
+	</Body>
+</TestInfo>

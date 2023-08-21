@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>SellingZoneTemplate</Name>
+	<Description>Selling Zone Test Template</Description>
+	<TestNames>
+		<string>SZ001</string>
+		<string>SZ002</string>
+		<string>UPFULL_SZ002</string>
+		<string>UPMAX_SZ002</string>
+	</TestNames>
+</TestTemplateInfo>

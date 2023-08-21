@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPMAX_SC001</Name>
+	<Description>UPMAX_SC001</Description>
+	<IgnoreFields>
+		<string>SellingCategoryDetail:sellingCategoryId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "SellingCategory",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "SC001",
+			  "name": "Ngành hàng 001Ngành hàng 001Ngành hàng 001Ngành hàng 001Ngành hàng 001Ngành hàng 001Ngành hàng 001Ng",
+			  "sellingCategoryDetail": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SC001",
+				  "lineId": 1,
+				  "attributeNumber": 0,
+				  "attributeValueCode": "IN_AT0_001",
+				  "attributeValueName": "Sữa"
+				},
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SC001",
+				  "lineId": 2,
+				  "attributeNumber": 0,
+				  "attributeValueCode": "IN_AT0_002",
+				  "attributeValueName": "Nước ngọt"
+				}
+			  ]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

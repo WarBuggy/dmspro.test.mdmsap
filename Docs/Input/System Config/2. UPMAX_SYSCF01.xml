@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_SYSCF01</Name>
+	<Description>UPMAX_SYSCF01</Description>
+	<OutputName>UPMAX_SYSCF01</OutputName>
+	<Entity>SystemConfig</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_SYSCF01</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SystemConfigs];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "SystemConfig",
+      "Data": {
+        "Code": "SYSCF01",
+        "Name": "SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF0123",
+        "IncentiveItem": "IncentiveItemIncentiveItem1234",
+        "RTOrderConfirmBy": "Y",
+        "SalesDate": "Y",
+        "IsManageCrate": "Y",
+        "LimitBaseLine": "0",
+        "UpdateDeliDateBy": "Y",
+        "OrdProcessDay": "1",
+        "IsCheckGPSQR": "Y",
+        "PaymentConf": "Y",
+        "CancelBaseline": "N",
+        "isConfigWS": "N",
+        "AssignCus": "Y",
+        "AttConfigNbr": "SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF0123",
+        "UpdatePrice": "N",
+        "AttValue": "SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF0123",
+        "SyncItem": "N",
+        "PayConf": "PAYCONF123",
+        "AlwCreatePastDoc": "N",
+        "AlwChangeDocDate": "N",
+        "IsAllowExceedCreditLimit": "N",
+        "CusForRoute": "Y",
+        "CusForDis": "Y",
+        "Type": "N",
+        "MonthCloseDate": "1",
+        "Attribute": "1",
+        "AlwCMOutMonth": "N",
+        "IsAllowsyncingimagesvsbPRO": "N",
+        "MCPApprBy": "MCPMCPMCP1",
+        "BrComSFA": "N",
+        "isMCPAppr": "N",
+        "BrCompeSFA": "N",
+        "KPIApprBy": "KPIKPIKPI1",
+        "DMSModelType": "N",
+        "isKPIAppr": "N",
+        "TaxDirect": "SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF0123",
+        "isHOAppr": "N",
+        "TaxIndirect": "SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF0123",
+        "HOSM": "SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF01SYSCF0123",
+        "IsAllocateDC": "N",
+        "DefSUFactor": "N",
+        "IsRTPInteg": "N",
+        "SUFactor": "1",
+        "SalesProcess": "N",
+        "DayGetMCP": "2147483647",
+        "IsMBLProject": "Y",
+        "IsAccruSOManual": "Y",
+        "IncPromMoney": "Y",
+        "AccruSOType": "N",
+        "IsAutoPOSM": "N",
+        "RevenueBy": "Y"
+      }
+    }
+	</Body>
+</TestInfo>

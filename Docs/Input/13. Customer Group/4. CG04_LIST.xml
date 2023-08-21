@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>CG04_LIST</Name>
+	<Description>CG04_LIST</Description>
+	<OutputName>CG04_LIST</OutputName>
+	<Entity>CustomerGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>CG04_LIST</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupLists];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupAttributes];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroups];</string>
+  </RunSqlCommands>
+	<Body>   
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHNL",
+        "Name": null,
+        "CusGroupType": "L",
+        "Status": "N",
+        "CusType": "D",
+        "CustomerGroupAttribute": null,
+        "CustomerGroupList":  [
+        {
+          "Code": "KHNL",
+          "LineId": "1",
+          "ObjectCode": null
+        }
+        ]
+       }  
+      }
+	</Body>
+</TestInfo>

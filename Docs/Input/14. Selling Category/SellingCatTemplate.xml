@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>SellingCatTemplate</Name>
+	<Description>Selling Category Test Template</Description>
+	<TestNames>
+		<string>SC001</string>
+		<string>SC002</string>
+		<string>UPMAX_SC001</string>
+		<string>UPFULL_SC002</string>
+		<string>UPOR_SC001</string>
+		<string>SC003</string>
+		<string>UPRONG_SC003</string>
+		<string>DEL_SC003</string>
+	</TestNames>
+</TestTemplateInfo>

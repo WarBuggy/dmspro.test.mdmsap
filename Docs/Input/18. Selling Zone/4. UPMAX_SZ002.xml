@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_SZ002</Name>
+	<Description>UPMAX_SZ002</Description>
+	<OutputName>UPMAX_SZ002</OutputName>
+	<Entity>SellingZone</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_SZ002</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SellingZoneEmployeeAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SellingZoneBranchAssignments];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SellingZoneDetails];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SellingZones];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "SellingZone",
+      "Data": {
+        "Code": "SZ002",
+        "Name": "SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002",
+        "SalesAreaCode": "HCM",
+        "SalesTerritoryCode": "MT",
+        "Status": "Release",
+        "SellingZoneDetail": [
+          {
+            "Code": "SZ002",
+            "LineId": "1",
+            "GeoType": "P",
+            "GeoCode": "HCM",
+            "EffectiveDate": "2023-07-01T00:00:00Z",
+            "EndDate": "2023-12-01T00:00:00Z"
+          }
+        ],
+        "SellingZoneBranchAssignment": [
+          {
+            "Code": "SZ002",
+            "LineId": "1",
+            "CompanyCode": "IDP01",
+            "BranchCode": "BRANCH01",
+            "EffectiveDate": "2023-07-07T00:00:00Z",
+            "EndDate": "2023-12-01T00:00:00Z"
+          }
+        ],
+        "SellingZoneEmployeeAssignment": [
+          {
+            "Code": "SZ002",
+            "LineId": "1",
+            "EmployeeCode": "EMP003"
+          }
+        ]
+      }
+    }
+	</Body>
+</TestInfo>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPMAX_SZ002</Name>
+	<Description>UPMAX_SZ002</Description>
+	<IgnoreFields>
+		<string>SellingZone:saleTerritoryValueId</string>
+		<string>SellingZoneDetail:geoMasterId,sellingZoneId,id</string>
+		<string>SellingZoneBranchAssignment:companyId,branchId,sellingZoneId,id</string>
+		<string>SellingZoneEmployeeAssignment:employeeId,sellingZoneId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "SellingZone",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "SZ002",
+			  "name": "SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002SZ002",
+			  "salesAreaCode": "HCM",
+			  "salesTerritoryCode": "MT",
+			  "status": "Release",
+			  "sellingZoneDetail": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ002",
+				  "lineId": 1,
+				  "geoType": "P",
+				  "geoCode": "HCM",
+				  "effectiveDate": "2023-07-01T00:00:00",
+				  "endDate": "2023-12-01T00:00:00"
+				}
+			  ],
+			  "sellingZoneBranchAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ002",
+				  "lineId": 1,
+				  "companyCode": "IDP01",
+				  "branchCode": "BRANCH01",
+				  "effectiveDate": "2023-07-07T00:00:00",
+				  "endDate": "2023-12-01T00:00:00"
+				}
+			  ],
+			  "sellingZoneEmployeeAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "SZ002",
+				  "lineId": 1,
+				  "employeeCode": "EMP003"
+				}
+			  ]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>SC003</Name>
+	<Description>SC003</Description>
+	<OutputName>SC003</OutputName>
+	<Entity>SellingCategory</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>SC003</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SellingCategoryDetails];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SellingCategories];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "SellingCategory",
+      "Data": {
+        "Code": "SC003",
+        "Name": "Ngành hàng 003",
+        "SellingCategoryDetail": [
+          {
+            "Code": "SC003",
+            "LineId": "1",
+            "AttributeNumber": "0",
+            "AttributeValueCode": "IN_AT0_001",
+            "AttributeValueName": "Sữa"
+          }
+        ]   
+      }
+    }
+	</Body>
+</TestInfo>

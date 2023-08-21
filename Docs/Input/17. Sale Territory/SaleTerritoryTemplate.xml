@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>SaleTerritoryTemplate</Name>
+	<Description>SaleTerritory Test Template</Description>
+	<TestNames>
+		<string>GT</string>
+		<string>MT</string>
+		<string>UPMAX_GT</string>
+		<string>UPRONG_GT</string>
+		<string>UPOR_GT</string>
+		<string>UPFULL_MT</string>
+		<string>MT1</string>
+		<string>DEL_MT1</string>
+	</TestNames>
+</TestTemplateInfo>

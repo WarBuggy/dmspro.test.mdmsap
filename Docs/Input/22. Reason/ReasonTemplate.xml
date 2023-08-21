@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>ReasonTemplate</Name>
+	<Description>Reason Test Template</Description>
+	<TestNames>
+		<string>RS001</string>
+		<string>RS002</string>
+		<string>RS003</string>
+		<string>UPFULL_RS002</string>
+		<string>UPMAX_RS003</string>
+		<string>DEL_RS003</string>
+	</TestNames>
+</TestTemplateInfo>

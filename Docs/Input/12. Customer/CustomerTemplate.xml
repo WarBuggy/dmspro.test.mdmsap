@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>CustomerTemplate</Name>
+	<Description>Customer Test Template</Description>
+	<TestNames>
+		<string>BHX</string>
+		<string>BHX01</string>
+		<string>THCB</string>
+		<string>THSGX</string>
+		<string>UPMAX_BHX</string>
+		<string>UPOR_BHX</string>
+		<string>BHX02</string>
+		<string>DEL_BHX02</string>
+	</TestNames>
+</TestTemplateInfo>

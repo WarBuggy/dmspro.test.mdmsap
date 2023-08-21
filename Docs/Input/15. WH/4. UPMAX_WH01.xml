@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPMAX_WH01</Name>
+	<Description>UPMAX WH01</Description>
+	<OutputName>UPMAX_WH01</OutputName>
+	<Entity>Warehouse</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPMAX_WH01</MessageIdPrefix>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "Warehouse",
+      "Data": {
+        "Code": "WH01",
+        "Name": "Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng11",
+        "CompanyCode": "IDP01",
+        "BranchCode": "BRANCH01",
+        "Type": "N",
+        "Address": "Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng11Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng11Kho hàng chính Kho hàng chính Kho hàng chính Kho hàng1",
+        "CountryCode": "VN",
+        "RegionCode": "MN",
+        "ProvinceCode": "HCM",
+        "DistrictCode": "Q3",
+        "WardCode": "P3Q3",
+        "Street": "Đồng Khởi Đồng Khởi Đồng Khởi Đồng Khởi Đồng Khởi1",
+        "Active": "Y"
+      }
+    }
+	</Body>
+</TestInfo>

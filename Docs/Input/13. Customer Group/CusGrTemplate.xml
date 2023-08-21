@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestTemplateInfo>
+	<Name>CusGrTemplate</Name>
+	<Description>Customer Group Test Template</Description>
+	<TestNames>
+		<string>CG01_ATT</string>
+		<string>CG02_LIST</string>
+		<string>CG03_ATT</string>
+		<string>CG04_LIST</string>
+		<string>UPMAX_CG01_ATT</string>
+		<string>UPRONG_CG02_LIST</string>
+		<string>UPOR_CG01_ATT</string>
+		<string>UPOR_CG02_LIST</string>
+		<string>UPFULL_CG03_ATT</string>
+		<string>UPFULL_CG04_LIST</string>
+		<string>CG05_ATT</string>
+		<string>CG05_LIST</string>
+		<string>DEL_CG05_ATT</string>
+		<string>DEL_CG06_LIST</string>
+		<string>CG07_ATT</string>
+		<string>CG08_LIST</string>
+	</TestNames>
+</TestTemplateInfo>

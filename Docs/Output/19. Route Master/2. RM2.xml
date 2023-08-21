@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>RM2</Name>
+	<Description>RM2</Description>
+	<IgnoreFields>
+		<string>RouteMaster:sellingCategoryId,saleTerritoryValueId,sellingZoneId</string>
+		<string>RouteSalemanAssignment:salemanId,routeMasterId,id</string>
+		<string>RouteSupervisorAssignment:employeeId,routeMasterId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "RouteMaster",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "RM2",
+			  "name": "Khu vực quận 3",
+			  "channel": "GT",
+			  "isGPSLock": "N",
+			  "sellingCategoryCode": "SC001",
+			  "isFullVisitOutRoute": "N",
+			  "salesTerritoryCode": "GT",
+			  "isGPSOutRouteLock": "N",
+			  "salesAreaCode": "Q3",
+			  "salesGroup": null,
+			  "sellingZoneCode": "SZ001",
+			  "isCheckIn": "N",
+			  "isOutRoute": "N",
+			  "effectiveDate": "2023-07-01T00:00:00",
+			  "endDate": "2023-12-01T00:00:00",
+			  "distance": "100",
+			  "routeType": "U",
+			  "isAllowOfflineMode": "N",
+			  "routeSalemanAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "RM2",
+				  "lineId": 1,
+				  "salesmanCode": "EMP003",
+				  "effectiveDate": "2023-07-01T00:00:00",
+				  "endDate": "2023-12-01T00:00:00",
+				 }
+				],
+			  "routeSupervisorAssignment": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "RM2",
+				  "lineId": 1,
+				  "employeeCode": "EMP001", 
+				  "effectiveDate": "2023-07-01T00:00:00",
+				  "endDate": "2023-12-01T00:00:00"
+				}
+			  ]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

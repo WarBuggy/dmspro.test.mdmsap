@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>RS003</Name>
+	<Description>RS003</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "Reason",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "RS003",
+			  "name": "Khách không nhận hàng",
+			  "module": "SO",
+			  "active": "Y"
+			}
+		}
+	</Body>
+</TestOutputInfo>

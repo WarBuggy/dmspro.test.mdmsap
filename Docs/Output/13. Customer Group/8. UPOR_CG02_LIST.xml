@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPOR_CG02_LIST</Name>
+	<Description>UPOR_CG02_LIST</Description>
+	<IgnoreFields>
+		<string>CustomerGroupAttribute:attributeValue0Id,attributeValue1Id,attributeValue2Id,attributeValue3Id,attributeValue4Id,attributeValue5Id,attributeValue6Id,attributeValue7Id,attributeValue8Id,attributeValue9Id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "CustomerGroup",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "KHTT",
+			  "name": "Khách hàng thân thiết",
+			  "cusGroupType": "L",
+			  "status": "Y",
+			  "cusType": "C",
+			  "customerGroupAttribute": [],
+			  "customerGroupList": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "KHTT",
+				  "lineId": 1,
+				  "objectCode": "BHX"
+				},
+				{
+					"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+					"code": "KHTT",
+					"lineId": 2,
+					"objectCode": "BHX01"
+				  }
+				]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

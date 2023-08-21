@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>IG002</Name>
+	<Description>IG002</Description>
+	<IgnoreFields>
+		<string>ItemGroup:sellingCategoryId</string>
+		<string>ItemGroupList:itemId,itemGroupId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "ItemGroup",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "IG002",
+			  "name": "Nhóm sản phẩm 2",
+			  "applyFor": "K",
+			  "isDefaultUom": "N",
+			  "defaultUomBy": "I",
+			  "type": "-1",
+			  "sellingCategoryCode": "SC001",
+			  "itemGroupAttribute": [],
+			  "itemGroupDetail": [
+				{
+				  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				  "code": "IG002",
+				  "lineId": 1,
+				  "objectCode": "SK001",
+				  "objectName": "Sữa Kun Nguyên chất",
+				  "order": 1,
+				  "rate": 1,
+				  "isDefault": "N"
+				},
+				{
+					"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+					"code": "IG002",
+					"lineId": 2,
+					"objectCode": "SK002",
+					"objectName": "Sữa Kun hương socola",
+					"order": 2,
+					"rate": 1,
+					"isDefault": "N"
+				  }
+			  ]
+			}
+		  }
+	</Body>
+</TestOutputInfo>

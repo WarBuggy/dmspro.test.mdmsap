@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>SYSCF01</Name>
+	<Description>SYSCF01</Description>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Create",
+			"entity": "SystemConfig",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "SYSCF01",
+			  "name": "SYSCF01",
+			  "rtOrderConfirmBy": "Y",
+			  "salesDate": "Y",
+			  "isManageCrate": "Y",
+			  "updateDeliDateBy": "Y",
+			  "isCheckGPSQR": "Y",
+			  "paymentConf": "Y",
+			  "cancelBaseline": "N",
+			  "isConfigWS": "N",
+			  "assignCus": "Y",
+			  "updatePrice": "N",
+			  "syncItem": "N",
+			  "alwCreatePastDoc": "N",
+			  "alwChangeDocDate": "N",
+			  "isAllowExceedCreditLimit": "N",
+			  "cusForRoute": "Y",
+			  "cusForDis": "Y",
+			  "type": "N",
+			  "alwCMOutMonth": "N",
+			  "isAllowsyncingimagesvsbPRO": "N",
+			  "brComSFA": "N",
+			  "isMCPAppr": "N",
+			  "brCompeSFA": "N",
+			  "dmsModelType": "N",
+			  "isKPIAppr": "N",
+			  "isHOAppr": "N",
+			  "isAllocateDC": "N",
+			  "defSUFactor": "N",
+			  "isRTPInteg": "N",
+			  "salesProcess": "N",
+			  "isMBLProject": "Y",
+			  "isAccruSOManual": "Y",
+			  "incPromMoney": "Y",
+			  "accruSOType": "N",
+			  "isAutoPOSM": "N",
+			  "revenueBy": "Y",
+			  "incentiveItem": "IncentiveItem",
+			  "attConfigNbr": "1",
+			  "attValue": "DC_AT0_001",
+			  "payConf": "PAYCONF",
+			  "mcpApprBy": "MCP",
+			  "kpiApprBy": "KPI",
+			  "taxDirect": "Tax",
+			  "taxIndirect": "TaxIndirect",
+			  "hosm": "HOSM",
+			  "limitBaseLine": 0,
+			  "ordProcessDay": 1,
+			  "monthCloseDate": 1,
+			  "attribute": 1,
+			  "suFactor": 1,
+			  "dayGetMCP": 2147483647
+			}
+		  }
+	</Body>
+</TestOutputInfo>

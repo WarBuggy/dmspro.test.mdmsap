@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>RS002</Name>
+	<Description>RS002</Description>
+	<OutputName>RS002</OutputName>
+	<Entity>Reason</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>RS002</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[Reasons];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "Reason",
+      "Data": {
+        "Code": "RS002",
+        "Name": null,
+        "Module": null,
+        "Active": "N" 
+      }
+    }         
+	</Body>
+</TestInfo>

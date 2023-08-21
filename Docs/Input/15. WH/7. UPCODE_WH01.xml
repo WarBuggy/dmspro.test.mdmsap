@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPCODE_WH01</Name>
+	<Description>UPCODE WH01</Description>
+	<OutputName>UPCODE_WH01</OutputName>
+	<Entity>Warehouse</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPCODE_WH01</MessageIdPrefix>
+	<Body>
+      {
+    "Action": "Update",
+    "TenantName": "IDP",
+    "Entity": "Warehouse",
+    "Data": {
+      "Code": "WH01",
+      "Name": null,
+      "CompanyCode": "IDP02",
+      "BranchCode": "BRANCH02",
+      "Type": "V",
+      "Address": null,
+      "CountryCode": null,
+      "RegionCode": null,
+      "ProvinceCode": null,
+      "DistrictCode": null,
+      "WardCode": null,
+      "Street": null,
+      "Active": "Y"
+    }
+  }
+	</Body>
+</TestInfo>

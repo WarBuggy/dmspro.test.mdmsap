@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UPFULL_SC002</Name>
+	<Description>UPFULL_SC002</Description>
+	<IgnoreFields>
+		<string>SellingCategoryDetail:sellingCategoryId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+			"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			"tenantName": "IDP",
+			"action": "Update",
+			"entity": "SellingCategory",
+			"data": {
+			  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+			  "code": "SC002",
+			  "name": "Ngành hàng 002",
+			  "sellingCategoryDetail":  [
+			  {
+				"tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+				"code": "SC002",
+				"lineId": "1",
+				"attributeNumber": "0",
+				"attributeValueCode": "IN_AT0_002",
+				"attributeValueName": "Nước ngọt"
+			  }
+			]   
+		  }
+		}
+		  
+	</Body>
+</TestOutputInfo>

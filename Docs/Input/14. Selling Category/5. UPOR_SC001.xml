@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPOR_SC001</Name>
+	<Description>UPOR_SC001</Description>
+	<OutputName>UPOR_SC001</OutputName>
+	<Entity>SellingCategory</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UPOR_SC001</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[SellingCategoryDetails];</string>
+    <string>delete from [FullMdmSapService].[dbo].[SellingCategories];</string>
+  </RunSqlCommands>
+	<Body>
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "SellingCategory",
+      "Data": {
+        "Code": "SC001",
+        "Name": "Ngành hàng 001",
+        "SellingCategoryDetail": [
+          {
+            "Code": "SC001",
+            "LineId": "1",
+            "AttributeNumber": "0",
+            "AttributeValueCode": "IN_AT0_001",
+            "AttributeValueName": "Sữa"
+          },
+          {
+            "Code": "SC001",
+            "LineId": "2",
+            "AttributeNumber": "0",
+            "AttributeValueCode": "IN_AT0_002",
+            "AttributeValueName": "Nước ngọt"
+          }
+        ]   
+      }
+    }
+	</Body>
+</TestInfo>

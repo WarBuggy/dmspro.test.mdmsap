@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UPFULL_CG04_LIST</Name>
+	<Description>UPFULL_CG04_LIST</Description>
+	<OutputName>UPFULL_CG04_LIST</OutputName>
+	<Entity>CustomerGroup</Entity>
+	<MaxWaitTime>5</MaxWaitTime>
+	<MessageIdPrefix>UPFULL_CG04_LIST</MessageIdPrefix>
+  <RunSqlCommands>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupLists];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroupAttributes];</string>
+    <string>delete from [FullMdmSapService].[dbo].[CustomerGroups];</string>
+  </RunSqlCommands>
+	<Body>   
+    {
+      "Action": "Update",
+      "TenantName": "IDP",
+      "Entity": "CustomerGroup",
+      "Data": {
+        "Code": "KHNL",
+        "Name": "Khách hàng nhỏ lẻ",
+        "CusGroupType": "L",
+        "Status": "Y",
+        "CusType": "C",
+        "CustomerGroupAttribute": null,
+        "CustomerGroupList": [
+       {
+        "Code": "KHNL",
+        "LineId": "1",
+        "ObjectCode": "THCB"
+       },
+       {
+        "Code": "KHNL",
+        "LineId": "2",
+        "ObjectCode": "THSGX"
+       }
+    ]   
+  }
+}
+	</Body>
+</TestInfo>

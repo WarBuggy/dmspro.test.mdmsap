@@ -1,0 +1,2 @@
+!bash
+./Tools.DMSPro.Test.MdmSap.exe v=t template=GeoTemplate,EmployeeTemplate,VATTempalte,AttConfigTemplate,AttValueTemplate,CompanyTemplate,WarehouseTemplate,BranchTemplate,UomTempalte,UomGrTemplate,ItemTemplate,PricelistTemplate
