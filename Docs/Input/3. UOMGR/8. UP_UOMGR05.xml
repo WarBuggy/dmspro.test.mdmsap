@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UP_UOMGR05</Name>
+	<Description>UP_UOMGR05</Description>
+	<OutputName>UP_UOMGR05</OutputName>
+	<Entity>UomGroup</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UP_UOMGR05</MessageIdPrefix>
+	<Body>	
+  {
+    "Action": "Update",
+    "TenantName": "IDP",
+    "Entity": "UomGroup",
+    "Data": {
+      "UgpEntry": "10005",
+      "Code": "UOMGR05",
+      "Name": "Nhóm đơn vị 5",
+      "BaseUomCode": "CHAI",
+      "UomGroupDetail": [
+        {
+          "UgpEntry": "10005",
+          "UomEntry": "1",
+          "AltQty": "1",
+          "BaseQty": "1",
+          "IsActive": "Y",
+          "LineNum": "1",
+          "UomGroupCode": "UOMGR05",
+          "UomCode": "CHAI"
+        },
+        {
+          "UgpEntry": "10005",
+          "UomEntry": "3",
+          "AltQty": "1",
+          "BaseQty": "12",
+          "IsActive": "Y",
+          "LineNum": "2",
+          "UomGroupCode": "UOMGR05",
+          "UomCode": "THUNG"
+        }
+      ]
+    }
+  }
+	</Body>
+</TestInfo>

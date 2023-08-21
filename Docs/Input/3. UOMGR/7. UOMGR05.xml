@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestInfo>
+	<Name>UOMGR05</Name>
+	<Description>UOMGR05</Description>
+	<OutputName>UOMGR05</OutputName>
+	<Entity>UomGroup</Entity>
+	<MaxWaitTime>10</MaxWaitTime>
+	<MessageIdPrefix>UOMGR05</MessageIdPrefix>
+	<Body>
+  {
+    "Action": "Create",
+    "TenantName": "IDP",
+    "Entity": "UomGroup",
+    "Data": {
+      "UgpEntry": "10005",
+      "Code": "UOMGR05",
+      "Name": "Nhóm đơn vị 5",
+      "BaseUomCode": "LON",
+      "UomGroupDetail": [
+        {
+          "UgpEntry": "10005",
+          "UomEntry": "4",
+          "AltQty": "1",
+          "BaseQty": "1",
+          "IsActive": "Y",
+          "LineNum": "1",
+          "UomGroupCode": "UOMGR05",
+          "UomCode": "LON"
+        },
+        {
+          "UgpEntry": "10005",
+          "UomEntry": "2",
+          "AltQty": "1",
+          "BaseQty": "6",
+          "IsActive": "Y",
+          "LineNum": "2",
+          "UomGroupCode": "UOMGR05",
+          "UomCode": "LOC"
+        },
+        {
+          "UgpEntry": "10005",
+          "UomEntry": "3",
+          "AltQty": "1",
+          "BaseQty": "24",
+          "IsActive": "Y",
+          "LineNum": "3",
+          "UomGroupCode": "UOMGR05",
+          "UomCode": "THUNG"
+        }
+      ]
+    }
+  }
+	</Body>
+</TestInfo>

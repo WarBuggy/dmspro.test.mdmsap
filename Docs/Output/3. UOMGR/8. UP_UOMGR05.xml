@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestOutputInfo>
+	<Name>UP_UOMGR05</Name>
+	<Description>UP_UOMGR05</Description>
+  <IgnoreFields>
+		<string>UomGroup:uomId</string>
+		<string>UomGroupDetail:uomId,uomGroupId,id</string>
+	</IgnoreFields>
+	<Body>
+		{
+  "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+  "tenantName": "IDP",
+  "action": "Update",
+  "entity": "UomGroup",
+  "data": {
+    "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+    "ugpEntry": 10005,
+    "code": "UOMGR05",
+    "name": "Nhóm đơn vị 5",
+    "baseUomCode": "CHAI",
+    "uomId": null,
+    "uomGroupDetail": [
+      {
+        "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+        "ugpEntry": 10005,
+        "uomEntry": 1,
+        "altQty": 1,
+        "baseQty": 1,
+        "isActive": "Y",
+        "lineNum": 1,
+        "uomGroupCode": "UOMGR05",
+        "uomCode": "CHAI",
+        "uomId": null      
+        },
+      {
+        "tenantId": "d1847915-81e8-5c80-ce9b-3a0b0c9fd009",
+        "ugpEntry": 10005,
+        "uomEntry": 3,
+        "altQty": 1,
+        "baseQty": 12,
+        "isActive": "Y",
+        "lineNum": 2,
+        "uomGroupCode": "UOMGR05",
+        "uomCode": "THUNG",
+        "uomId": null
+      }
+    ]
+  }
+}
+	</Body>
+</TestOutputInfo>
