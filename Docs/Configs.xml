@@ -31,7 +31,7 @@
 	<!-- Result directory -->
 	<ResultDirectory>Docs\Result</ResultDirectory>
 	<!-- Inbox Subject Filter -->
-	<InboxSubjectFilter>DMSpro.OMS.Shared.Domain.ExternalEntities.BaseOmsEto</InboxSubjectFilter>
+	<InboxSubjectFilter>DMSpro.OMS.MdmSapService.BaseOmsEto</InboxSubjectFilter>
 	<!-- Outbox Subject Filter -->
 	<OutboxSubjectFilter>DMSpro.OMS.MdmSapService.BaseSapEto</OutboxSubjectFilter>
 	<!-- Ignore properties when compare record and output message -->
