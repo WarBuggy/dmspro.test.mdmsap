@@ -1,0 +1,87 @@
+ {
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "CustomerMasterData",
+      "Data": {
+        "Code": "THCB",
+        "Name": "Tạp hóa chú Bảy",
+        "ForeignName": null,
+        "ContactPerson": "chú Bảy",
+        "Active": "Y",
+        "CreditLimit": "0",
+        "Email": null,
+        "ERPCusCode": null,
+        "Fax": null,
+        "FedTaxID": null,
+        "ValidFrom": "2023-07-01T00:00:00Z",
+        "ValidTo": null,
+        "SFACusCode": null,
+        "Phone2": null,
+        "Phone1": "02839999999",
+        "PriceListCode": "PL01",
+        "ParentCode" : null,
+        "PaymentGroup": null,
+        "TaxGroupCode": "VAT5",
+        "CustomerAddress":[
+          {
+            "Code": "THCB",
+            "LineId": "1",
+            "ShipToCode": "THCB",
+            "ShipToName": "Tạp hóa chú Bảy",
+            "Address": "987",
+            "RegionCode": "MN",
+            "ProvinceCode": "HCM",
+            "DistrictCode": "Q1",
+            "WardCode": "PBNQ1",
+            "Latitude": null,
+            "Longtitude": null,
+            "SFAShipCode": null,
+            "ERPShipCode": null,
+            "Type": "C",
+            "RegionName": "Miền Nam",
+            "ProvinceName": "Hồ Chí Minh",
+            "DistrictName": "Quận 1",
+            "WardName": "Phường Bến Nghé"
+          }
+        ],
+        "CustomerAttribute":[
+          {
+            "Code": "THCB",
+            "LineId": "1",
+            "ShipToCode": "THCB",
+            "AttrID0": "DC_AT0_002",
+            "AttrName0": "Khách lẻ",
+            "AttrID1": "DC_AT1_102",
+            "AttrName1": "Khách 5-10 năm",
+            "AttrID2": null,
+            "AttrName2": null,
+            "AttrID3": null,
+            "AttrName3": null,
+            "AttrID4": null,
+            "AttrName4": null,
+            "AttrID5": null,
+            "AttrName5": null,
+            "AttrID6": null,
+            "AttrName6": null,
+            "AttrID7": null,
+            "AttrName7": null,
+            "AttrID8": null,
+            "AttrName8": null,
+            "AttrID9": null,
+            "AttrName9": null
+          }
+        ],
+        "CustomerCompanyAssignment": [
+          {
+            "Code": "THCB",
+            "LineId": "1",
+            "ShipToCode": "THCB",
+            "CompanyCode": "IDP",
+            "BranchCode": "BRANCH02",
+            "PriceListCode": "PL01",
+            "EffectiveDate": "2023-07-01T00:00:00Z",
+            "EndDate": null
+          }
+        ]   
+      }
+    } 

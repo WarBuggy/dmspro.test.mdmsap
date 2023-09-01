@@ -1,0 +1,11 @@
+  {
+    "Action": "Create",
+    "TenantName": "IDP",
+    "Entity": "VATGroup",
+    "Data": {
+      "Code": "VAT8",
+      "Name": "VAT8",
+      "Rate": "8",
+      "EffectiveDate": "2023-07-01T00:00:00Z"
+    }
+  }

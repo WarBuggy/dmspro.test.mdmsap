@@ -1,0 +1,167 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "ItemUomPrices",
+  "Data": [
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "8400",
+      "PriceListCode": "PL01",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "50400",
+      "PriceListCode": "PL01",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK001",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "201600",
+      "PriceListCode": "PL01",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "9600",
+      "PriceListCode": "PL01",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "57600",
+      "PriceListCode": "PL01",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK002",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "230400",
+      "PriceListCode": "PL01",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK003",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "9600",
+      "PriceListCode": "PL01",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK003",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "57600",
+      "PriceListCode": "PL01",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK003",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "230400",
+      "PriceListCode": "PL01",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK004",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "10800",
+      "PriceListCode": "PL01",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK004",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "64800",
+      "PriceListCode": "PL01",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK004",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "259200",
+      "PriceListCode": "PL01",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK005",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "9600",
+      "PriceListCode": "PL01",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK005",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "57600",
+      "PriceListCode": "PL01",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK005",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "230400",
+      "PriceListCode": "PL01",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "SK006",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "10800",
+      "PriceListCode": "PL01",
+      "UomCode": "CHAI"
+    },
+    {
+      "ItemCode": "SK006",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "64800",
+      "PriceListCode": "PL01",
+      "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "SK006",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "259200",
+      "PriceListCode": "PL01",
+      "UomCode": "THUNG"
+    },
+    {
+      "ItemCode": "NN001",
+      "PriceListNum": "1",
+      "UomEntry": "1",
+      "Price": "12000",
+      "PriceListCode": "PL01",
+      "UomCode": "LON"
+    },
+    {
+      "ItemCode": "NN001",
+      "PriceListNum": "1",
+      "UomEntry": "2",
+      "Price": "72000",
+      "PriceListCode": "PL01",
+      "UomCode": "LOC"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Entity": "AttributeValues",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "IN_AT0_001",
+    "Name": "Sữa",
+    "Active": "Y",
+    "AttributeNumber": "0",
+    "Type": "IN",
+    "ParentCode": null,
+    "ValueCode": "001",
+    "ShortName": "Sữa"  
+  }
+}
+

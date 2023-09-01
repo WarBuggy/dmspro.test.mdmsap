@@ -1,0 +1,14 @@
+{
+  "Entity": "AttributeConfig",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "4",
+    "Name": "Hương vị",
+    "Active": "Y",
+    "AttributeNumber": "2",
+    "HierarchyLevel": null,
+    "Type": "IN"
+  }
+}
+

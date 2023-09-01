@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Province",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HCM",
+    "Name": "Hồ Chí Minh",
+    "RegionCode": "MN",
+    "Active": "Y"
+  }
+}

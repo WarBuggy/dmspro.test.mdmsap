@@ -1,0 +1,16 @@
+{
+  "Entity": "AttributeValues",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "DC_AT1_102",
+    "Name": "Khách 5-10 năm",
+    "Active": "Y",
+    "AttributeNumber": "1",
+    "Type": "DC",
+    "ParentCode": null,
+    "ValueCode": "102",
+    "ShortName": "Khách 5-10 năm"  
+  }
+}
+

@@ -1,0 +1,61 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "RouteSetting",
+  "Data": {
+    "Code": "RS001",
+    "Name": "RS001",
+    "RouteMasterCode": "RM1",
+    "SalesmanCode": "SM001",
+    "EffectiveDate": "2023-08-01T00:00:00Z",
+    "EndDate": "2023-09-30T00:00:00Z",
+    "RouteSettingDetail":[
+      {
+        "Code": "RS001",
+        "LineId": "1",
+        "CustomerCode": "BHX",
+        "BranchCode": "BRANCH",
+        "ShipToCode": "BHX",
+        "DistributorCode": "IDP",
+        "EffectiveDate": "2023-08-01T00:00:00Z",
+        "EndDate": "2023-09-30T00:00:00Z",
+        "Monday": "Y",
+        "Tuesday": "N",
+        "Wednesday": "Y",
+        "Thursday": "N",
+        "Friday": "Y",
+        "Saturday": "N",
+        "Sunday": "Y",
+        "Week1": "Y",
+        "Week2": "Y",
+        "Week3": "Y",
+        "Week4": "Y",
+        "VisitOrder": "1",
+        "CustomerType": "Khách VIP"
+      },
+    {
+      "Code": "RS001",
+      "LineId": "2",
+      "CustomerCode": "BHX02",
+      "BranchCode": "BRANCH01",
+      "ShipToCode": "BHX02",
+      "DistributorCode": "IDP01",
+      "EffectiveDate": "2023-08-01T00:00:00Z",
+      "EndDate": "2023-09-30T00:00:00Z",
+      "Monday": "Y",
+      "Tuesday": "N",
+      "Wednesday": "Y",
+      "Thursday": "N",
+      "Friday": "Y",
+      "Saturday": "N",
+      "Sunday": "Y",
+      "Week1": "Y",
+      "Week2": "Y",
+      "Week3": "Y",
+      "Week4": "Y",
+      "VisitOrder": "2",
+      "CustomerType": null
+    }
+    ]
+  }
+}

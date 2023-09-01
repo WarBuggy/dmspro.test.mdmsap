@@ -1,0 +1,15 @@
+{
+  "Entity": "AttributeValues",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "DC_AT0_001",
+    "Name": "Khách sỉ",
+    "Active": "Y",
+    "AttributeNumber": "0",
+    "Type": "DC",
+    "ParentCode": null,
+    "ValueCode": "001",
+    "ShortName": "Khách sỉ" 
+  }
+}

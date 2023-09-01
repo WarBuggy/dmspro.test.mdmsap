@@ -1,0 +1,16 @@
+  
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Employee",
+  "Data": {
+    "empID": "1",
+    "lastName": "Anh",
+    "firstName": "Le",
+    "middleName": "Van",
+    "position": "1",
+    "Code": "EMP001",
+    "Active": "Y",
+    "mobile": "0900000901"
+  }
+}

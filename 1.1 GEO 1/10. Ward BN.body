@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Ward",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+     "Code": "PBNQ1",
+     "Name": "Phường Bến Nghé",
+     "DistrictCode": "Q1",
+     "Active": "Y"
+  }
+}

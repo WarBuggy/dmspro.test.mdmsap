@@ -6,7 +6,7 @@
     "Code": "RM3",
     "Name": "Khu vực quận 1",
     "Channel": "GT",
-    "IsGPSLock": "Y",
+    "GPSLock": "Y",
     "SellingCategoryCode": "SC001",
     "IsFullVisitOutRoute": "Y",
     "SalesTerritoryCode": "GT",

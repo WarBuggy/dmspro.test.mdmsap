@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Ward",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+     "Code": "P3Q3",
+     "Name": "Phường 3",
+     "DistrictCode": "Q3",
+     "Active": "Y"
+  }
+}

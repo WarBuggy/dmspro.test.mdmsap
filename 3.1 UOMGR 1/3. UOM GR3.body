@@ -1,0 +1,43 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "UomGroup",
+  "Data": {
+    "UgpEntry": "10003",
+    "Code": "UOMGR03",
+    "Name": "Nhóm đơn vị 3",
+    "BaseUomCode": "HOP",
+    "UomGroupDetail": [
+      {
+        "UgpEntry": "10003",
+        "UomEntry": "5",
+        "AltQty": "1",
+        "BaseQty": "1",
+        "IsActive": "Y",
+        "LineNum": "1",
+        "UomGroupCode": "UOMGR03",
+        "UomCode": "HOP"
+      },
+      {
+        "UgpEntry": "10003",
+        "UomEntry": "2",
+        "AltQty": "1",
+        "BaseQty": "4",
+        "IsActive": "Y",
+        "LineNum": "2",
+        "UomGroupCode": "UOMGR03",
+        "UomCode": "LOC"
+      },
+      {
+        "UgpEntry": "10003",
+        "UomEntry": "3",
+        "AltQty": "1",
+        "BaseQty": "24",
+        "IsActive": "Y",
+        "LineNum": "3",
+        "UomGroupCode": "UOMGR03",
+        "UomCode": "THUNG"
+      }
+    ]
+  }
+}

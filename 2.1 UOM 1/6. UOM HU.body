@@ -1,0 +1,10 @@
+{
+  "Entity": "UomMaster",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "HU",
+    "Name": "HU",
+    "UomEntry": "6"
+  }
+}

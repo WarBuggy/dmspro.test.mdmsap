@@ -1,0 +1,26 @@
+{
+      "Action": "Create",
+      "TenantName": "IDP",
+      "Entity": "ItemGroup",
+      "Data": {
+        "Code": "IG003",
+        "Name": "Nhóm sản phẩm 3",
+        "ApplyFor": "L",
+        "IsDefaultUom": "Y",
+        "DefaultUomBy": "I",
+        "Type": "-1",
+        "SellingCategoryCode": "SC002",
+        "ItemGroupAttribute": null,
+        "ItemGroupDetail": [
+          {
+            "Code": "IG006",
+            "LineId": "1",
+            "ObjectCode": "NN001",
+            "ObjectName": "Nước ngọt vị nguyên bản",
+            "Order": "1",
+            "Rate": "1",
+            "IsDefault": "Y"
+          }
+        ]
+      }
+    }  

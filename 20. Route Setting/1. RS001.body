@@ -16,7 +16,7 @@
         "CustomerCode": "BHX",
         "BranchCode": "BRANCH",
         "ShipToCode": "BHX",
-        "CompanyCode": "IDP",
+        "DistributorCode": "IDP",
         "EffectiveDate": "2023-08-01T00:00:00Z",
         "EndDate": "2023-08-31T00:00:00Z",
         "Monday": "Y",

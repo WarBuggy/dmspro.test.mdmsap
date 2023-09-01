@@ -6,7 +6,7 @@
     "Code": "KVQ3",
     "Name": null,
     "Channel": null,
-    "IsGPSLock": "Y",
+    "GPSLock": "Y",
     "SellingCategoryCode": null,
     "IsFullVisitOutRoute": "Y",
     "SalesTerritoryCode": null,

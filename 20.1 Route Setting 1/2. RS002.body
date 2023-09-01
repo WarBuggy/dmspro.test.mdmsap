@@ -1,0 +1,38 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "RouteSetting",
+  "Data": {
+    "Code": "RS002",
+    "Name": "RS002",
+    "RouteMasterCode": "RM1",
+    "SalesmanCode": "SM003",
+    "EffectiveDate": "2023-08-01T00:00:00Z",
+    "EndDate": "2023-09-30T00:00:00Z",
+    "RouteSettingDetail":[
+      {
+        "Code": "RS002",
+        "LineId": "1",
+        "CustomerCode": "THSGX",
+        "BranchCode": "BRANCH02",
+        "ShipToCode": "THSGX",
+        "CompanyCode": "IDP",
+        "EffectiveDate": "2023-08-01T00:00:00Z",
+        "EndDate": "2023-09-30T00:00:00Z",
+        "Monday": "N",
+        "Tuesday": "Y",
+        "Wednesday": "N",
+        "Thursday": "Y",
+        "Friday": "N",
+        "Saturday": "Y",
+        "Sunday": "N",
+        "Week1": "Y",
+        "Week2": "Y",
+        "Week3": "Y",
+        "Week4": "Y",
+        "VisitOrder": "1",
+        "CustomerType": "Khách lẻ"
+    }
+    ]
+  }
+}

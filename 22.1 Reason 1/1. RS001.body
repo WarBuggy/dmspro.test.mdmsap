@@ -1,0 +1,12 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Reason",
+  "Data": {
+    "Code": "RS001",
+    "Name": "Giao hàng trễ hẹn",
+    "Module": "SO",
+    "Active": "Y" 
+  }
+}
+

@@ -1,0 +1,174 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "SalesTerritory",
+  "Data": {
+    "Code": "GT",
+    "Name": "Kênh truyền thống",
+    "CountryCode": "VN",
+    "Channel": "GT",
+    "Active": "Y",
+    "Status": "N",
+    "EmployeeCode": "EMP001",
+    "SalesTerritoryHierarchy": [
+      {
+        "Code": "GT",
+        "LineId": "1",
+        "Level": "0",
+        "LevelCode": "SubCountry",
+        "LevelName": "SubCountry",
+        "Active": "Y",
+        "ParentCode": null,
+        "LastLevel": "N",
+        "PositionName": "Phụ trách SubCountry",
+        "IsSalesGroup": "N"
+      },
+      {
+        "Code": "GT",
+        "LineId": "2",
+        "Level": "1",
+        "LevelCode": "Region",
+        "LevelName": "Region",
+        "Active": "Y",
+        "ParentCode": "SubCountry",
+        "LastLevel": "N",
+        "PositionName": "Phụ trách Region",
+        "IsSalesGroup": "N"
+      },
+      {
+        "Code": "GT",
+        "LineId": "3",
+        "Level": "2",
+        "LevelCode": "Area",
+        "LevelName": "Area",
+        "Active": "Y",
+        "ParentCode": "Region",
+        "LastLevel": "Y",
+        "PositionName": "Phụ trách Area",
+        "IsSalesGroup": "N"
+      },
+      {
+        "Code": "GT",
+        "LineId": "4",
+        "Level": "3",
+        "LevelCode": "SubArea",
+        "LevelName": "SubArea",
+        "Active": "Y",
+        "ParentCode": "Area",
+        "LastLevel": "Y",
+        "PositionName": "Phụ trách SubArea",
+        "IsSalesGroup": "N"
+      },
+      {
+        "Code": "GT",
+        "LineId": "5",
+        "Level": "4",
+        "LevelCode": "SubArea1",
+        "LevelName": "SubArea1",
+        "Active": "Y",
+        "ParentCode": "SubArea",
+        "LastLevel": "Y",
+        "PositionName": "Phụ trách SubArea1",
+        "IsSalesGroup": "N"
+      }
+    ],
+    "SaleTerritoryValues": [
+      {
+        "Code": "GT",
+        "LineId": "1",
+        "Level": "0",
+        "ValueCode": "MN",
+        "ValueName": "Miền Nam",
+        "Active": "Y",
+        "ParentCode": null,
+        "LastLevel": "N"
+      },
+      {
+        "Code": "GT",
+        "LineId": "2",
+        "Level": "1",
+        "ValueCode": "MN1",
+        "ValueName": "Miền Nam 1",
+        "Active": "Y",
+        "ParentCode": "MN",
+        "LastLevel": "N"
+      },
+      {
+        "Code": "GT",
+        "LineId": "3",
+        "Level": "2",
+        "ValueCode": "HCM",
+        "ValueName": "Hồ Chí Minh",
+        "Active": "Y",
+        "ParentCode": "MN1",
+        "LastLevel": "Y"
+      },
+      {
+        "Code": "GT",
+        "LineId": "4",
+        "Level": "3",
+        "ValueCode": "Q3",
+        "ValueName": "Quận 3",
+        "Active": "Y",
+        "ParentCode": "HCM",
+        "LastLevel": "Y"
+      },
+      {
+        "Code": "GT",
+        "LineId": "5",
+        "Level": "3",
+        "ValueCode": "Q1",
+        "ValueName": "Quận 1",
+        "Active": "Y",
+        "ParentCode": "HCM",
+        "LastLevel": "Y"
+      },
+      {
+        "Code": "GT",
+        "LineId": "6",
+        "Level": "4",
+        "ValueCode": "P3Q3",
+        "ValueName": "Phường 3",
+        "Active": "Y",
+        "ParentCode": "HCM",
+        "LastLevel": "Y"
+      },
+      {
+        "Code": "GT",
+        "LineId": "7",
+        "Level": "4",
+        "ValueCode": "PBNQ1",
+        "ValueName": "Phường Bến Nghé",
+        "Active": "Y",
+        "ParentCode": "HCM",
+        "LastLevel": "Y"
+      }
+    ],
+    "SaleTerritoryAssignment": [
+      {
+        "EmployeeAssignmentCode": "1",
+        "EmployeeCode": "EMP002",
+        "SalesTerritoryValue": "HCM",
+        "SalesTerritoryValueName": "Hồ Chí Minh",
+        "SalesTerritoryCode": "GT",
+        "SalesTerritoryLevel": "2",
+        "SalesTerritoryLevelName": "Area",
+        "IsBase": "Y",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2023-12-01T00:00:00Z"
+      },
+      {
+        "EmployeeAssignmentCode": "2",
+        "EmployeeCode": "EMP003",
+        "SalesTerritoryValue": "Q3",
+        "SalesTerritoryValueName": "Quận 3",
+        "SalesTerritoryCode": "GT",
+        "SalesTerritoryLevel": "3",
+        "SalesTerritoryLevelName": "SubArea",
+        "IsBase": "Y",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2023-12-01T00:00:00Z"
+      }
+    ]
+  }
+} 

@@ -6,7 +6,7 @@
     "Code": "RM2",
     "Name": null,
     "Channel": null,
-    "IsGPSLock": "N",
+    "GPSLock": "N",
     "SellingCategoryCode": null,
     "IsFullVisitOutRoute": "N",
     "SalesTerritoryCode": null,

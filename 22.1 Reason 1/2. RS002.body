@@ -1,0 +1,12 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "Reason",
+  "Data": {
+    "Code": "RS002",
+    "Name": null,
+    "Module": null,
+    "Active": "N" 
+  }
+}
+

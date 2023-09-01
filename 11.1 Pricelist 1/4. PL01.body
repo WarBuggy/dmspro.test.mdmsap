@@ -1,0 +1,17 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "PriceList",
+  "Data": {
+    "ListNum": "2",
+    "PriceListCode": "PL01",
+    "PriceListName": "Bảng giá 01",
+    "ValidFor": "Y",
+    "ValidFrom": "2023-07-15T00:00:00Z",
+    "ValidTo": "2026-12-30T00:00:00Z",
+    "BaseListNum": "1",
+    "IsGrossPrice": "Y",
+    "Factor": "1.2",
+    "BasePriceListCode": "BPL"
+  }
+}

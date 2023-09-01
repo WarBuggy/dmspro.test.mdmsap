@@ -1,0 +1,25 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "VisitPlan",
+  "Data": [
+    {
+      "VisitDate": "2023-09-04T00:00:00",
+      "RouteMasterCode": "RM1",
+      "RouteSettingCode": "RS002",
+      "SalesmanCode": "SM003",
+      "Details": [
+        {
+          "CustomerCode": "THSGX",
+          "ShipToCode": "THSGX",
+          "CompanyCode": "IDP",
+          "BranchCode": "BRANCH02",
+          "VisitOrder": 0,
+          "CreatedDateTime": "2023-09-03T01:00:00.46",
+          "VisitType": null,
+          "VisitOutletType": null
+        }
+      ]
+    }
+  ]
+}

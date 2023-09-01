@@ -1,0 +1,24 @@
+{
+  "Entity": "BranchSetup",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "BRANCH01",
+    "Name": "BRANCH01",
+    "BPLID": "1",
+    "CompanyCode": "IDP01",
+    "Email": "BRANCH01@gmail.com",
+    "ERPCode": "1234567809",
+    "ForeignName": "BRANCH01",
+    "CountryCode": "VN",
+    "RegionCode": "MN",
+    "ProvinceCode": "HCM",
+    "DistrictCode": "Q1",
+    "WardCode": "PBNQ1",
+    "WhsCode1": null,
+    "WhsCode2": null,
+    "WhsCode3": null,
+    "Active": "Y",
+    "ContactPerson": "Le Van B"
+  }
+}

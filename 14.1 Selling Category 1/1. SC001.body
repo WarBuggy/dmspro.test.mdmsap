@@ -1,0 +1,20 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "SellingCategory",
+  "Data": {
+    "Code": "SC001",
+    "Name": "Ngành hàng 001",
+    "SellingCategoryDetail": [
+      {
+        "Code": "SC001",
+        "LineId": "1",
+        "AttributeNumber": "0",
+        "AttributeValueCode": "IN_AT0_001",
+        "AttributeValueName": "Sữa"
+      }
+    ]   
+  }
+}
+
+

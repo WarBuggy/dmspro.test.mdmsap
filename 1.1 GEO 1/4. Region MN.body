@@ -1,0 +1,12 @@
+ 
+{
+  "Entity": "Region",
+  "Action": "Create",
+  "TenantName": "IDP",  
+  "Data": {
+    "Code": "MN",
+    "Name": "Miền Nam",
+    "CountryCode": "VN",
+    "Active": "Y"
+  }
+}

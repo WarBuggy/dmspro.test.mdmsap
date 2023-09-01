@@ -1,0 +1,20 @@
+{
+  "Entity": "CompanySetup",
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Data": {
+    "Code": "IDP01",
+    "Name": "IDP01",
+    "Active": "Y",
+    "Address": "123 Nguyễn Huệ",
+    "CountryCode": "VN",
+    "RegionCode": "MN",
+    "ProvinceCode": "HCM",
+    "DistrictCode": "Q1",
+    "WardCode": "PBNQ1",
+    "IsHeadOffice": "N",
+    "EffectiveDate": "2023-07-01T00:00:00Z",
+    "EndDate": "2026-07-01T00:00:00Z",
+    "DBName": "IDP01"
+  }
+}

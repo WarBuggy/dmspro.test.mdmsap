@@ -1,0 +1,35 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "VisitPlan",
+  "Data": [
+    {
+      "VisitDate": "2023-08-04T00:00:00",
+      "RouteMasterCode": "RM1",
+      "RouteSettingCode": "RS001",
+      "SalesmanCode": "EMP002",
+      "Details": [
+        {
+          "CustomerCode": "BHX",
+          "ShipToCode": "BHX",
+          "CompanyCode": "IDP",
+          "BranchCode": "BRANCH",
+          "VisitOrder": 0,
+          "CreatedDateTime": "2023-08-01T01:00:00.46",
+          "VisitType": "Offline111",
+          "VisitOutletType": "D"
+        },
+        {
+          "CustomerCode": "BHX01",
+          "ShipToCode": "BHX01",
+          "CompanyCode": "IDP01",
+          "BranchCode": "BRANCH01",
+          "VisitOrder": 0,
+          "CreatedDateTime": "2023-08-03T01:00:00.46",
+          "VisitType": "Offline",
+          "VisitOutletType": "D"
+        }
+      ]
+    }
+  ]
+}

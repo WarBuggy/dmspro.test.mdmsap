@@ -6,7 +6,7 @@
     "Code": "RM5",
     "Name": "Khu vực phường 3Khu vực phường 3Khu vực phường 3Khu vực phường 3Khu vực phường 3vực phường 3Khu vực1",
     "Channel": "GT",
-    "IsGPSLock": "Y",
+    "GPSLock": "Y",
     "SellingCategoryCode": "SC001",
     "IsFullVisitOutRoute": "Y",
     "SalesTerritoryCode": "GT",

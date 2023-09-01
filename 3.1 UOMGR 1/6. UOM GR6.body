@@ -1,0 +1,33 @@
+{
+  "Action": "Create",
+  "TenantName": "IDP",
+  "Entity": "UomGroup",
+  "Data": {
+    "UgpEntry": "10006",
+    "Code": "UOMGR06",
+    "Name": "Nhóm đơn vị 6",
+    "BaseUomCode": "LY",
+    "UomGroupDetail": [
+      {
+        "UgpEntry": "10006",
+        "UomEntry": "9",
+        "AltQty": "1",
+        "BaseQty": "1",
+        "IsActive": "Y",
+        "LineNum": "1",
+        "UomGroupCode": "UOMGR06",
+        "UomCode": "LY"
+      },
+      {
+        "UgpEntry": "10006",
+        "UomEntry": "2",
+        "AltQty": "1",
+        "BaseQty": "6",
+        "IsActive": "Y",
+        "LineNum": "2",
+        "UomGroupCode": "UOMGR06",
+        "UomCode": "LOC"
+      }
+    ]
+  }
+}
