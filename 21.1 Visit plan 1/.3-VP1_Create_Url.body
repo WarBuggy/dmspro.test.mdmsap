@@ -1,9 +1,0 @@
-{
-    "Action": "Create",
-    "TenantName": "IDP",
-    "Entity": "VisitPlan",
-    "Data": {
-        "Url": "VisitPlan/IDP/VP3_Create_09082023.json",
-        "FileName": "VP3_Create_09082023.json"
-    }
-}

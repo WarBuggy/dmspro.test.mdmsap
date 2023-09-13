@@ -159,9 +159,21 @@
       },
       {
         "EmployeeAssignmentCode": "2",
-        "EmployeeCode": "EMP003",
+        "EmployeeCode": "EMP002",
         "SalesTerritoryValue": "Q3",
         "SalesTerritoryValueName": "Quận 3",
+        "SalesTerritoryCode": "GT",
+        "SalesTerritoryLevel": "3",
+        "SalesTerritoryLevelName": "SubArea",
+        "IsBase": "Y",
+        "EffectiveDate": "2023-07-01T00:00:00Z",
+        "EndDate": "2023-12-01T00:00:00Z"
+      },
+      {
+        "EmployeeAssignmentCode": "3",
+        "EmployeeCode": "EMP003",
+        "SalesTerritoryValue": "Q1",
+        "SalesTerritoryValueName": "Quận 1",
         "SalesTerritoryCode": "GT",
         "SalesTerritoryLevel": "3",
         "SalesTerritoryLevelName": "SubArea",

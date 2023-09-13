@@ -7,7 +7,7 @@
     "Name": "Nhóm sản phẩm 1",
     "ApplyFor": "K",
     "IsDefaultUom": "N",
-    "DefaultUomBy": "I",
+    "DefaultUomBy": null,
     "Type": "0",
     "SellingCategoryCode": "SC001",
     "ItemGroupDetail": null,

@@ -27,7 +27,7 @@
         "LineId": "1",
         "SalesmanCode": "SM002",
         "EffectiveDate": "2023-07-01T00:00:00Z",
-        "EndDate": "2023-12-01T00:00:00Z"
+        "EndDate": null
       }
     ],
     "RouteSupervisorAssignment": [
@@ -36,7 +36,7 @@
         "LineId": "1",
         "EmployeeCode": "EMP003", 
         "EffectiveDate": "2023-07-01T00:00:00Z",
-        "EndDate": "2023-12-01T00:00:00Z"
+        "EndDate": null
       }
     ]
   }

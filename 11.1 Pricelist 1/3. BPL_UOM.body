@@ -102,10 +102,10 @@
     {
       "ItemCode": "SK005",
       "PriceListNum": "1",
-      "UomEntry": "1",
+      "UomEntry": "5",
       "Price": "8000",
       "PriceListCode": "BPL",
-      "UomCode": "CHAI"
+      "UomCode": "HOP"
     },
     {
       "ItemCode": "SK005",
@@ -126,10 +126,10 @@
     {
       "ItemCode": "SK006",
       "PriceListNum": "1",
-      "UomEntry": "1",
+      "UomEntry": "5",
       "Price": "9000",
       "PriceListCode": "BPL",
-      "UomCode": "CHAI"
+      "UomCode": "HOP"
     },
     {
       "ItemCode": "SK006",
@@ -150,7 +150,7 @@
     {
       "ItemCode": "NN001",
       "PriceListNum": "1",
-      "UomEntry": "1",
+      "UomEntry": "4",
       "Price": "10000",
       "PriceListCode": "BPL",
       "UomCode": "LON"
@@ -162,6 +162,14 @@
       "Price": "60000",
       "PriceListCode": "BPL",
       "UomCode": "LOC"
+    },
+    {
+      "ItemCode": "NN001",
+      "PriceListNum": "1",
+      "UomEntry": "3",
+      "Price": "240000",
+      "PriceListCode": "BPL",
+      "UomCode": "THUNG"
     }
   ]
 }

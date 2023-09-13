@@ -3,7 +3,7 @@
   "TenantName": "IDP",
   "Entity": "RouteSetting",
   "Data": {
-    "Url": "RouteSetting/IDP/RS1_Create_09082023.json",
-    "FileName": "RS1_Create_09082023.json"
+    "Url": "RouteSetting/IDP/RS1.json",
+    "FileName": "RS1.json"
   }
 }

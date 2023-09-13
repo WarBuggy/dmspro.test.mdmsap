@@ -3,7 +3,7 @@
     "TenantName": "IDP",
     "Entity": "VisitPlan",
     "Data": {
-        "Url": "VisitPlan/IDP/VP1_Create_09082023.json",
-        "FileName": "VP1_Create_09082023.json"
+        "Url": "VisitPlan/IDP/VP1.json",
+        "FileName": "VP1.json"
     }
 }
